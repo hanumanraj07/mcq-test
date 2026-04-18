@@ -86,7 +86,7 @@ function App() {
           >
             Quiz<span className="text-primary-600">Flow</span>
           </h1>
-          <p className="mt-2 text-slate-500 font-medium text-lg">Powered By MongoDB Atlas</p>
+          <p className="mt-2 text-slate-500 font-medium text-lg">All the best for Mid-term 2</p>
         </header>
 
         {quizState === 'library' && (
