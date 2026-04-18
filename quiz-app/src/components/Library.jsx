@@ -38,7 +38,7 @@ export default function Library({ onFetchRemoteCategory }) {
                         <BookOpen className="w-6 h-6 mr-3 text-primary-600" />
                         Select Topic
                     </h2>
-                    <p className="text-slate-500 mt-1">Conquer the MongoDB Atlas question banks.</p>
+                    <p className="text-slate-500 mt-1">Each subject has upto 300 questions.</p>
                 </div>
             </div>
 
