@@ -13,7 +13,8 @@ function App() {
 
   const fetchRemoteCategory = async (categoryId, count) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/questions?category=${categoryId}`);
+      const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+      const res = await fetch(`${backendUrl}/api/questions?category=${categoryId}`);
       if (!res.ok) throw new Error('Database fetch failed. Make sure the Node server is running securely on port 5000.');
       const data = await res.json();
 
