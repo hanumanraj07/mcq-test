@@ -36,7 +36,7 @@ export default function Library({ onFetchRemoteCategory }) {
                 <div>
                     <h2 className="text-2xl font-bold text-slate-800 flex items-center">
                         <BookOpen className="w-6 h-6 mr-3 text-primary-600" />
-                        Select Topic
+                        Select Subject
                     </h2>
                     <p className="text-slate-500 mt-1">Each subject has upto 300 questions.</p>
                 </div>
