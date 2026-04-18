@@ -1,0 +1,3988 @@
+{
+  "questions": [
+    {
+      "kind": "mcq",
+      "text": "What type of database is MongoDB?",
+      "options": [
+        "Relational Database",
+        "Document-oriented NoSQL Database",
+        "Graph Database",
+        "Key-Value Store"
+      ],
+      "answer": "Document-oriented NoSQL Database",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary data format used by MongoDB to store documents?",
+      "options": [
+        "XML",
+        "JSON",
+        "BSON",
+        "YAML"
+      ],
+      "answer": "BSON",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does BSON stand for?",
+      "options": [
+        "Binary Serialized Object Notation",
+        "Binary Standard Object Notation",
+        "Binary JSON",
+        "Basic JSON"
+      ],
+      "answer": "Binary JSON",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default port on which the MongoDB server runs?",
+      "options": [
+        "3306",
+        "5432",
+        "8080",
+        "27017"
+      ],
+      "answer": "27017",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is NOT a characteristic of MongoDB?",
+      "options": [
+        "Schema-less by default",
+        "Highly scalable",
+        "Requires predefined tables",
+        "Supports dynamic queries"
+      ],
+      "answer": "Requires predefined tables",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the name of the primary background process (daemon) used by MongoDB?",
+      "options": [
+        "mongodb",
+        "mongod",
+        "mongos",
+        "mongo-server"
+      ],
+      "answer": "mongod",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is the modern interactive JavaScript shell for MongoDB?",
+      "options": [
+        "mongo",
+        "mongosh",
+        "mongo-cli",
+        "mongodb-shell"
+      ],
+      "answer": "mongosh",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a MongoDB cluster, what is the role of the 'mongos' process?",
+      "options": [
+        "It acts as a query router for sharded clusters.",
+        "It stores the actual data.",
+        "It generates backup files.",
+        "It is the graphical user interface."
+      ],
+      "answer": "It acts as a query router for sharded clusters.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the equivalent of a relational database 'Table' in MongoDB?",
+      "options": [
+        "Database",
+        "Collection",
+        "Document",
+        "Field"
+      ],
+      "answer": "Collection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the equivalent of a relational database 'Row' in MongoDB?",
+      "options": [
+        "Document",
+        "Collection",
+        "Index",
+        "Field"
+      ],
+      "answer": "Document",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Every document in MongoDB must have a unique identifier. What is the name of this mandatory field?",
+      "options": [
+        "id",
+        "uuid",
+        "guid",
+        "_id"
+      ],
+      "answer": "_id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the size of a standard MongoDB ObjectId?",
+      "options": [
+        "8 bytes",
+        "12 bytes",
+        "16 bytes",
+        "32 bytes"
+      ],
+      "answer": "12 bytes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the maximum allowed size for a single BSON document in MongoDB?",
+      "options": [
+        "4 MB",
+        "8 MB",
+        "16 MB",
+        "32 MB"
+      ],
+      "answer": "16 MB",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the acronym CRUD stand for in database operations?",
+      "options": [
+        "Create, Read, Update, Delete",
+        "Copy, Remove, Update, Delete",
+        "Create, Relate, Update, Drop",
+        "Change, Read, Undo, Delete"
+      ],
+      "answer": "Create, Read, Update, Delete",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which syntax is used to insert a single document into a collection?",
+      "options": [
+        "db.collection.add()",
+        "db.collection.insert()",
+        "db.collection.insertOne()",
+        "db.collection.create()"
+      ],
+      "answer": "db.collection.insertOne()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using insertMany(), what happens by default if an error occurs during the insertion of one document?",
+      "options": [
+        "The operation ignores the error and inserts the rest.",
+        "The operation stops and no further documents are inserted.",
+        "The entire transaction is rolled back.",
+        "The database crashes."
+      ],
+      "answer": "The operation stops and no further documents are inserted.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How can you tell MongoDB to continue inserting remaining documents in an insertMany() operation even if one fails?",
+      "options": [
+        "db.collection.insertMany([...], { continueOnError: true })",
+        "db.collection.insertMany([...], { ordered: false })",
+        "db.collection.insertMany([...], { ignoreErrors: true })",
+        "db.collection.insertMany([...], { unordered: true })"
+      ],
+      "answer": "db.collection.insertMany([...], { ordered: false })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you do not provide an _id field when creating a document, what does MongoDB do?",
+      "options": [
+        "It throws a validation error.",
+        "It prompts the user to enter an _id.",
+        "It generates a unique ObjectId automatically.",
+        "It saves the document without an _id."
+      ],
+      "answer": "It generates a unique ObjectId automatically.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is primarily used to query and retrieve multiple documents from a collection?",
+      "options": [
+        "db.collection.get()",
+        "db.collection.find()",
+        "db.collection.read()",
+        "db.collection.query()"
+      ],
+      "answer": "db.collection.find()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the db.collection.find() method return in the MongoDB shell?",
+      "options": [
+        "An array of documents",
+        "A single BSON document",
+        "A cursor object",
+        "A boolean value"
+      ],
+      "answer": "A cursor object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method retrieves exactly one document that matches the query criteria?",
+      "options": [
+        "db.collection.first()",
+        "db.collection.find({ limit: 1 })",
+        "db.collection.findOne()",
+        "db.collection.getOne()"
+      ],
+      "answer": "db.collection.findOne()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To find all documents in 'users' where 'age' is exactly 25, which query is correct?",
+      "options": [
+        "db.users.find({ age: 25 })",
+        "db.users.find({ age === 25 })",
+        "db.users.find(age = 25)",
+        "db.users.find({ $eq: { age: 25 } })"
+      ],
+      "answer": "db.users.find({ age: 25 })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which query operator is used to match values greater than a specified value?",
+      "options": [
+        "$greater",
+        "$g",
+        "$gt",
+        "$gte"
+      ],
+      "answer": "$gt",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you query for documents where a field 'status' is NOT equal to 'A'?",
+      "options": [
+        "db.collection.find({ status: { $not: 'A' } })",
+        "db.collection.find({ status: { $ne: 'A' } })",
+        "db.collection.find({ status: { $no: 'A' } })",
+        "db.collection.find({ status: { $neq: 'A' } })"
+      ],
+      "answer": "db.collection.find({ status: { $ne: 'A' } })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator matches any of the values specified in an array?",
+      "options": [
+        "$in",
+        "$any",
+        "$or",
+        "$all"
+      ],
+      "answer": "$in",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which logical operator joins query clauses with a logical OR?",
+      "options": [
+        "$or",
+        "$either",
+        "$in",
+        "$union"
+      ],
+      "answer": "$or",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $lte operator stand for?",
+      "options": [
+        "Less than or equal to",
+        "Less than exactly",
+        "Logical text expression",
+        "Long text entry"
+      ],
+      "answer": "Less than or equal to",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator selects documents where an array field contains all the specified elements?",
+      "options": [
+        "$in",
+        "$all",
+        "$elemMatch",
+        "$and"
+      ],
+      "answer": "$all",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To match documents where an array has exactly 3 elements, which operator should you use?",
+      "options": [
+        "$length",
+        "$count",
+        "$size",
+        "$elements"
+      ],
+      "answer": "$size",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator matches documents that contain an array field with at least one element matching all specified criteria?",
+      "options": [
+        "$match",
+        "$elemMatch",
+        "$all",
+        "$filter"
+      ],
+      "answer": "$elemMatch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What feature allows you to enforce a specific structure on documents within a collection?",
+      "options": [
+        "Table Definitions",
+        "Schema Validation",
+        "Document Blueprints",
+        "Data Types Enforcement"
+      ],
+      "answer": "Schema Validation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used to select documents where a specific field exists, regardless of its value?",
+      "options": [
+        "$has",
+        "$present",
+        "$exists",
+        "$contains"
+      ],
+      "answer": "$exists",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you query for documents where a field 'phone' is of BSON type String?",
+      "options": [
+        "db.collection.find({ phone: { $type: \"string\" } })",
+        "db.collection.find({ phone: { $is: \"string\" } })",
+        "db.collection.find({ phone: String })",
+        "db.collection.find({ phone: { $type: \"text\" } })"
+      ],
+      "answer": "db.collection.find({ phone: { $type: \"string\" } })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator allows the use of aggregation expressions within the query language?",
+      "options": [
+        "$agg",
+        "$expr",
+        "$eval",
+        "$calculate"
+      ],
+      "answer": "$expr",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $regex operator do?",
+      "options": [
+        "Performs exact string matching",
+        "Validates BSON types",
+        "Provides regular expression capabilities for pattern matching strings",
+        "Replaces string values"
+      ],
+      "answer": "Provides regular expression capabilities for pattern matching strings",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'projection' in MongoDB?",
+      "options": [
+        "Calculating aggregate values",
+        "Joining two collections",
+        "Specifying or restricting the fields to return in the documents",
+        "Predicting future data growth"
+      ],
+      "answer": "Specifying or restricting the fields to return in the documents",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a projection document, what value is used to explicitly include a field?",
+      "options": [
+        "1",
+        "0",
+        "true",
+        "include"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can you mix inclusion (1) and exclusion (0) in a single projection document?",
+      "options": [
+        "Yes, freely for all fields.",
+        "No, it is strictly forbidden.",
+        "Yes, but only to exclude the _id field while including other fields.",
+        "Yes, but only for array elements."
+      ],
+      "answer": "Yes, but only to exclude the _id field while including other fields.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to restrict the maximum number of documents returned by a query cursor?",
+      "options": [
+        "max()",
+        "limit()",
+        "cap()",
+        "restrict()"
+      ],
+      "answer": "limit()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to ignore a specified number of documents from the beginning of a cursor?",
+      "options": [
+        "ignore()",
+        "jump()",
+        "skip()",
+        "offset()"
+      ],
+      "answer": "skip()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To sort query results in descending order by the 'price' field, which syntax is correct?",
+      "options": [
+        "db.items.find().sort({ price: 1 })",
+        "db.items.find().sort({ price: -1 })",
+        "db.items.find().sort({ price: 'desc' })",
+        "db.items.find().order({ price: -1 })"
+      ],
+      "answer": "db.items.find().sort({ price: -1 })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When implementing pagination, what is the generally recommended order of operations chained to a find() query?",
+      "options": [
+        "limit(), skip(), sort()",
+        "skip(), limit(), sort()",
+        "sort(), skip(), limit()",
+        "sort(), limit(), skip()"
+      ],
+      "answer": "sort(), skip(), limit()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method updates a single document matching the filter criteria?",
+      "options": [
+        "db.collection.update()",
+        "db.collection.updateOne()",
+        "db.collection.modify()",
+        "db.collection.set()"
+      ],
+      "answer": "db.collection.updateOne()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator is used to replace the value of a field with a specified value?",
+      "options": [
+        "$replace",
+        "$update",
+        "$set",
+        "$modify"
+      ],
+      "answer": "$set",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you increase the value of a numeric field 'score' by 5 in an update operation?",
+      "options": [
+        "{ $set: { score: score + 5 } }",
+        "{ $add: { score: 5 } }",
+        "{ $inc: { score: 5 } }",
+        "{ $plus: { score: 5 } }"
+      ],
+      "answer": "{ $inc: { score: 5 } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator removes a specified field from a document completely?",
+      "options": [
+        "$remove",
+        "$delete",
+        "$unset",
+        "$drop"
+      ],
+      "answer": "$unset",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator appends a specified value to an array?",
+      "options": [
+        "$append",
+        "$push",
+        "$add",
+        "$insert"
+      ],
+      "answer": "$push",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the 'upsert' option do when set to true in an update operation?",
+      "options": [
+        "Updates the document and sorts it to the top.",
+        "Creates a new document if no documents match the filter.",
+        "Updates the document and alerts the user.",
+        "Throws an error if the document is not found."
+      ],
+      "answer": "Creates a new document if no documents match the filter.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to remove a single document from a collection?",
+      "options": [
+        "db.collection.removeOne()",
+        "db.collection.deleteOne()",
+        "db.collection.drop()",
+        "db.collection.erase()"
+      ],
+      "answer": "db.collection.deleteOne()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you execute db.collection.deleteMany({}), what happens?",
+      "options": [
+        "It throws a syntax error.",
+        "It deletes all documents in the collection.",
+        "It drops the collection entirely.",
+        "It deletes a single random document."
+      ],
+      "answer": "It deletes all documents in the collection.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does the deleteMany() operation remove the indexes associated with the collection?",
+      "options": [
+        "Yes, all indexes are dropped.",
+        "No, indexes are retained.",
+        "Only the _id index is retained.",
+        "It prompts the user to decide."
+      ],
+      "answer": "No, indexes are retained.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command removes a collection entirely, including its data and indexes?",
+      "options": [
+        "db.collection.delete()",
+        "db.collection.remove()",
+        "db.collection.drop()",
+        "db.collection.truncate()"
+      ],
+      "answer": "db.collection.drop()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary purpose of creating indexes in MongoDB?",
+      "options": [
+        "To reduce disk space usage",
+        "To automatically back up data",
+        "To improve the performance of read queries",
+        "To encrypt the data"
+      ],
+      "answer": "To improve the performance of read queries",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "By default, MongoDB creates a unique index on which field?",
+      "options": [
+        "name",
+        "createdAt",
+        "uuid",
+        "_id"
+      ],
+      "answer": "_id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to create an index on a collection?",
+      "options": [
+        "db.collection.addIndex()",
+        "db.collection.ensureIndex()",
+        "db.collection.createIndex()",
+        "db.collection.makeIndex()"
+      ],
+      "answer": "db.collection.createIndex()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a compound index?",
+      "options": [
+        "An index that spans multiple collections.",
+        "An index that contains references to other databases.",
+        "An index created on two or more fields of a document.",
+        "An index that encrypts data."
+      ],
+      "answer": "An index created on two or more fields of a document.",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you enforce uniqueness on a specific field using an index?",
+      "options": [
+        "db.collection.createIndex({ field: 1 }, { unique: true })",
+        "db.collection.createIndex({ field: 'unique' })",
+        "db.collection.createUniqueIndex({ field: 1 })",
+        "db.collection.createIndex({ field: 1 }, { constraint: 'unique' })"
+      ],
+      "answer": "db.collection.createIndex({ field: 1 }, { unique: true })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The Aggregation Framework processes documents through a series of stages. This is commonly referred to as what?",
+      "options": [
+        "A Map-Reduce flow",
+        "An Aggregation Pipeline",
+        "A Data Stream",
+        "A Document Filter"
+      ],
+      "answer": "An Aggregation Pipeline",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation pipeline stage is used to filter documents, similar to a standard query?",
+      "options": [
+        "$filter",
+        "$find",
+        "$match",
+        "$query"
+      ],
+      "answer": "$match",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage groups input documents by a specified identifier expression and applies accumulator expressions?",
+      "options": [
+        "$combine",
+        "$aggregate",
+        "$reduce",
+        "$group"
+      ],
+      "answer": "$group",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the $group stage, what is the mandatory field used to specify the group key?",
+      "options": [
+        "_id",
+        "key",
+        "groupBy",
+        "identifier"
+      ],
+      "answer": "_id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage passes along the documents with only the requested fields to the next stage?",
+      "options": [
+        "$project",
+        "$select",
+        "$fields",
+        "$limit"
+      ],
+      "answer": "$project",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage deconstructs an array field from the input documents to output a document for each element?",
+      "options": [
+        "$split",
+        "$unwind",
+        "$flatten",
+        "$separate"
+      ],
+      "answer": "$unwind",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage performs a left outer join to an unsharded collection in the same database?",
+      "options": [
+        "$join",
+        "$lookup",
+        "$merge",
+        "$combine"
+      ],
+      "answer": "$lookup",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you count the number of documents passed to the $group stage without summing a specific field?",
+      "options": [
+        "{ $sum: 1 }",
+        "{ $count: true }",
+        "{ $add: 1 }",
+        "{ $total: 1 }"
+      ],
+      "answer": "{ $sum: 1 }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage sorts all input documents and returns them to the pipeline in sorted order?",
+      "options": [
+        "$order",
+        "$arrange",
+        "$sort",
+        "$sequence"
+      ],
+      "answer": "$sort",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is it possible to have multiple $match stages in a single aggregation pipeline?",
+      "options": [
+        "Yes, you can place $match stages wherever necessary.",
+        "No, $match can only be used once at the beginning.",
+        "No, $match can only be used once at the end.",
+        "Yes, but only if they query the same exact field."
+      ],
+      "answer": "Yes, you can place $match stages wherever necessary.",
+      "points": 2
+    },
+     {
+      "kind": "mcq",
+      "text": "Which MongoDB feature allows you to distribute data across multiple machines to support large datasets and high-throughput operations?",
+      "options": [
+        "Replication",
+        "Sharding",
+        "Indexing",
+        "Aggregation"
+      ],
+      "answer": "Sharding",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a Replica Set in MongoDB?",
+      "options": [
+        "A group of mongod processes that maintain the same data set",
+        "A backup file created by mongodump",
+        "A collection of indexes",
+        "A cluster of sharded databases"
+      ],
+      "answer": "A group of mongod processes that maintain the same data set",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which node in a MongoDB Replica Set receives all write operations?",
+      "options": [
+        "Secondary",
+        "Arbiter",
+        "Primary",
+        "Hidden"
+      ],
+      "answer": "Primary",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of an Arbiter in a Replica Set?",
+      "options": [
+        "To store a backup of the data",
+        "To route queries to the correct shard",
+        "To participate in elections but not hold data",
+        "To encrypt network traffic"
+      ],
+      "answer": "To participate in elections but not hold data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which BSON type is used to store boolean values?",
+      "options": [
+        "Type 1",
+        "Type 8",
+        "Type 10",
+        "Type 16"
+      ],
+      "answer": "Type 8",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a capped collection in MongoDB?",
+      "options": [
+        "A collection that is read-only",
+        "A fixed-size collection that automatically overwrites its oldest entries when it reaches its maximum size",
+        "A collection with a maximum number of indexes",
+        "A collection that limits the size of individual documents"
+      ],
+      "answer": "A fixed-size collection that automatically overwrites its oldest entries when it reaches its maximum size",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command is used to create a capped collection?",
+      "options": [
+        "db.createCollection('name', { capped: true, size: 100000 })",
+        "db.collection.cap()",
+        "db.createCapped('name', 100000)",
+        "db.collection.limitSize(100000)"
+      ],
+      "answer": "db.createCollection('name', { capped: true, size: 100000 })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if you try to delete a document from a capped collection using deleteOne()?",
+      "options": [
+        "The document is deleted",
+        "The document is marked as hidden",
+        "MongoDB throws an error because you cannot delete documents from a capped collection",
+        "The entire collection is dropped"
+      ],
+      "answer": "MongoDB throws an error because you cannot delete documents from a capped collection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a capped collection be sharded?",
+      "options": [
+        "Yes, always",
+        "No, capped collections cannot be sharded",
+        "Yes, but only if the size is over 1GB",
+        "Yes, but only in MongoDB version 5.0+"
+      ],
+      "answer": "No, capped collections cannot be sharded",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to insert an array of documents into a collection?",
+      "options": [
+        "db.collection.addArray()",
+        "db.collection.insertMany()",
+        "db.collection.bulkInsert()",
+        "db.collection.insertAll()"
+      ],
+      "answer": "db.collection.insertMany()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a document is inserted without an _id field, what does the MongoDB driver do?",
+      "options": [
+        "Rejects the insertion",
+        "Creates a default integer ID",
+        "Generates an ObjectId for the _id field",
+        "Asks the user for an ID"
+      ],
+      "answer": "Generates an ObjectId for the _id field",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What information is encoded within the first 4 bytes of a MongoDB ObjectId?",
+      "options": [
+        "Machine identifier",
+        "Process ID",
+        "Random value",
+        "A Unix timestamp"
+      ],
+      "answer": "A Unix timestamp",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which MongoDB command performs bulk write operations?",
+      "options": [
+        "db.collection.bulkWrite()",
+        "db.collection.batchWrite()",
+        "db.collection.writeMany()",
+        "db.collection.executeBulk()"
+      ],
+      "answer": "db.collection.bulkWrite()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default behavior of db.collection.bulkWrite()?",
+      "options": [
+        "Ordered operations",
+        "Unordered operations",
+        "Parallel operations",
+        "Read-only operations"
+      ],
+      "answer": "Ordered operations",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which query operator returns documents where the value of a field equals a specified value?",
+      "options": [
+        "$eq",
+        "$equal",
+        "$is",
+        "$match"
+      ],
+      "answer": "$eq",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which query operator matches documents where the value of a field is less than a specified value?",
+      "options": [
+        "$less",
+        "$l",
+        "$lt",
+        "$lte"
+      ],
+      "answer": "$lt",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you specify a logical AND condition for multiple expressions in MongoDB?",
+      "options": [
+        "Using the $and operator with an array of expressions",
+        "Using the && operator",
+        "Using the $both operator",
+        "By default, comma-separated fields in a query document imply an AND condition"
+      ],
+      "answer": "By default, comma-separated fields in a query document imply an AND condition",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When must you explicitly use the $and operator?",
+      "options": [
+        "When querying multiple fields",
+        "When you need to specify multiple conditions on the same field",
+        "When combining with $or",
+        "You never need to use it explicitly"
+      ],
+      "answer": "When you need to specify multiple conditions on the same field",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator performs a modulo operation to select documents?",
+      "options": [
+        "$mod",
+        "$remainder",
+        "$divide",
+        "$percent"
+      ],
+      "answer": "$mod",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to find documents where the 'tags' array does NOT contain 'mongodb', which query is correct?",
+      "options": [
+        "db.collection.find({ tags: { $not: 'mongodb' } })",
+        "db.collection.find({ tags: { $ne: 'mongodb' } })",
+        "db.collection.find({ tags: { $nin: ['mongodb'] } })",
+        "db.collection.find({ tags: { $exclude: 'mongodb' } })"
+      ],
+      "answer": "db.collection.find({ tags: { $nin: ['mongodb'] } })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used to perform text searches on string content?",
+      "options": [
+        "$search",
+        "$text",
+        "$regex",
+        "$string"
+      ],
+      "answer": "$text",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Before using the $text operator, what must be created on the collection?",
+      "options": [
+        "A text index",
+        "A compound index",
+        "A hashed index",
+        "A wildcard index"
+      ],
+      "answer": "A text index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which regex option is used to make a regular expression case-insensitive?",
+      "options": [
+        "c",
+        "i",
+        "m",
+        "x"
+      ],
+      "answer": "i",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator allows passing a JavaScript function to filter documents?",
+      "options": [
+        "$js",
+        "$function",
+        "$where",
+        "$eval"
+      ],
+      "answer": "$where",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is the use of the $where operator generally discouraged?",
+      "options": [
+        "It cannot use indexes and is slower because it evaluates JavaScript",
+        "It only works on strings",
+        "It is deprecated in all versions",
+        "It causes memory leaks"
+      ],
+      "answer": "It cannot use indexes and is slower because it evaluates JavaScript",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator multiplies the value of a field by a specified number?",
+      "options": [
+        "$multiply",
+        "$times",
+        "$mul",
+        "$product"
+      ],
+      "answer": "$mul",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator renames a field?",
+      "options": [
+        "$changeName",
+        "$rename",
+        "$alias",
+        "$move"
+      ],
+      "answer": "$rename",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator sets the value of a field to the current date?",
+      "options": [
+        "$date",
+        "$now",
+        "$currentDate",
+        "$timestamp"
+      ],
+      "answer": "$currentDate",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $min update operator do?",
+      "options": [
+        "Returns the minimum value in an array",
+        "Updates the value of the field to a specified value if the specified value is less than the current value",
+        "Subtracts a value from a field",
+        "Deletes the smallest document"
+      ],
+      "answer": "Updates the value of the field to a specified value if the specified value is less than the current value",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When pushing multiple elements to an array using $push, which modifier must be used?",
+      "options": [
+        "$multiple",
+        "$all",
+        "$each",
+        "$list"
+      ],
+      "answer": "$each",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which modifier is used with $push to limit the size of an array?",
+      "options": [
+        "$limit",
+        "$slice",
+        "$cap",
+        "$max"
+      ],
+      "answer": "$slice",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which modifier is used with $push to order the elements of the array?",
+      "options": [
+        "$order",
+        "$sort",
+        "$arrange",
+        "$align"
+      ],
+      "answer": "$sort",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator adds elements to an array only if they do not already exist?",
+      "options": [
+        "$pushUnique",
+        "$addUnique",
+        "$addToSet",
+        "$insertSet"
+      ],
+      "answer": "$addToSet",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator removes the first or last element of an array?",
+      "options": [
+        "$shift",
+        "$pop",
+        "$pull",
+        "$remove"
+      ],
+      "answer": "$pop",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To remove the first element of an array using $pop, what value do you pass?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "'first'"
+      ],
+      "answer": "-1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator removes all array elements that match a specified query?",
+      "options": [
+        "$pop",
+        "$delete",
+        "$pull",
+        "$erase"
+      ],
+      "answer": "$pull",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator removes all instances of the specified values from an existing array?",
+      "options": [
+        "$pullAll",
+        "$removeAll",
+        "$popAll",
+        "$clear"
+      ],
+      "answer": "$pullAll",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the positional operator ($) used for in updates?",
+      "options": [
+        "To update all elements in an array",
+        "To identify an element in an array to update without explicitly specifying the position of the element",
+        "To append an element to an array",
+        "To query embedded documents"
+      ],
+      "answer": "To identify an element in an array to update without explicitly specifying the position of the element",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is the all positional operator, used to update all elements in an array?",
+      "options": [
+        "$all",
+        "$*",
+        "$[]",
+        "$[all]"
+      ],
+      "answer": "$[]",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of index supports queries that calculate geometries on an earth-like sphere?",
+      "options": [
+        "2d",
+        "2dsphere",
+        "geoNear",
+        "spatial"
+      ],
+      "answer": "2dsphere",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which index type is required to support sharding using a hashed shard key?",
+      "options": [
+        "Compound index",
+        "Unique index",
+        "Text index",
+        "Hashed index"
+      ],
+      "answer": "Hashed index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a TTL (Time To Live) index?",
+      "options": [
+        "An index that automatically deletes documents after a certain amount of time or at a specific clock time",
+        "An index that tracks the time it takes to execute a query",
+        "An index for timestamp fields only",
+        "An index that expires and needs to be rebuilt"
+      ],
+      "answer": "An index that automatically deletes documents after a certain amount of time or at a specific clock time",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What kind of index only contains entries for documents that have the indexed field?",
+      "options": [
+        "Partial index",
+        "Sparse index",
+        "Unique index",
+        "Compound index"
+      ],
+      "answer": "Sparse index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a partial index in MongoDB?",
+      "options": [
+        "An index that only indexes a subset of the fields in a document",
+        "An index that only indexes documents that meet a specified filter expression",
+        "An index that is currently being built in the background",
+        "An index that only exists on the primary node"
+      ],
+      "answer": "An index that only indexes documents that meet a specified filter expression",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a covered query?",
+      "options": [
+        "A query that is hidden from the profiler",
+        "A query where all the fields returned are part of an index, so MongoDB doesn't need to examine the actual documents",
+        "A query protected by role-based access control",
+        "A query that uses all available CPU cores"
+      ],
+      "answer": "A query where all the fields returned are part of an index, so MongoDB doesn't need to examine the actual documents",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To view the query execution plan and see if an index was used, which method do you chain to a find() query?",
+      "options": [
+        "analyze()",
+        "explain()",
+        "profile()",
+        "stats()"
+      ],
+      "answer": "explain()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage writes the resulting documents of the aggregation pipeline to a specified collection?",
+      "options": [
+        "$write",
+        "$save",
+        "$out",
+        "$export"
+      ],
+      "answer": "$out",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the difference between $out and $merge in the aggregation framework?",
+      "options": [
+        "$out can only output to a different database, $merge outputs to the same",
+        "$out replaces the entire existing collection, $merge can update existing documents and insert new ones",
+        "$out is used for sharded collections, $merge is not",
+        "There is no difference, they are aliases"
+      ],
+      "answer": "$out replaces the entire existing collection, $merge can update existing documents and insert new ones",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage is used to add new fields to documents, equivalent to $set in aggregation?",
+      "options": [
+        "$addFields",
+        "$append",
+        "$insert",
+        "$new"
+      ],
+      "answer": "$addFields",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage replaces the input document with the specified document (often used to promote an embedded document to the top level)?",
+      "options": [
+        "$promote",
+        "$replaceRoot",
+        "$setRoot",
+        "$elevate"
+      ],
+      "answer": "$replaceRoot",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage allows you to process multiple aggregation pipelines within a single stage on the same set of input documents?",
+      "options": [
+        "$parallel",
+        "$split",
+        "$facet",
+        "$branch"
+      ],
+      "answer": "$facet",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage categorizes incoming documents into groups based on a specified expression and boundary values?",
+      "options": [
+        "$group",
+        "$bucket",
+        "$classify",
+        "$partition"
+      ],
+      "answer": "$bucket",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the aggregation framework, which operator is used to select a subset of an array to return based on a specified condition?",
+      "options": [
+        "$slice",
+        "$filter",
+        "$match",
+        "$subset"
+      ],
+      "answer": "$filter",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In aggregation, which operator applies an expression to each item in an array and returns an array with the applied results?",
+      "options": [
+        "$each",
+        "$apply",
+        "$map",
+        "$forEach"
+      ],
+      "answer": "$map",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command returns statistics about a specific collection?",
+      "options": [
+        "db.collection.stats()",
+        "db.collection.info()",
+        "db.collection.details()",
+        "db.collection.metrics()"
+      ],
+      "answer": "db.collection.stats()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is BSON type 2?",
+      "options": [
+        "Double",
+        "String",
+        "Object",
+        "Array"
+      ],
+      "answer": "String",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to enforce that a 'username' field is always a string and is required, what MongoDB feature do you use?",
+      "options": [
+        "Triggers",
+        "Stored Procedures",
+        "JSON Schema Validation",
+        "Field locks"
+      ],
+      "answer": "JSON Schema Validation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When defining schema validation, which validationLevel ensures that only updates that meet the validation rules are permitted, but existing invalid documents are ignored?",
+      "options": [
+        "strict",
+        "moderate",
+        "off",
+        "lenient"
+      ],
+      "answer": "moderate",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation operator calculates the average value of a numeric field across grouped documents?",
+      "options": [
+        "$mean",
+        "$avg",
+        "$average",
+        "$calcAvg"
+      ],
+      "answer": "$avg",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation operator pushes all evaluated expressions into an array in the $group stage?",
+      "options": [
+        "$push",
+        "$addToSet",
+        "$array",
+        "$collect"
+      ],
+      "answer": "$push",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does $addToSet differ from $push in a $group aggregation stage?",
+      "options": [
+        "$addToSet only adds numeric values",
+        "$addToSet only adds unique values to the array",
+        "$addToSet adds values to a set data structure, not an array",
+        "They are identical"
+      ],
+      "answer": "$addToSet only adds unique values to the array",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a MongoDB connection string (URI), what prefix is used?",
+      "options": [
+        "mongo://",
+        "mongodb://",
+        "db://",
+        "mongos://"
+      ],
+      "answer": "mongodb://",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the prefix used for MongoDB connection strings utilizing DNS seed lists?",
+      "options": [
+        "mongodb+dns://",
+        "mongodb+srv://",
+        "mongo+srv://",
+        "mongodb-srv://"
+      ],
+      "answer": "mongodb+srv://",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which GUI tool is officially provided by MongoDB for interacting with databases?",
+      "options": [
+        "Robo 3T",
+        "Studio 3T",
+        "MongoDB Compass",
+        "MongoDB Admin"
+      ],
+      "answer": "MongoDB Compass",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does DBaaS stand for in the context of MongoDB Atlas?",
+      "options": [
+        "Database as a Server",
+        "Database as a Service",
+        "Database Administration and Security",
+        "Data Backup as a Service"
+      ],
+      "answer": "Database as a Service",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator evaluates a boolean expression and returns one of the two specified return expressions?",
+      "options": [
+        "$switch",
+        "$ifNull",
+        "$cond",
+        "$choose"
+      ],
+      "answer": "$cond",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation operator returns the first non-null expression in an array?",
+      "options": [
+        "$first",
+        "$ifNull",
+        "$notNull",
+        "$coalesce"
+      ],
+      "answer": "$ifNull",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage randomly selects a specified number of documents from its input?",
+      "options": [
+        "$random",
+        "$sample",
+        "$pick",
+        "$shuffle"
+      ],
+      "answer": "$sample",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To skip the first 5 documents and return the next 10, what is the correct sequence in aggregation?",
+      "options": [
+        "{ $limit: 10 }, { $skip: 5 }",
+        "{ $skip: 5 }, { $limit: 10 }",
+        "{ $offset: 5 }, { $limit: 10 }",
+        "{ $limit: 15 }, { $skip: 5 }"
+      ],
+      "answer": "{ $skip: 5 }, { $limit: 10 }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a query includes a sort operation but lacks an index supporting the sort, how does MongoDB sort the results?",
+      "options": [
+        "It uses an in-memory sort",
+        "It throws a SortError",
+        "It writes a temporary file to disk immediately",
+        "It skips the sort phase"
+      ],
+      "answer": "It uses an in-memory sort",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the memory limit for an in-memory sort in MongoDB before it returns an error (unless allowDiskUse is true)?",
+      "options": [
+        "16 MB",
+        "32 MB",
+        "100 MB",
+        "1 GB"
+      ],
+      "answer": "100 MB",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to drop an index in MongoDB?",
+      "options": [
+        "db.collection.removeIndex()",
+        "db.collection.dropIndex()",
+        "db.collection.deleteIndex()",
+        "db.collection.clearIndex()"
+      ],
+      "answer": "db.collection.dropIndex()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which index property prevents an index from being used by the query planner unless specifically hinted?",
+      "options": [
+        "hidden",
+        "invisible",
+        "disabled",
+        "sparse"
+      ],
+      "answer": "hidden",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary difference between a View and a Collection in MongoDB?",
+      "options": [
+        "Views are read-only and computed on demand",
+        "Views are faster for write operations",
+        "Views can hold more data than collections",
+        "Collections cannot be queried using aggregation"
+      ],
+      "answer": "Views are read-only and computed on demand",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command creates a View?",
+      "options": [
+        "db.createView()",
+        "db.makeView()",
+        "db.collection.view()",
+        "db.addView()"
+      ],
+      "answer": "db.createView()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What underlying technology are MongoDB views built upon?",
+      "options": [
+        "MapReduce",
+        "Aggregation Pipeline",
+        "Stored Procedures",
+        "Triggers"
+      ],
+      "answer": "Aggregation Pipeline",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which find() cursor method returns the number of documents that match the query?",
+      "options": [
+        "length()",
+        "size()",
+        "count()",
+        "total()"
+      ],
+      "answer": "count()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which modern method is recommended over count() for counting documents in a collection?",
+      "options": [
+        "countDocuments()",
+        "documentCount()",
+        "totalDocuments()",
+        "getSize()"
+      ],
+      "answer": "countDocuments()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to estimate the number of documents in a collection based on collection metadata, which method should you use?",
+      "options": [
+        "estimatedDocumentCount()",
+        "countDocuments()",
+        "stats()",
+        "approximateCount()"
+      ],
+      "answer": "estimatedDocumentCount()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which BSON type is highly optimized for storing binary data like images or PDFs?",
+      "options": [
+        "BinData",
+        "Blob",
+        "Buffer",
+        "FileStore"
+      ],
+      "answer": "BinData",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the MongoDB utility used for storing files that exceed the 16 MB BSON document limit?",
+      "options": [
+        "GridFS",
+        "MongoFile",
+        "LargeStore",
+        "BigData"
+      ],
+      "answer": "GridFS",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "GridFS stores files across two collections. What are their default names?",
+      "options": [
+        "fs.files and fs.data",
+        "fs.files and fs.chunks",
+        "files.metadata and files.data",
+        "grid.files and grid.chunks"
+      ],
+      "answer": "fs.files and fs.chunks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When updating documents using updateMany(), what determines which documents are modified?",
+      "options": [
+        "The update document",
+        "The query filter document",
+        "The sort order",
+        "The projection document"
+      ],
+      "answer": "The query filter document",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If an update operation uses the $inc operator on a field that does not exist, what happens?",
+      "options": [
+        "It throws an error",
+        "It ignores the operation",
+        "It creates the field and sets its value to the specified increment amount",
+        "It sets the field to null"
+      ],
+      "answer": "It creates the field and sets its value to the specified increment amount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method performs an update operation or inserts a new document if no matches are found, and returns the original or new document?",
+      "options": [
+        "findOneAndUpdate()",
+        "updateOne()",
+        "replaceOne()",
+        "findAndModify()"
+      ],
+      "answer": "findOneAndUpdate()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using findOneAndUpdate(), how do you configure it to return the modified document instead of the original?",
+      "options": [
+        "{ returnNewDocument: true }",
+        "{ returnDocument: 'after' }",
+        "{ new: true }",
+        "Both { returnDocument: 'after' } and { new: true } depending on the driver"
+      ],
+      "answer": "Both { returnDocument: 'after' } and { new: true } depending on the driver",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the equivalent command line utility to export data from MongoDB into a JSON or CSV file?",
+      "options": [
+        "mongodump",
+        "mongoexport",
+        "mongorestore",
+        "mongoimport"
+      ],
+      "answer": "mongoexport",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which utility is used to import content from an Extended JSON, CSV, or TSV export?",
+      "options": [
+        "mongorestore",
+        "mongoimport",
+        "mongoload",
+        "mongoput"
+      ],
+      "answer": "mongoimport",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary format generated by the mongodump utility?",
+      "options": [
+        "JSON",
+        "CSV",
+        "BSON",
+        "XML"
+      ],
+      "answer": "BSON",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command is used to restore a database backup created by mongodump?",
+      "options": [
+        "mongorestore",
+        "mongoimport",
+        "mongoload",
+        "mongorecover"
+      ],
+      "answer": "mongorestore",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command tells the MongoDB shell to format its JSON output to be more readable?",
+      "options": [
+        "format()",
+        "pretty()",
+        "clean()",
+        "beautify()"
+      ],
+      "answer": "pretty()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a MongoDB text index, which attribute determines the importance of a field relative to others?",
+      "options": [
+        "weight",
+        "priority",
+        "score",
+        "value"
+      ],
+      "answer": "weight",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which projection operator is used to return the text match score in a query result?",
+      "options": [
+        "$meta",
+        "$score",
+        "$textScore",
+        "$rank"
+      ],
+      "answer": "$meta",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the name of MongoDB's default storage engine?",
+      "options": [
+        "MMAPv1",
+        "WiredTiger",
+        "InnoDB",
+        "LevelDB"
+      ],
+      "answer": "WiredTiger",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which storage engine feature allows WiredTiger to provide high concurrency?",
+      "options": [
+        "Database-level locking",
+        "Collection-level locking",
+        "Document-level concurrency control",
+        "Read uncommitted isolation"
+      ],
+      "answer": "Document-level concurrency control",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the role of the MongoDB Journal?",
+      "options": [
+        "To track user logins",
+        "To provide a write-ahead log for durability and crash recovery",
+        "To monitor slow queries",
+        "To store text search indexes"
+      ],
+      "answer": "To provide a write-ahead log for durability and crash recovery",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which database command returns the current operations running on the MongoDB server?",
+      "options": [
+        "db.currentOp()",
+        "db.operations()",
+        "db.status()",
+        "db.activeQueries()"
+      ],
+      "answer": "db.currentOp()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which database command forcibly terminates a running operation?",
+      "options": [
+        "db.stopOp()",
+        "db.killOp()",
+        "db.terminate()",
+        "db.abortOp()"
+      ],
+      "answer": "db.killOp()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the maximum number of fields allowed in a compound index?",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "There is no limit"
+      ],
+      "answer": "32",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building an index on a large existing collection, how can you prevent the build from blocking other database operations?",
+      "options": [
+        "Build it in the background by setting { background: true }",
+        "Build it using a secondary node",
+        "Use the { async: true } option",
+        "It always blocks, you must schedule downtime"
+      ],
+      "answer": "Build it in the background by setting { background: true }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the term 'NoSQL' generally stand for in the context of modern databases like MongoDB?",
+      "options": [
+        "No SQL allowed",
+        "Not Only SQL",
+        "Non-Standard Query Language",
+        "New Structured Query Language"
+      ],
+      "answer": "Not Only SQL",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the context of the CAP Theorem, MongoDB generally prioritizes which two properties during a network partition?",
+      "options": [
+        "Consistency and Availability",
+        "Consistency and Partition Tolerance",
+        "Availability and Partition Tolerance",
+        "Concurrency and Availability"
+      ],
+      "answer": "Consistency and Partition Tolerance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is an accurate description of a MongoDB namespace?",
+      "options": [
+        "The IP address and port of the database",
+        "The combination of the database name and collection name (e.g., db.collection)",
+        "The folder where data files are stored",
+        "The user credentials used to connect"
+      ],
+      "answer": "The combination of the database name and collection name (e.g., db.collection)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary language used to write MongoDB's core database engine?",
+      "options": [
+        "Java",
+        "Python",
+        "C++",
+        "JavaScript"
+      ],
+      "answer": "C++",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When you execute a query in MongoDB, what data format is used to send the query over the network?",
+      "options": [
+        "Raw string",
+        "JSON",
+        "BSON",
+        "XML"
+      ],
+      "answer": "BSON",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which environment variable is often used to specify the MongoDB connection string in application configurations?",
+      "options": [
+        "MONGO_PATH",
+        "MONGO_URI",
+        "DB_CONNECTION",
+        "MONGO_URL"
+      ],
+      "answer": "MONGO_URI",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the 'mongosh' command 'show dbs' do?",
+      "options": [
+        "Lists all collections in the current database",
+        "Shows the database configuration files",
+        "Lists all databases on the server",
+        "Displays the current database connection"
+      ],
+      "answer": "Lists all databases on the server",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you switch to a database named 'inventory' in the MongoDB shell?",
+      "options": [
+        "switch inventory",
+        "use inventory",
+        "db.inventory",
+        "connect inventory"
+      ],
+      "answer": "use inventory",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you type 'use newDB' in the shell but 'newDB' does not exist, what does MongoDB do?",
+      "options": [
+        "Throws a 'Database not found' error",
+        "Prompts you to create the database",
+        "Switches to 'newDB' and creates it immediately on disk",
+        "Switches to 'newDB' but only creates it on disk when data is inserted"
+      ],
+      "answer": "Switches to 'newDB' but only creates it on disk when data is inserted",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command displays the current database in use in the MongoDB shell?",
+      "options": [
+        "db",
+        "current",
+        "show db",
+        "pwd"
+      ],
+      "answer": "db",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if you try to insert a document that is 20 MB in size?",
+      "options": [
+        "It compresses automatically",
+        "It is split into two documents",
+        "It fails because it exceeds the 16 MB limit",
+        "It uploads to GridFS automatically"
+      ],
+      "answer": "It fails because it exceeds the 16 MB limit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following BSON types supports millisecond precision?",
+      "options": [
+        "Timestamp",
+        "Date",
+        "Time",
+        "DateTime"
+      ],
+      "answer": "Date",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the BSON type 1 equivalent to?",
+      "options": [
+        "Integer",
+        "String",
+        "Double",
+        "Boolean"
+      ],
+      "answer": "Double",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which BSON type is specifically designed for internal MongoDB operations like the oplog?",
+      "options": [
+        "Date",
+        "Timestamp",
+        "ObjectId",
+        "MinKey"
+      ],
+      "answer": "Timestamp",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of data structure does MongoDB use to represent arrays internally?",
+      "options": [
+        "A linked list",
+        "A comma-separated string",
+        "A BSON document with integer keys",
+        "A contiguous memory block"
+      ],
+      "answer": "A BSON document with integer keys",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a MongoDB ObjectId (e.g., 507f1f77bcf86cd799439011), how many hexadecimal characters are present?",
+      "options": [
+        "12",
+        "16",
+        "24",
+        "32"
+      ],
+      "answer": "24",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which shell method clears the terminal screen?",
+      "options": [
+        "clear()",
+        "cls()",
+        "console.clear()",
+        "All of the above depending on the shell version"
+      ],
+      "answer": "console.clear()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function executes a JavaScript file in the mongosh environment?",
+      "options": [
+        "load()",
+        "run()",
+        "execute()",
+        "require()"
+      ],
+      "answer": "load()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To explicitly create a collection with custom options, which command is used?",
+      "options": [
+        "db.newCollection()",
+        "db.createCollection()",
+        "db.addCollection()",
+        "db.insertCollection()"
+      ],
+      "answer": "db.createCollection()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which option is used in db.createCollection to ensure the collection validates incoming documents?",
+      "options": [
+        "validator",
+        "schema",
+        "rules",
+        "check"
+      ],
+      "answer": "validator",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When inserting a document, if the collection does not exist, what does MongoDB do?",
+      "options": [
+        "Returns an error",
+        "Creates the collection implicitly",
+        "Inserts it into a default 'global' collection",
+        "Drops the database"
+      ],
+      "answer": "Creates the collection implicitly",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is considered legacy and replaced by insertOne() and insertMany()?",
+      "options": [
+        "save()",
+        "add()",
+        "insert()",
+        "put()"
+      ],
+      "answer": "insert()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the insertOne() method return upon success?",
+      "options": [
+        "A boolean true",
+        "The inserted document itself",
+        "An object containing acknowledged: true and the insertedId",
+        "The number of documents in the collection"
+      ],
+      "answer": "An object containing acknowledged: true and the insertedId",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you provide an _id that already exists during an insertOne() operation, what happens?",
+      "options": [
+        "The existing document is updated",
+        "A DuplicateKey error is thrown",
+        "The new document is saved with a new automatically generated _id",
+        "The insertion is silently ignored"
+      ],
+      "answer": "A DuplicateKey error is thrown",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you bypass document validation during an insertMany operation?",
+      "options": [
+        "Use { validate: false }",
+        "Use { bypassDocumentValidation: true }",
+        "Use { strict: false }",
+        "You cannot bypass document validation"
+      ],
+      "answer": "Use { bypassDocumentValidation: true }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method retrieves all documents from a collection named 'products'?",
+      "options": [
+        "db.products.getAll()",
+        "db.products.read()",
+        "db.products.find()",
+        "db.products.query()"
+      ],
+      "answer": "db.products.find()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens when you type 'it' in the MongoDB shell after a find() query?",
+      "options": [
+        "It iterates the cursor to show the next batch of documents",
+        "It stops the query execution",
+        "It inserts a test document",
+        "It prints the query execution time"
+      ],
+      "answer": "It iterates the cursor to show the next batch of documents",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default batch size of a cursor returned by the find() method in the shell?",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "100"
+      ],
+      "answer": "20",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to convert a cursor into a standard JavaScript array?",
+      "options": [
+        "toArray()",
+        "asList()",
+        "getArray()",
+        "fetch()"
+      ],
+      "answer": "toArray()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you query for a document where a field 'score' is exactly an array [10, 20] in that specific order?",
+      "options": [
+        "db.collection.find({ score: { $all: [10, 20] } })",
+        "db.collection.find({ score: { $in: [10, 20] } })",
+        "db.collection.find({ score: [10, 20] })",
+        "db.collection.find({ score: { $eq: [10, 20] } })"
+      ],
+      "answer": "db.collection.find({ score: [10, 20] })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator finds documents where a specific field is strictly greater than 50?",
+      "options": [
+        "$gte",
+        "$gt",
+        "$greater",
+        "$high"
+      ],
+      "answer": "$gt",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator matches documents where a field's value is less than or equal to a specified value?",
+      "options": [
+        "$lt",
+        "$lte",
+        "$lessEq",
+        "$le"
+      ],
+      "answer": "$lte",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To find documents where 'age' is either 18, 21, or 25, which is the most efficient operator?",
+      "options": [
+        "$or",
+        "$in",
+        "$match",
+        "$any"
+      ],
+      "answer": "$in",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator excludes documents that contain specific values in an array?",
+      "options": [
+        "$not",
+        "$out",
+        "$nin",
+        "$exclude"
+      ],
+      "answer": "$nin",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the syntax to use the logical $nor operator?",
+      "options": [
+        "{ field: { $nor: [cond1, cond2] } }",
+        "{ $nor: [ {cond1}, {cond2} ] }",
+        "{ $not: { $or: [cond1, cond2] } }",
+        "{ $nor: { cond1, cond2 } }"
+      ],
+      "answer": "{ $nor: [ {cond1}, {cond2} ] }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator returns documents that fail to match the given condition?",
+      "options": [
+        "$not",
+        "$fail",
+        "$exclude",
+        "$false"
+      ],
+      "answer": "$not",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does the $not operator behave if the field it evaluates does not exist?",
+      "options": [
+        "It throws a null reference error",
+        "It ignores the document",
+        "It matches the document",
+        "It causes a query timeout"
+      ],
+      "answer": "It matches the document",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator requires that an array field contains multiple specified elements, irrespective of order?",
+      "options": [
+        "$in",
+        "$all",
+        "$elemMatch",
+        "$and"
+      ],
+      "answer": "$all",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a document has an array 'tags': ['A', 'B', 'C'], will the query { tags: { $size: 2 } } match it?",
+      "options": [
+        "Yes, because it has at least 2 elements",
+        "Yes, because $size checks maximum length",
+        "No, because $size requires an exact match",
+        "Throws an error"
+      ],
+      "answer": "No, because $size requires an exact match",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can the $size operator be used with a range, such as $size: { $gt: 2 }?",
+      "options": [
+        "Yes, it supports comparison operators",
+        "No, $size only accepts numeric scalars",
+        "Yes, but only in aggregation pipelines",
+        "Yes, but it requires an index"
+      ],
+      "answer": "No, $size only accepts numeric scalars",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To query for documents where an embedded document array has an element matching multiple criteria, use:",
+      "options": [
+        "Dot notation directly",
+        "$elemMatch",
+        "$all",
+        "$in"
+      ],
+      "answer": "$elemMatch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you query for an embedded document field using dot notation?",
+      "options": [
+        "{ user_address_city: 'New York' }",
+        "{ 'user.address.city': 'New York' }",
+        "{ user: { address: { city: 'New York' } } }",
+        "{ user->address->city: 'New York' }"
+      ],
+      "answer": "{ 'user.address.city': 'New York' }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using dot notation in a query document key, what is mandatory?",
+      "options": [
+        "Using single or double quotes around the key",
+        "Using a $ prefix",
+        "Capitalizing the first letter",
+        "No quotes are needed"
+      ],
+      "answer": "Using single or double quotes around the key",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator allows you to query documents based on whether a field is present?",
+      "options": [
+        "$present",
+        "$exists",
+        "$has",
+        "$isnull"
+      ],
+      "answer": "$exists",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you query { email: { $exists: false } }, what is returned?",
+      "options": [
+        "Documents where email is null",
+        "Documents where the email field is missing entirely",
+        "Documents where email is an empty string",
+        "An error"
+      ],
+      "answer": "Documents where the email field is missing entirely",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $type operator do?",
+      "options": [
+        "Changes the data type of a field",
+        "Selects documents where a field's value is of the specified BSON type",
+        "Checks the type of index used",
+        "Converts string to integer"
+      ],
+      "answer": "Selects documents where a field's value is of the specified BSON type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which BSON type alias corresponds to arrays when using $type?",
+      "options": [
+        "\"list\"",
+        "\"array\"",
+        "\"object\"",
+        "\"collection\""
+      ],
+      "answer": "\"array\"",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator allows you to compare two fields within the same document directly in a find query?",
+      "options": [
+        "$compare",
+        "$eq",
+        "$expr",
+        "$where"
+      ],
+      "answer": "$expr",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To find documents where 'spent' is greater than 'budget', which syntax is correct?",
+      "options": [
+        "{ spent: { $gt: '$budget' } }",
+        "{ $expr: { $gt: [ '$spent', '$budget' ] } }",
+        "{ $gt: { spent: 'budget' } }",
+        "{ spent: > budget }"
+      ],
+      "answer": "{ $expr: { $gt: [ '$spent', '$budget' ] } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What syntax is used to access the value of a field within an aggregation expression?",
+      "options": [
+        "&fieldname",
+        "@fieldname",
+        "$fieldname",
+        "%fieldname"
+      ],
+      "answer": "$fieldname",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used to search for a specified pattern in string fields?",
+      "options": [
+        "$pattern",
+        "$regex",
+        "$search",
+        "$match"
+      ],
+      "answer": "$regex",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the 'options: \"m\"' do in a $regex query?",
+      "options": [
+        "Case insensitive match",
+        "Multi-line match",
+        "Minimal match",
+        "Maximum match"
+      ],
+      "answer": "Multi-line match",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When returning documents from a find() query, how do you specify which fields to return?",
+      "options": [
+        "Using a selection block",
+        "Using a projection document as the second argument",
+        "Using a filter document",
+        "Using the .fields() method"
+      ],
+      "answer": "Using a projection document as the second argument",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If your projection is { name: 1, age: 1 }, what is returned?",
+      "options": [
+        "Only name and age",
+        "Name, age, and _id",
+        "All fields except name and age",
+        "Name, age, and any array fields"
+      ],
+      "answer": "Name, age, and _id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you exclude the _id field from being returned in a query?",
+      "options": [
+        "Set { _id: false } or { _id: 0 } in the projection",
+        "Set { omitId: true }",
+        "Use the .hideId() method",
+        "It cannot be excluded"
+      ],
+      "answer": "Set { _id: false } or { _id: 0 } in the projection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which projection operator is used to limit the elements returned from an array field?",
+      "options": [
+        "$limit",
+        "$slice",
+        "$trim",
+        "$cut"
+      ],
+      "answer": "$slice",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a query uses a projection of { tags: { $slice: 2 } }, what is returned for the tags array?",
+      "options": [
+        "The first 2 elements of the array",
+        "The last 2 elements of the array",
+        "Elements at index 2 and onwards",
+        "All elements except the first 2"
+      ],
+      "answer": "The first 2 elements of the array",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which projection operator returns the first element in an array that matches the query condition?",
+      "options": [
+        "$first",
+        "$",
+        "$elemMatch",
+        "$match"
+      ],
+      "answer": "$",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Pagination in MongoDB typically involves which two cursor methods?",
+      "options": [
+        "sort() and filter()",
+        "skip() and limit()",
+        "page() and size()",
+        "offset() and fetch()"
+      ],
+      "answer": "skip() and limit()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you are on page 3 and displaying 10 items per page, what skip value do you use?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "0"
+      ],
+      "answer": "20",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a potential performance drawback of using skip() for large offsets?",
+      "options": [
+        "It crashes the server",
+        "It ignores indexes",
+        "MongoDB must iterate through and discard all skipped documents",
+        "It locks the collection"
+      ],
+      "answer": "MongoDB must iterate through and discard all skipped documents",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a better pagination alternative to skip() for very large datasets?",
+      "options": [
+        "Using limit() only",
+        "Range queries (keyset pagination) on an indexed field like _id",
+        "Increasing server RAM",
+        "Using $lookup"
+      ],
+      "answer": "Range queries (keyset pagination) on an indexed field like _id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the updateOne() method return upon success?",
+      "options": [
+        "The updated document",
+        "An UpdateResult object detailing matched and modified counts",
+        "A boolean",
+        "A cursor"
+      ],
+      "answer": "An UpdateResult object detailing matched and modified counts",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you use updateOne() without an update operator like $set, and pass a plain document like { status: 'A' }, what happens in modern MongoDB versions?",
+      "options": [
+        "It replaces the document",
+        "It throws an error indicating update operators are required",
+        "It merges the document",
+        "It drops the fields"
+      ],
+      "answer": "It throws an error indicating update operators are required",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is explicitly designed to completely replace an existing document with a new one?",
+      "options": [
+        "updateOne()",
+        "replaceOne()",
+        "setOne()",
+        "overwriteOne()"
+      ],
+      "answer": "replaceOne()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator allows you to change the name of a field?",
+      "options": [
+        "$change",
+        "$rename",
+        "$setKey",
+        "$alias"
+      ],
+      "answer": "$rename",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you decrement a value using the $inc operator?",
+      "options": [
+        "{ $dec: { value: 1 } }",
+        "{ $inc: { value: -1 } }",
+        "{ $sub: { value: 1 } }",
+        "{ $inc: { value: 0 } }"
+      ],
+      "answer": "{ $inc: { value: -1 } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which update operator is used to set a field's value to the maximum of its current value and a specified value?",
+      "options": [
+        "$max",
+        "$highest",
+        "$setIfGreater",
+        "$limit"
+      ],
+      "answer": "$max",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if you use $unset on a field that does not exist in the document?",
+      "options": [
+        "Throws a MissingFieldError",
+        "Sets the field to null",
+        "Does nothing and operation is successful",
+        "Creates the field and then drops it"
+      ],
+      "answer": "Does nothing and operation is successful",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the $setOnInsert operator?",
+      "options": [
+        "Sets fields only if an update operation results in an insert (upsert)",
+        "Triggers a function on every insert",
+        "Blocks inserts if a field is missing",
+        "Sets the default values for the entire collection"
+      ],
+      "answer": "Sets fields only if an update operation results in an insert (upsert)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator removes the first element from an array?",
+      "options": [
+        "{ $pop: { arrayField: 1 } }",
+        "{ $shift: { arrayField: 1 } }",
+        "{ $pop: { arrayField: -1 } }",
+        "{ $pullFirst: { arrayField: 1 } }"
+      ],
+      "answer": "{ $pop: { arrayField: -1 } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To remove the last element from an array, which operation is used?",
+      "options": [
+        "{ $pop: { arrayField: 1 } }",
+        "{ $pop: { arrayField: -1 } }",
+        "{ $pull: { arrayField: 'last' } }",
+        "{ $slice: { arrayField: -1 } }"
+      ],
+      "answer": "{ $pop: { arrayField: 1 } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to append an element 'Apple' to the 'fruits' array, which syntax is correct?",
+      "options": [
+        "{ $add: { fruits: 'Apple' } }",
+        "{ $push: { fruits: 'Apple' } }",
+        "{ $append: { fruits: 'Apple' } }",
+        "{ $insert: { fruits: 'Apple' } }"
+      ],
+      "answer": "{ $push: { fruits: 'Apple' } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you push multiple items into an array in a single $push operation?",
+      "options": [
+        "Pass an array directly: { $push: { fruits: ['A', 'B'] } }",
+        "Use the $each modifier: { $push: { fruits: { $each: ['A', 'B'] } } }",
+        "Use the $all modifier: { $push: { fruits: { $all: ['A', 'B'] } } }",
+        "Use $pushMany"
+      ],
+      "answer": "Use the $each modifier: { $push: { fruits: { $each: ['A', 'B'] } } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you pass an array directly to $push without $each (e.g., $push: { arr: [1, 2] }), what is the result?",
+      "options": [
+        "1 and 2 are added as separate elements",
+        "The entire array [1, 2] is added as a single element (a nested array)",
+        "An error is thrown",
+        "It replaces the existing array"
+      ],
+      "answer": "The entire array [1, 2] is added as a single element (a nested array)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $pull operator do?",
+      "options": [
+        "Removes all array elements that match a specified query",
+        "Pulls data from another collection",
+        "Downloads a document",
+        "Removes a field from a document"
+      ],
+      "answer": "Removes all array elements that match a specified query",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you update an element inside an array if you don't know its exact index?",
+      "options": [
+        "Using the positional operator $",
+        "Using a for loop",
+        "Using $updateArray",
+        "Using the wildcard * operator"
+      ],
+      "answer": "Using the positional operator $",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which new feature allows updating specific elements in an array that match a condition specified in 'arrayFilters'?",
+      "options": [
+        "Filtered Positional Operator $[<identifier>]",
+        "Smart Updates",
+        "$filterUpdate",
+        "Array Query Selectors"
+      ],
+      "answer": "Filtered Positional Operator $[<identifier>]",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the result of deleteOne() if no documents match the filter?",
+      "options": [
+        "It throws a DocumentNotFoundError",
+        "It returns acknowledged: true and deletedCount: 0",
+        "It creates a dummy document and deletes it",
+        "It hangs indefinitely"
+      ],
+      "answer": "It returns acknowledged: true and deletedCount: 0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is it possible to recover a document deleted using deleteOne() or deleteMany() without a backup?",
+      "options": [
+        "Yes, from the trash bin collection",
+        "Yes, using the db.recover() command",
+        "No, deletion is permanent",
+        "Yes, within 24 hours"
+      ],
+      "answer": "No, deletion is permanent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operation is faster for emptying a large collection?",
+      "options": [
+        "deleteMany({})",
+        "drop()",
+        "remove({})",
+        "They all take the exact same time"
+      ],
+      "answer": "drop()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens to the indexes when a collection is dropped?",
+      "options": [
+        "They are retained",
+        "They are also dropped",
+        "They become orphaned",
+        "Only the _id index is retained"
+      ],
+      "answer": "They are also dropped",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can you delete an entire database using a single shell command?",
+      "options": [
+        "No, databases must be deleted manually from the OS",
+        "Yes, using db.dropDatabase()",
+        "Yes, using db.remove()",
+        "Yes, using db.deleteGlobal()"
+      ],
+      "answer": "Yes, using db.dropDatabase()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method retrieves a list of all indexes on a collection?",
+      "options": [
+        "db.collection.showIndexes()",
+        "db.collection.getIndexes()",
+        "db.collection.listIndexes()",
+        "db.collection.indexes()"
+      ],
+      "answer": "db.collection.getIndexes()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When creating an index with { name: 1 }, what does the '1' represent?",
+      "options": [
+        "True",
+        "Ascending sort order",
+        "Priority 1",
+        "The first index"
+      ],
+      "answer": "Ascending sort order",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you create an index { age: -1 }, what does the '-1' represent?",
+      "options": [
+        "Descending sort order",
+        "False",
+        "Remove the index",
+        "Index in the background"
+      ],
+      "answer": "Descending sort order",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an index prefix?",
+      "options": [
+        "A string appended to index names",
+        "The beginning subset of indexed fields in a compound index",
+        "The database namespace",
+        "A hint given to the query planner"
+      ],
+      "answer": "The beginning subset of indexed fields in a compound index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you have a compound index on { a: 1, b: 1, c: 1 }, which query filter CANNOT efficiently use this index?",
+      "options": [
+        "{ a: 5 }",
+        "{ a: 5, b: 10 }",
+        "{ b: 10, c: 15 }",
+        "{ a: 5, b: 10, c: 15 }"
+      ],
+      "answer": "{ b: 10, c: 15 }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does ESR stand for in MongoDB indexing strategies?",
+      "options": [
+        "Entity, Search, Read",
+        "Equality, Sort, Range",
+        "Extract, Sort, Reduce",
+        "Easy, Scalable, Reliable"
+      ],
+      "answer": "Equality, Sort, Range",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "According to the ESR rule, which type of fields should be placed first in a compound index?",
+      "options": [
+        "Fields used for Range queries",
+        "Fields used for Sorting",
+        "Fields used for Equality matches",
+        "It doesn't matter"
+      ],
+      "answer": "Fields used for Equality matches",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which index property instructs MongoDB to remove documents automatically after a specific time?",
+      "options": [
+        "expireAfterSeconds",
+        "deleteAt",
+        "ttl (Time To Live)",
+        "removeDelay"
+      ],
+      "answer": "expireAfterSeconds",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "On which data type must a TTL index be created?",
+      "options": [
+        "Integer",
+        "ObjectId",
+        "Date (or an array of Dates)",
+        "Timestamp"
+      ],
+      "answer": "Date (or an array of Dates)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a multikey index?",
+      "options": [
+        "An index spanning multiple collections",
+        "An index created on an array field",
+        "A compound index with more than 5 fields",
+        "An index requiring multiple keys to unlock"
+      ],
+      "answer": "An index created on an array field",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a single compound index include multiple array fields?",
+      "options": [
+        "Yes, up to 3",
+        "Yes, unlimited",
+        "No, a compound multikey index can have at most one indexed array field",
+        "No, compound indexes cannot contain array fields at all"
+      ],
+      "answer": "No, a compound multikey index can have at most one indexed array field",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of index supports queries that calculate distances on a flat, Euclidean surface?",
+      "options": [
+        "2dsphere",
+        "2d",
+        "geoFlat",
+        "planar"
+      ],
+      "answer": "2d",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command forces the query planner to evaluate multiple query plans?",
+      "options": [
+        "hint()",
+        "explain('executionStats')",
+        "explain('allPlansExecution')",
+        "profile()"
+      ],
+      "answer": "explain('allPlansExecution')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the cursor method hint() do?",
+      "options": [
+        "Suggests a query logic change to the user",
+        "Forces the query optimizer to use a specific index",
+        "Outputs debugging information",
+        "Pre-loads data into memory"
+      ],
+      "answer": "Forces the query optimizer to use a specific index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a query planner evaluates multiple plans, what does it do with the winning plan?",
+      "options": [
+        "Caches it for future queries of the same shape",
+        "Emails the database administrator",
+        "Writes it to the application log",
+        "Drops the losing indexes"
+      ],
+      "answer": "Caches it for future queries of the same shape",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What determines a 'query shape' in MongoDB?",
+      "options": [
+        "The collection size",
+        "The query fields, sort, and projection",
+        "The BSON document structure",
+        "The network packet size"
+      ],
+      "answer": "The query fields, sort, and projection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary method used to execute an aggregation pipeline?",
+      "options": [
+        "db.collection.pipeline()",
+        "db.collection.aggregate()",
+        "db.collection.group()",
+        "db.collection.mapReduce()"
+      ],
+      "answer": "db.collection.aggregate()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of object does the aggregate() method take as its primary argument?",
+      "options": [
+        "A string query",
+        "A single BSON document",
+        "An array of pipeline stages",
+        "A JavaScript function"
+      ],
+      "answer": "An array of pipeline stages",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To improve performance, where should a $match stage ideally be placed in a pipeline?",
+      "options": [
+        "At the very end",
+        "As early as possible in the pipeline",
+        "After $group",
+        "After $sort"
+      ],
+      "answer": "As early as possible in the pipeline",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is placing $match early in the pipeline beneficial?",
+      "options": [
+        "It can use indexes and reduces the number of documents passed to subsequent stages",
+        "It prevents deadlocks",
+        "It increases the document size",
+        "It changes the pipeline into a single query"
+      ],
+      "answer": "It can use indexes and reduces the number of documents passed to subsequent stages",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage limits the number of documents passed to the next stage?",
+      "options": [
+        "$restrict",
+        "$max",
+        "$limit",
+        "$cap"
+      ],
+      "answer": "$limit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage is used to skip over a specified number of documents?",
+      "options": [
+        "$jump",
+        "$offset",
+        "$skip",
+        "$ignore"
+      ],
+      "answer": "$skip",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you have a pipeline with $sort followed by $limit, what optimization does MongoDB perform?",
+      "options": [
+        "Top-k sort algorithm to reduce memory footprint",
+        "Drops the sort stage",
+        "Switches to an unordered cursor",
+        "Requires a text index"
+      ],
+      "answer": "Top-k sort algorithm to reduce memory footprint",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens in a $project stage if you specify a field as 0?",
+      "options": [
+        "It is included",
+        "It is excluded",
+        "It is set to null",
+        "It generates an error"
+      ],
+      "answer": "It is excluded",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can $project create entirely new fields?",
+      "options": [
+        "Yes, by assigning them values or expressions",
+        "No, it only shapes existing fields",
+        "Yes, but only string fields",
+        "No, use $addFields instead (though $addFields is preferred)"
+      ],
+      "answer": "Yes, by assigning them values or expressions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why might you use $addFields instead of $project?",
+      "options": [
+        "$addFields automatically drops the _id",
+        "$project requires you to explicitly include all existing fields you want to keep, while $addFields just appends to them",
+        "$addFields is much faster",
+        "$project cannot use expressions"
+      ],
+      "answer": "$project requires you to explicitly include all existing fields you want to keep, while $addFields just appends to them",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator provides a count of the total number of documents in a collection via aggregation?",
+      "options": [
+        "$count",
+        "$size",
+        "$total",
+        "$sumAll"
+      ],
+      "answer": "$count",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the output of the $count stage?",
+      "options": [
+        "An integer value",
+        "A single document with a specified field containing the count",
+        "An array of numbers",
+        "A cursor size"
+      ],
+      "answer": "A single document with a specified field containing the count",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a $group stage, what does the expression { $sum: '$price' } accomplish?",
+      "options": [
+        "Calculates the total sum of the 'price' field for all documents in the group",
+        "Adds 1 to the price of each document",
+        "Counts the number of documents that have a price",
+        "Returns an array of prices"
+      ],
+      "answer": "Calculates the total sum of the 'price' field for all documents in the group",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator finds the maximum value of a field within a group?",
+      "options": [
+        "$highest",
+        "$peak",
+        "$top",
+        "$max"
+      ],
+      "answer": "$max",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator finds the minimum value of a field within a group?",
+      "options": [
+        "$min",
+        "$lowest",
+        "$bottom",
+        "$floor"
+      ],
+      "answer": "$min",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you group by multiple fields in the $group stage?",
+      "options": [
+        "Pass an array to _id: { _id: ['$field1', '$field2'] }",
+        "Pass a document to _id: { _id: { f1: '$field1', f2: '$field2' } }",
+        "Use multiple $group stages",
+        "It is not possible"
+      ],
+      "answer": "Pass a document to _id: { _id: { f1: '$field1', f2: '$field2' } }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to return the first document's field value in a sorted group, which accumulator operator do you use?",
+      "options": [
+        "$initial",
+        "$first",
+        "$begin",
+        "$top"
+      ],
+      "answer": "$first",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The $lookup stage requires which four key properties?",
+      "options": [
+        "from, localField, foreignField, as",
+        "collection, local, remote, output",
+        "db, query, match, project",
+        "join, on, equals, select"
+      ],
+      "answer": "from, localField, foreignField, as",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a $lookup stage, what does the 'as' property specify?",
+      "options": [
+        "The name of the index to use",
+        "The format of the returned data",
+        "The name of the new array field to add to the input documents",
+        "The database alias"
+      ],
+      "answer": "The name of the new array field to add to the input documents",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage replaces a document with a newly specified document, typically used after a $lookup to flatten the structure?",
+      "options": [
+        "$replaceWith",
+        "$swap",
+        "$exchange",
+        "$flatten"
+      ],
+      "answer": "$replaceWith",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the alias for $replaceWith introduced in MongoDB 4.2?",
+      "options": [
+        "$replaceRoot",
+        "$setDocument",
+        "$newDoc",
+        "$There is no alias, $replaceWith is the alias for $replaceRoot"
+      ],
+      "answer": "$There is no alias, $replaceWith is the alias for $replaceRoot",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage allows you to write the output of an aggregation pipeline to a collection in a different database?",
+      "options": [
+        "$out",
+        "$merge",
+        "$export",
+        "$save"
+      ],
+      "answer": "$merge",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a pipeline have multiple $out stages?",
+      "options": [
+        "Yes, up to 5",
+        "No, $out must be the last stage and can only appear once",
+        "Yes, but they must output to the same collection",
+        "Yes, unlimited"
+      ],
+      "answer": "No, $out must be the last stage and can only appear once",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $unwind stage do if the specified array field is empty or missing?",
+      "options": [
+        "It outputs a document with a null array",
+        "It throws a pipeline error",
+        "By default, it drops the document from the pipeline",
+        "It creates an empty document"
+      ],
+      "answer": "By default, it drops the document from the pipeline",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you preserve documents in a $unwind stage if their array is empty or missing?",
+      "options": [
+        "Use { preserveNullAndEmptyArrays: true }",
+        "Use { keepEmpty: true }",
+        "Use a $match stage first",
+        "Use $unwindAll"
+      ],
+      "answer": "Use { preserveNullAndEmptyArrays: true }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which pipeline stage generates a stream of random documents?",
+      "options": [
+        "$randomDoc",
+        "$sample",
+        "$shuffle",
+        "$rng"
+      ],
+      "answer": "$sample",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator converts a string to a date object in an aggregation pipeline?",
+      "options": [
+        "$toDate",
+        "$convertDate",
+        "$dateFromString",
+        "$parseDate"
+      ],
+      "answer": "$dateFromString",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator converts a value to a specified type?",
+      "options": [
+        "$cast",
+        "$convert",
+        "$typecast",
+        "$changeType"
+      ],
+      "answer": "$convert",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In aggregation, how do you concatenate strings?",
+      "options": [
+        "$join",
+        "$concat",
+        "$mergeStrings",
+        "$append"
+      ],
+      "answer": "$concat",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator extracts the year from a date field?",
+      "options": [
+        "$year",
+        "$getYear",
+        "$dateYear",
+        "$extractYear"
+      ],
+      "answer": "$year",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator performs a mathematical division?",
+      "options": [
+        "$divide",
+        "$div",
+        "$quotient",
+        "$fraction"
+      ],
+      "answer": "$divide",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage allows you to redact (restrict access to) content in a document based on user permissions or logic?",
+      "options": [
+        "$hide",
+        "$redact",
+        "$secure",
+        "$protect"
+      ],
+      "answer": "$redact",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the system variable $$KEEP do in a $redact stage?",
+      "options": [
+        "Saves the document to disk",
+        "Retains the document/field at the current level of evaluation",
+        "Backs up the field",
+        "Prevents updates"
+      ],
+      "answer": "Retains the document/field at the current level of evaluation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does $$PRUNE do in a $redact stage?",
+      "options": [
+        "Excludes the document/field at the current level of evaluation",
+        "Shrinks the document size",
+        "Removes empty arrays",
+        "Trims whitespace from strings"
+      ],
+      "answer": "Excludes the document/field at the current level of evaluation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation stage groups documents into 'buckets' of a specified size or boundaries?",
+      "options": [
+        "$group",
+        "$chunk",
+        "$bucket",
+        "$segment"
+      ],
+      "answer": "$bucket",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How is $bucketAuto different from $bucket?",
+      "options": [
+        "It automatically determines the boundaries to evenly distribute documents into a specified number of buckets",
+        "It creates buckets based on date ranges only",
+        "It automatically drops outliers",
+        "It pushes buckets to an external collection"
+      ],
+      "answer": "It automatically determines the boundaries to evenly distribute documents into a specified number of buckets",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator returns the size (number of elements) of an array in an aggregation pipeline?",
+      "options": [
+        "$length",
+        "$count",
+        "$arraySize",
+        "$size"
+      ],
+      "answer": "$size",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator determines whether an array contains a specified value?",
+      "options": [
+        "$in",
+        "$contains",
+        "$has",
+        "$includes"
+      ],
+      "answer": "$in",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage is useful for analyzing schema by returning information about the keys and data types present?",
+      "options": [
+        "$schema",
+        "$analyze",
+        "$typeLookup",
+        "$objectToArray"
+      ],
+      "answer": "$objectToArray",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the inverse of $objectToArray?",
+      "options": [
+        "$arrayToObject",
+        "$buildObject",
+        "$mapToDoc",
+        "$revertToArray"
+      ],
+      "answer": "$arrayToObject",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which aggregation operator combines multiple arrays into a single array?",
+      "options": [
+        "$concatArrays",
+        "$merge",
+        "$combine",
+        "$join"
+      ],
+      "answer": "$concatArrays",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stage allows you to run a query to populate a field with data from another database entirely (in Atlas)?",
+      "options": [
+        "$lookup",
+        "$unionWith",
+        "$out",
+        "$federatedLookup"
+      ],
+      "answer": "$unionWith",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the $unionWith stage do?",
+      "options": [
+        "Performs a SQL-like UNION ALL, combining pipeline results with documents from another collection",
+        "Merges two documents into one",
+        "Creates a unified index",
+        "Connects to a replica set"
+      ],
+      "answer": "Performs a SQL-like UNION ALL, combining pipeline results with documents from another collection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In aggregation, how do you find the absolute value of a number?",
+      "options": [
+        "$abs",
+        "$absolute",
+        "$positive",
+        "$mathAbs"
+      ],
+      "answer": "$abs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator calculates the mathematical round of a number to a specified precision?",
+      "options": [
+        "$round",
+        "$ceil",
+        "$floor",
+        "$trunc"
+      ],
+      "answer": "$round",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator forces a number to round up to the nearest integer?",
+      "options": [
+        "$up",
+        "$ceil",
+        "$roundUp",
+        "$ceiling"
+      ],
+      "answer": "$ceil",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator drops the fractional part of a number, effectively truncating it?",
+      "options": [
+        "$trunc",
+        "$floor",
+        "$cut",
+        "$int"
+      ],
+      "answer": "$trunc",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you specify a logical AND in an aggregation expression?",
+      "options": [
+        "{ $and: [ exp1, exp2 ] }",
+        "{ exp1 && exp2 }",
+        "{ $logicalAnd: [ exp1, exp2 ] }",
+        "{ and: [ exp1, exp2 ] }"
+      ],
+      "answer": "{ $and: [ exp1, exp2 ] }",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which array operator returns the index position of a specified element?",
+      "options": [
+        "$indexOfArray",
+        "$findIndex",
+        "$position",
+        "$getIndex"
+      ],
+      "answer": "$indexOfArray",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If $indexOfArray cannot find the specified element, what does it return?",
+      "options": [
+        "null",
+        "0",
+        "-1",
+        "undefined"
+      ],
+      "answer": "-1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which string operator returns the length of a string?",
+      "options": [
+        "$length",
+        "$strLenCP",
+        "$size",
+        "$charCount"
+      ],
+      "answer": "$strLenCP",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does CP stand for in $strLenCP?",
+      "options": [
+        "Character Points",
+        "Code Points",
+        "Current Position",
+        "Case Preserved"
+      ],
+      "answer": "Code Points",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you convert a string to lowercase in an aggregation pipeline?",
+      "options": [
+        "$lowercase",
+        "$toLower",
+        "$lower",
+        "$caseLower"
+      ],
+      "answer": "$toLower",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator extracts a portion of a string?",
+      "options": [
+        "$slice",
+        "$substr",
+        "$substrCP",
+        "$extractString"
+      ],
+      "answer": "$substrCP",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a single execution of the db.serverStatus() command provide?",
+      "options": [
+        "A list of databases",
+        "A document containing metrics about the state of the database instance",
+        "User permissions",
+        "Index configurations"
+      ],
+      "answer": "A document containing metrics about the state of the database instance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary role of the 'oplog' in MongoDB?",
+      "options": [
+        "To record all read operations for auditing",
+        "To log user logins",
+        "To keep a rolling record of all operations that modify the data, allowing replicas to sync",
+        "To log system errors"
+      ],
+      "answer": "To keep a rolling record of all operations that modify the data, allowing replicas to sync",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In which specific database does the oplog reside?",
+      "options": [
+        "admin",
+        "config",
+        "local",
+        "system"
+      ],
+      "answer": "local",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of collection is the oplog?",
+      "options": [
+        "A time-series collection",
+        "A capped collection",
+        "A standard collection",
+        "A memory-only view"
+      ],
+      "answer": "A capped collection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building an application, what is a MongoDB 'Driver'?",
+      "options": [
+        "A graphical user interface",
+        "A client library that handles communication between your application language and the database",
+        "The background mongod process",
+        "An automated backup script"
+      ],
+      "answer": "A client library that handles communication between your application language and the database",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What feature allows you to observe real-time changes to documents in a collection?",
+      "options": [
+        "Triggers",
+        "Change Streams",
+        "Live Views",
+        "Polling"
+      ],
+      "answer": "Change Streams",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which technology do Change Streams rely on internally?",
+      "options": [
+        "The aggregation framework and the oplog",
+        "GridFS",
+        "MapReduce",
+        "DNS Seed Lists"
+      ],
+      "answer": "The aggregation framework and the oplog",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which cursor method starts listening to a change stream?",
+      "options": [
+        "watch()",
+        "listen()",
+        "subscribe()",
+        "observe()"
+      ],
+      "answer": "watch()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which concept allows MongoDB to execute multiple operations across multiple documents in a completely ACID-compliant way?",
+      "options": [
+        "Bulk Writes",
+        "Multi-Document Transactions",
+        "Atomic Updates",
+        "Sharding"
+      ],
+      "answer": "Multi-Document Transactions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a transaction, if an error occurs, what command is used to undo all the operations?",
+      "options": [
+        "abortTransaction()",
+        "rollback()",
+        "undo()",
+        "revert()"
+      ],
+      "answer": "abortTransaction()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a transaction, what command is used to finalize and permanently apply the operations?",
+      "options": [
+        "saveTransaction()",
+        "commitTransaction()",
+        "execute()",
+        "apply()"
+      ],
+      "answer": "commitTransaction()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Transactions must be associated with a specific object in the driver. What is this object called?",
+      "options": [
+        "A Cursor",
+        "A Pipeline",
+        "A Session",
+        "A Namespace"
+      ],
+      "answer": "A Session",
+      "points": 2
+    }
+  ]
+}

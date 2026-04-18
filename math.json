@@ -1,0 +1,2500 @@
+{
+  "questions": [
+    {
+      "kind": "mcq",
+      "text": "What is the limit of sin(3x)/x as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "Undefined"
+      ],
+      "answer": "3",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of (2x^3 - 5)/(x^3 + x) as x approaches infinity.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinity"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the limit of (x^2 - 9)/(x - 3) as x approaches 3.",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "Undefined"
+      ],
+      "answer": "6",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (1 - cos x)/x^2 as x approaches 0?",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "Infinity"
+      ],
+      "answer": "1/2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f(x) is continuous at x = c, which of the following must be true?",
+      "options": [
+        "The limit of f(x) as x approaches c equals f(c)",
+        "f'(c) = 0",
+        "f(c) is undefined",
+        "The limit of f(x) as x approaches c is 0"
+      ],
+      "answer": "The limit of f(x) as x approaches c equals f(c)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of x * ln(x) as x approaches 0 from the right.",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "-Infinity"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (e^x - 1)/x as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Undefined"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of (1 + 1/n)^n as n approaches infinity.",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Infinity"
+      ],
+      "answer": "e",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which indeterminate form can L'Hopital's Rule be directly applied to?",
+      "options": [
+        "0 * Infinity",
+        "0 / 0",
+        "Infinity - Infinity",
+        "1^Infinity"
+      ],
+      "answer": "0 / 0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of f(x) = x^5.",
+      "options": [
+        "5x^4",
+        "x^4",
+        "5x^6",
+        "(1/6)x^6"
+      ],
+      "answer": "5x^4",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of e^(2x)?",
+      "options": [
+        "e^(2x)",
+        "2e^(2x)",
+        "xe^(2x)",
+        "(1/2)e^(2x)"
+      ],
+      "answer": "2e^(2x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of ln(3x) with respect to x.",
+      "options": [
+        "1/(3x)",
+        "3/x",
+        "1/x",
+        "ln(3)"
+      ],
+      "answer": "1/x",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of sin(x^2)?",
+      "options": [
+        "cos(x^2)",
+        "2x * cos(x^2)",
+        "-2x * cos(x^2)",
+        "2x * sin(x^2)"
+      ],
+      "answer": "2x * cos(x^2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate f(x) = x * e^x.",
+      "options": [
+        "e^x",
+        "x * e^x",
+        "e^x(x + 1)",
+        "e^x(x - 1)"
+      ],
+      "answer": "e^x(x + 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of tan(x)?",
+      "options": [
+        "sec(x)",
+        "sec^2(x)",
+        "cot(x)",
+        "-csc^2(x)"
+      ],
+      "answer": "sec^2(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the second derivative of y = x^4.",
+      "options": [
+        "4x^3",
+        "12x^2",
+        "24x",
+        "x^2"
+      ],
+      "answer": "12x^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find dy/dx for x^2 + y^2 = 25 using implicit differentiation.",
+      "options": [
+        "x/y",
+        "-x/y",
+        "y/x",
+        "-y/x"
+      ],
+      "answer": "-x/y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of arcsin(x)?",
+      "options": [
+        "1 / sqrt(1 - x^2)",
+        "-1 / sqrt(1 - x^2)",
+        "1 / (1 + x^2)",
+        "1 / sqrt(x^2 - 1)"
+      ],
+      "answer": "1 / sqrt(1 - x^2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of arctan(x)?",
+      "options": [
+        "1 / (1 - x^2)",
+        "1 / sqrt(1 + x^2)",
+        "1 / (1 + x^2)",
+        "-1 / (1 + x^2)"
+      ],
+      "answer": "1 / (1 + x^2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate f(x) = 2^x.",
+      "options": [
+        "x * 2^(x-1)",
+        "2^x",
+        "2^x * ln(2)",
+        "2^x / ln(2)"
+      ],
+      "answer": "2^x * ln(2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of sqrt(x).",
+      "options": [
+        "1 / sqrt(x)",
+        "1 / (2 * sqrt(x))",
+        "2 * sqrt(x)",
+        "x^(-1/2)"
+      ],
+      "answer": "1 / (2 * sqrt(x))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of 1/x^2?",
+      "options": [
+        "-2/x^3",
+        "2/x^3",
+        "-1/x^3",
+        "1/x"
+      ],
+      "answer": "-2/x^3",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If y = cos(3x), what is d^2y/dx^2?",
+      "options": [
+        "-3 * sin(3x)",
+        "-9 * cos(3x)",
+        "9 * cos(3x)",
+        "-9 * sin(3x)"
+      ],
+      "answer": "-9 * cos(3x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of f(g(x)) according to the chain rule.",
+      "options": [
+        "f'(g(x))",
+        "f'(x) * g'(x)",
+        "f'(g(x)) * g'(x)",
+        "f'(g'(x))"
+      ],
+      "answer": "f'(g(x)) * g'(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of a constant function f(x) = c?",
+      "options": [
+        "c",
+        "1",
+        "0",
+        "x"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of (x^2 + 1)^3.",
+      "options": [
+        "3(x^2 + 1)^2",
+        "6x(x^2 + 1)^2",
+        "2x(x^2 + 1)^3",
+        "6x^2(x^2 + 1)"
+      ],
+      "answer": "6x(x^2 + 1)^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate y = ln(x^2 + 1).",
+      "options": [
+        "1 / (x^2 + 1)",
+        "2x / (x^2 + 1)",
+        "x / (x^2 + 1)",
+        "2 / (x^2 + 1)"
+      ],
+      "answer": "2x / (x^2 + 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of sec(x)?",
+      "options": [
+        "tan^2(x)",
+        "sec(x)tan(x)",
+        "-sec(x)tan(x)",
+        "sec^2(x)"
+      ],
+      "answer": "sec(x)tan(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of x / (x + 1).",
+      "options": [
+        "1 / (x + 1)^2",
+        "x / (x + 1)^2",
+        "-1 / (x + 1)^2",
+        "1"
+      ],
+      "answer": "1 / (x + 1)^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series expansion for e^x?",
+      "options": [
+        "sum(x^n / n!)",
+        "sum((-1)^n * x^n / n!)",
+        "sum(x^(2n) / (2n)!)",
+        "sum(x^n / n)"
+      ],
+      "answer": "sum(x^n / n!)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the first non-zero term in the Maclaurin series for sin(x)?",
+      "options": [
+        "1",
+        "x",
+        "x^2 / 2",
+        "-x"
+      ],
+      "answer": "x",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series for 1 / (1 - x)?",
+      "options": [
+        "1 - x + x^2 - x^3 + ...",
+        "1 + x + x^2 + x^3 + ...",
+        "x + x^2/2 + x^3/3 + ...",
+        "1 + x/2 + x^2/3 + ..."
+      ],
+      "answer": "1 + x + x^2 + x^3 + ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the radius of convergence for the Maclaurin series of e^x?",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Infinity"
+      ],
+      "answer": "Infinity",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series for cos(x)?",
+      "options": [
+        "sum((-1)^n * x^(2n) / (2n)!)",
+        "sum((-1)^n * x^(2n+1) / (2n+1)!)",
+        "sum(x^(2n) / (2n)!)",
+        "sum(x^n / n!)"
+      ],
+      "answer": "sum((-1)^n * x^(2n) / (2n)!)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The Taylor series for f(x) centered at a is sum( c_n * (x-a)^n ). What is c_n?",
+      "options": [
+        "f^(n)(a)",
+        "f^(n)(a) / n!",
+        "f(a) / n!",
+        "n! / f^(n)(a)"
+      ],
+      "answer": "f^(n)(a) / n!",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the interval of convergence for the series sum(x^n)?",
+      "options": [
+        "[-1, 1]",
+        "(-1, 1)",
+        "(-Infinity, Infinity)",
+        "(0, Infinity)"
+      ],
+      "answer": "(-1, 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the coefficient of x^3 in the Maclaurin series of e^(2x)?",
+      "options": [
+        "1/3",
+        "2/3",
+        "4/3",
+        "8/3"
+      ],
+      "answer": "4/3",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series expansion of ln(1 + x)?",
+      "options": [
+        "x + x^2/2 + x^3/3 + x^4/4 + ...",
+        "x - x^2/2 + x^3/3 - x^4/4 + ...",
+        "1 - x + x^2 - x^3 + ...",
+        "x - x^3/3! + x^5/5! - ..."
+      ],
+      "answer": "x - x^2/2 + x^3/3 - x^4/4 + ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the domain of f(x,y) = sqrt(x - y)?",
+      "options": [
+        "x > y",
+        "x >= y",
+        "x < y",
+        "All real numbers"
+      ],
+      "answer": "x >= y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Describe the level curves of f(x,y) = x^2 + y^2.",
+      "options": [
+        "Parallel lines",
+        "Parabolas",
+        "Concentric circles",
+        "Hyperbolas"
+      ],
+      "answer": "Concentric circles",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the partial derivative with respect to x for f(x,y) = x^2 * y.",
+      "options": [
+        "x^2",
+        "2x",
+        "2y",
+        "2xy"
+      ],
+      "answer": "2xy",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the partial derivative with respect to y for f(x,y) = x * e^y.",
+      "options": [
+        "e^y",
+        "x * e^y",
+        "x",
+        "0"
+      ],
+      "answer": "x * e^y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Compute the mixed partial derivative f_xy for f(x,y) = x^3 * y^2.",
+      "options": [
+        "3x^2 * y^2",
+        "2x^3 * y",
+        "6x^2 * y",
+        "6xy"
+      ],
+      "answer": "6x^2 * y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f(x,y) = sin(x*y), what is df/dx?",
+      "options": [
+        "cos(x*y)",
+        "x * cos(x*y)",
+        "y * cos(x*y)",
+        "-y * cos(x*y)"
+      ],
+      "answer": "y * cos(x*y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "According to Clairaut's Theorem, if mixed partials are continuous, then:",
+      "options": [
+        "f_xx = f_yy",
+        "f_xy = -f_yx",
+        "f_xy = f_yx",
+        "f_x = f_y"
+      ],
+      "answer": "f_xy = f_yx",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the partial derivative of f(x,y) = ln(x^2 + y^2) with respect to x?",
+      "options": [
+        "2x / (x^2 + y^2)",
+        "1 / (x^2 + y^2)",
+        "2y / (x^2 + y^2)",
+        "x / (x^2 + y^2)"
+      ],
+      "answer": "2x / (x^2 + y^2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If z = f(x,y), x = u^2, y = v^2, what does the multivariable chain rule state for dz/du?",
+      "options": [
+        "(dz/dx)*(dx/du) + (dz/dy)*(dy/du)",
+        "(dz/dx)*(du/dx) + (dz/dy)*(du/dy)",
+        "(dz/dx) + (dz/dy)",
+        "(dz/du)*(du/dx)"
+      ],
+      "answer": "(dz/dx)*(dx/du) + (dz/dy)*(dy/du)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate df/dy for f(x,y) = 3x - 5y^2 + 10.",
+      "options": [
+        "3",
+        "-10y",
+        "-5y",
+        "10y"
+      ],
+      "answer": "-10y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Compute f_xx for f(x,y) = x^4 * y^3.",
+      "options": [
+        "4x^3 * y^3",
+        "12x^2 * y^3",
+        "x^4 * 6y",
+        "12x^2"
+      ],
+      "answer": "12x^2 * y^3",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Compute f_yy for f(x,y) = e^(x*y).",
+      "options": [
+        "x^2 * e^(x*y)",
+        "y^2 * e^(x*y)",
+        "e^(x*y)",
+        "x * e^(x*y)"
+      ],
+      "answer": "x^2 * e^(x*y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the gradient of f(x,y) = x^2 + y^2?",
+      "options": [
+        "<x, y>",
+        "<2x, 2y>",
+        "<2y, 2x>",
+        "2x + 2y"
+      ],
+      "answer": "<2x, 2y>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The gradient vector of f(x,y) at a point is always:",
+      "options": [
+        "Parallel to the level curve at that point",
+        "Orthogonal to the level curve at that point",
+        "Zero",
+        "Pointing to the origin"
+      ],
+      "answer": "Orthogonal to the level curve at that point",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the gradient of f(x,y,z) = x*y*z.",
+      "options": [
+        "<x, y, z>",
+        "<yz, xz, xy>",
+        "xy + yz + xz",
+        "<y, z, x>"
+      ],
+      "answer": "<yz, xz, xy>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What gives the maximum rate of change of a multivariable function at a given point?",
+      "options": [
+        "The trace of the Hessian",
+        "The sum of the partial derivatives",
+        "The magnitude of the gradient vector",
+        "The determinant of the Jacobian"
+      ],
+      "answer": "The magnitude of the gradient vector",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the formula for the directional derivative of f in the direction of a unit vector u?",
+      "options": [
+        "Gradient(f) cross u",
+        "Gradient(f) dot u",
+        "Gradient(f) + u",
+        "Magnitude of Gradient(f)"
+      ],
+      "answer": "Gradient(f) dot u",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In which direction does a function decrease the fastest?",
+      "options": [
+        "The positive gradient direction",
+        "The negative gradient direction",
+        "The direction of the x-axis",
+        "Orthogonal to the gradient"
+      ],
+      "answer": "The negative gradient direction",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the directional derivative of f(x,y) = x*y at (1,1) in the direction of <1/sqrt(2), 1/sqrt(2)>.",
+      "options": [
+        "1",
+        "sqrt(2)",
+        "2",
+        "0"
+      ],
+      "answer": "sqrt(2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the gradient of f(x,y) = 3x - 4y?",
+      "options": [
+        "<3, -4>",
+        "<-4, 3>",
+        "<3x, -4y>",
+        "-1"
+      ],
+      "answer": "<3, -4>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For a single-variable function, a point where f'(x) = 0 is called a:",
+      "options": [
+        "Inflection point",
+        "Critical point",
+        "Boundary point",
+        "Saddle point"
+      ],
+      "answer": "Critical point",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f'(c) = 0 and f''(c) < 0, what does the second derivative test conclude about x = c?",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Inflection point",
+        "Test is inconclusive"
+      ],
+      "answer": "Local maximum",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f'(c) = 0 and f''(c) > 0, what does the second derivative test conclude about x = c?",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Inflection point",
+        "Test is inconclusive"
+      ],
+      "answer": "Local minimum",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the absolute maximum of f(x) = -x^2 on the real number line?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Infinity"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In multivariable calculus, what is the Hessian matrix composed of?",
+      "options": [
+        "First-order partial derivatives",
+        "Second-order partial derivatives",
+        "Integrals",
+        "Unit vectors"
+      ],
+      "answer": "Second-order partial derivatives",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For a function f(x,y), let D = f_xx * f_yy - (f_xy)^2. If D > 0 and f_xx > 0 at a critical point, what is it?",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Saddle point",
+        "Inconclusive"
+      ],
+      "answer": "Local minimum",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For a function f(x,y), let D = f_xx * f_yy - (f_xy)^2. If D < 0 at a critical point, what is it?",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Saddle point",
+        "Inconclusive"
+      ],
+      "answer": "Saddle point",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the critical point of f(x,y) = x^2 + y^2 - 2x - 4y.",
+      "options": [
+        "(0, 0)",
+        "(1, 2)",
+        "(-1, -2)",
+        "(2, 4)"
+      ],
+      "answer": "(1, 2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What kind of critical point is (0,0) for f(x,y) = x^2 - y^2?",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Saddle point",
+        "Absolute minimum"
+      ],
+      "answer": "Saddle point",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What optimization technique is used to find extrema subject to constraint g(x,y) = c?",
+      "options": [
+        "Euler's method",
+        "Lagrange multipliers",
+        "Newton-Raphson",
+        "Integration by parts"
+      ],
+      "answer": "Lagrange multipliers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Lagrange multipliers, the gradient of f is proportional to:",
+      "options": [
+        "The Hessian matrix of f",
+        "The gradient of the constraint function g",
+        "The zero vector",
+        "The second derivative of g"
+      ],
+      "answer": "The gradient of the constraint function g",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following equations represents the Lagrange multiplier condition?",
+      "options": [
+        "Gradient(f) = lambda * Gradient(g)",
+        "Gradient(f) = Gradient(g) + lambda",
+        "f(x,y) = lambda * g(x,y)",
+        "Gradient(f) dot Gradient(g) = 0"
+      ],
+      "answer": "Gradient(f) = lambda * Gradient(g)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the minimum value of f(x) = x^2 + 4x + 5?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "-2"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "A rectangle has a fixed perimeter P. What shape maximizes its area?",
+      "options": [
+        "Circle",
+        "Square",
+        "A rectangle with length twice the width",
+        "A rectangle with width twice the length"
+      ],
+      "answer": "Square",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the critical points of f(x) = x^3 - 3x?",
+      "options": [
+        "x = 0 only",
+        "x = 1 and x = -1",
+        "x = 3 and x = -3",
+        "x = 0, 1, -1"
+      ],
+      "answer": "x = 1 and x = -1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In machine learning, what is a loss function?",
+      "options": [
+        "A function that computes the learning rate",
+        "A function that measures the error between predictions and actual values",
+        "A function that generates data",
+        "A function that normalizes features"
+      ],
+      "answer": "A function that measures the error between predictions and actual values",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Mean Squared Error (MSE) loss for a single prediction y_pred and true value y_true?",
+      "options": [
+        "|y_true - y_pred|",
+        "(y_true - y_pred)^2",
+        "y_true * log(y_pred)",
+        "y_pred - y_true"
+      ],
+      "answer": "(y_true - y_pred)^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the MSE loss L = (y - y_hat)^2 with respect to y_hat?",
+      "options": [
+        "2(y_hat - y)",
+        "-2(y - y_hat)",
+        "y_hat - y",
+        "2(y - y_hat)"
+      ],
+      "answer": "-2(y - y_hat)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the update rule for basic gradient descent with learning rate alpha?",
+      "options": [
+        "w_new = w_old + alpha * Gradient(L)",
+        "w_new = w_old - alpha * Gradient(L)",
+        "w_new = alpha * Gradient(L)",
+        "w_new = w_old / alpha"
+      ],
+      "answer": "w_new = w_old - alpha * Gradient(L)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If the learning rate in gradient descent is too high, what might happen?",
+      "options": [
+        "The model will converge immediately",
+        "The optimization might overshoot the minimum and diverge",
+        "The loss will become exactly zero",
+        "The model will overfit perfectly"
+      ],
+      "answer": "The optimization might overshoot the minimum and diverge",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which loss function is commonly used for binary classification problems?",
+      "options": [
+        "Mean Squared Error",
+        "Binary Cross-Entropy",
+        "Mean Absolute Error",
+        "Huber Loss"
+      ],
+      "answer": "Binary Cross-Entropy",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a strictly convex loss function guarantee?",
+      "options": [
+        "Multiple local minima exist",
+        "Any local minimum is the unique global minimum",
+        "The gradient is always positive",
+        "The loss will eventually reach negative infinity"
+      ],
+      "answer": "Any local minimum is the unique global minimum",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the ReLU function f(x) = max(0, x) for x > 0?",
+      "options": [
+        "0",
+        "1",
+        "x",
+        "Undefined"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the ReLU function f(x) = max(0, x) for x < 0?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Undefined"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In logistic regression, the output is passed through which activation function before calculating the loss?",
+      "options": [
+        "ReLU",
+        "Sigmoid function",
+        "Tanh",
+        "Linear"
+      ],
+      "answer": "Sigmoid function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the sigmoid function s(x)?",
+      "options": [
+        "s(x) * (1 - s(x))",
+        "s(x)^2",
+        "1 - s(x)",
+        "s'(x) / s(x)"
+      ],
+      "answer": "s(x) * (1 - s(x))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of regularization (like L1 or L2) in an ML loss function?",
+      "options": [
+        "To increase the training error",
+        "To prevent overfitting by penalizing large weights",
+        "To make the gradient zero",
+        "To speed up the training process"
+      ],
+      "answer": "To prevent overfitting by penalizing large weights",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the L2 regularization term (w^2) with respect to w?",
+      "options": [
+        "w",
+        "2w",
+        "w^2 / 2",
+        "1"
+      ],
+      "answer": "2w",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the L1 regularization term (|w|) with respect to w (for w != 0)?",
+      "options": [
+        "w",
+        "1",
+        "sign(w)",
+        "0"
+      ],
+      "answer": "sign(w)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a multivariable linear regression model y = w1*x1 + w2*x2, what is the partial derivative of the prediction with respect to w1?",
+      "options": [
+        "w1",
+        "x1",
+        "w2",
+        "x2"
+      ],
+      "answer": "x1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of x*sin(1/x) as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "Undefined"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Determine the limit of (3^x - 1)/x as x approaches 0.",
+      "options": [
+        "0",
+        "1",
+        "ln(3)",
+        "3"
+      ],
+      "answer": "ln(3)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate f(x) = e^(x^2).",
+      "options": [
+        "e^(x^2)",
+        "x^2 * e^(x^2)",
+        "2x * e^(x^2)",
+        "2x * e^x"
+      ],
+      "answer": "2x * e^(x^2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of ln(cos x).",
+      "options": [
+        "tan(x)",
+        "-tan(x)",
+        "cot(x)",
+        "-cot(x)"
+      ],
+      "answer": "-tan(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the absolute minimum of f(x) = x^2 on the interval [-2, 2]?",
+      "options": [
+        "-4",
+        "0",
+        "2",
+        "4"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of ln(x)/x as x approaches infinity.",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Infinity"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series expansion for 1/(1+x)?",
+      "options": [
+        "1 + x + x^2 + x^3 + ...",
+        "1 - x + x^2 - x^3 + ...",
+        "x - x^2 + x^3 - x^4 + ...",
+        "1 + 2x + 3x^2 + 4x^3 + ..."
+      ],
+      "answer": "1 - x + x^2 - x^3 + ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the critical points of f(x) = (1/3)x^3 - 4x.",
+      "options": [
+        "x = 0, 4",
+        "x = 2, -2",
+        "x = 4, -4",
+        "x = 0"
+      ],
+      "answer": "x = 2, -2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the gradient of f(x,y,z) = x + y + z?",
+      "options": [
+        "<x, y, z>",
+        "<1, 1, 1>",
+        "<0, 0, 0>",
+        "3"
+      ],
+      "answer": "<1, 1, 1>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In optimization, what is a boundary point?",
+      "options": [
+        "A point where the derivative is zero",
+        "A point where the function is undefined",
+        "A point on the edge of the function's domain",
+        "An inflection point"
+      ],
+      "answer": "A point on the edge of the function's domain",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the cross-entropy loss for true label y=1 and prediction p?",
+      "options": [
+        "-ln(p)",
+        "-ln(1-p)",
+        "(1-p)^2",
+        "p"
+      ],
+      "answer": "-ln(p)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Stochastic Gradient Descent (SGD) computes the gradient using:",
+      "options": [
+        "The entire dataset at once",
+        "A single data point or a small batch",
+        "The second derivative",
+        "A random number generator"
+      ],
+      "answer": "A single data point or a small batch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f(x,y) = x^2 + 2y^2, what is the directional derivative at (1,1) in the direction of the positive x-axis?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the second partial derivative f_xy for f(x,y) = e^x + sin(y)?",
+      "options": [
+        "e^x * cos(y)",
+        "cos(y)",
+        "0",
+        "e^x + cos(y)"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the value of x that maximizes f(x) = -2x^2 + 8x.",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The chain rule for a function of one variable is d/dx [f(g(x))] = ?",
+      "options": [
+        "f'(g(x)) * g'(x)",
+        "f'(x) * g'(x)",
+        "f(g'(x))",
+        "f'(g'(x))"
+      ],
+      "answer": "f'(g(x)) * g'(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the geometric interpretation of the derivative f'(a)?",
+      "options": [
+        "The area under the curve from 0 to a",
+        "The slope of the secant line from 0 to a",
+        "The slope of the tangent line to the curve at x = a",
+        "The y-intercept of the curve"
+      ],
+      "answer": "The slope of the tangent line to the curve at x = a",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which theorem connects the definite integral to the antiderivative?",
+      "options": [
+        "Mean Value Theorem",
+        "Intermediate Value Theorem",
+        "The Fundamental Theorem of Calculus",
+        "Rolle's Theorem"
+      ],
+      "answer": "The Fundamental Theorem of Calculus",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the maximum value of f(x) = sin(x) + cos(x)?",
+      "options": [
+        "1",
+        "sqrt(2)",
+        "2",
+        "0"
+      ],
+      "answer": "sqrt(2)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which is a valid condition for a function f(x,y) to have a saddle point at (a,b)?",
+      "options": [
+        "Gradient is zero and the Hessian determinant is positive",
+        "Gradient is non-zero and the Hessian determinant is positive",
+        "Gradient is zero and the Hessian determinant is negative",
+        "Gradient is non-zero and the Hessian determinant is zero"
+      ],
+      "answer": "Gradient is zero and the Hessian determinant is negative",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of (x^3 - 8)/(x - 2) as x approaches 2.",
+      "options": [
+        "0",
+        "4",
+        "12",
+        "Undefined"
+      ],
+      "answer": "12",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (e^(2x) - 1)/x as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "e^2"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of discontinuity does f(x) = |x|/x have at x = 0?",
+      "options": [
+        "Removable discontinuity",
+        "Jump discontinuity",
+        "Infinite discontinuity",
+        "Essential discontinuity"
+      ],
+      "answer": "Jump discontinuity",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (1 - cos(2x)) / x^2 as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of x * csc(x) as x approaches 0.",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "-1"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (x^2 - x - 6)/(x^2 - 9) as x approaches 3?",
+      "options": [
+        "1/3",
+        "5/6",
+        "0",
+        "Undefined"
+      ],
+      "answer": "5/6",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a function is differentiable at a point, it must also be:",
+      "options": [
+        "Constant",
+        "Linear",
+        "Continuous",
+        "Positive"
+      ],
+      "answer": "Continuous",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of f(x) = x^x for x > 0.",
+      "options": [
+        "x^x * ln(x)",
+        "x^x * (1 + ln(x))",
+        "x * x^(x-1)",
+        "1"
+      ],
+      "answer": "x^x * (1 + ln(x))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of sin^2(x)?",
+      "options": [
+        "cos^2(x)",
+        "2 * sin(x)",
+        "2 * cos(x)",
+        "sin(2x)"
+      ],
+      "answer": "sin(2x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of ln(ln(x))?",
+      "options": [
+        "1 / ln(x)",
+        "1 / x",
+        "1 / (x * ln(x))",
+        "ln(x) / x"
+      ],
+      "answer": "1 / (x * ln(x))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of 3^(x^2)?",
+      "options": [
+        "2x * 3^(x^2)",
+        "3^(x^2) * ln(3)",
+        "2x * 3^(x^2) * ln(3)",
+        "x^2 * 3^(x^2 - 1)"
+      ],
+      "answer": "2x * 3^(x^2) * ln(3)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the derivative of arctan(e^x).",
+      "options": [
+        "e^x / (1 + e^(2x))",
+        "1 / (1 + e^(2x))",
+        "e^x / (1 + e^x)",
+        "e^(2x) / (1 + e^x)"
+      ],
+      "answer": "e^x / (1 + e^(2x))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following represents the 3rd derivative of x^4?",
+      "options": [
+        "4x^3",
+        "12x^2",
+        "24x",
+        "24"
+      ],
+      "answer": "24x",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If x*y = 1, find dy/dx implicitly.",
+      "options": [
+        "-y/x",
+        "y/x",
+        "-x/y",
+        "1/x^2"
+      ],
+      "answer": "-y/x",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of f(x) = log_10(x).",
+      "options": [
+        "1 / x",
+        "1 / (x * ln(10))",
+        "ln(10) / x",
+        "10 / x"
+      ],
+      "answer": "1 / (x * ln(10))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the coefficient of x^4 in the Maclaurin series for cos(x)?",
+      "options": [
+        "1/2",
+        "1/12",
+        "1/24",
+        "-1/24"
+      ],
+      "answer": "1/24",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series for arctan(x)?",
+      "options": [
+        "x - x^3/3 + x^5/5 - ...",
+        "x + x^3/3 + x^5/5 + ...",
+        "1 - x^2 + x^4 - ...",
+        "x - x^2/2 + x^3/3 - ..."
+      ],
+      "answer": "x - x^3/3 + x^5/5 - ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the third term in the Taylor series for ln(x) centered at a=1?",
+      "options": [
+        "(x-1)^2 / 2",
+        "-(x-1)^2 / 2",
+        "(x-1)^3 / 3",
+        "-(x-1)^3 / 6"
+      ],
+      "answer": "-(x-1)^2 / 2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The Maclaurin series of f(x) = x * e^x starts with:",
+      "options": [
+        "1 + x + x^2 + ...",
+        "x + x^2 + x^3/2 + ...",
+        "x - x^2 + x^3/2 - ...",
+        "x^2 + x^3/2 + x^4/6 + ..."
+      ],
+      "answer": "x + x^2 + x^3/2 + ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the radius of convergence for the series sum(n * x^n)?",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Infinity"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit as x approaches 0 of (sin x - x) / x^3 using Maclaurin series.",
+      "options": [
+        "0",
+        "-1/6",
+        "1/6",
+        "1/3"
+      ],
+      "answer": "-1/6",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For f(x,y) = x^3 + x*y^2, evaluate f_x(1, 2).",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "5"
+      ],
+      "answer": "7",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For f(x,y) = ln(x + y), find f_y.",
+      "options": [
+        "1 / x",
+        "1 / y",
+        "1 / (x + y)",
+        "x / (x + y)"
+      ],
+      "answer": "1 / (x + y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If z = x^2 * y^3, where x = 2t and y = t^2, what is dz/dt?",
+      "options": [
+        "16 * t^7",
+        "32 * t^7",
+        "24 * t^6",
+        "8 * t^7"
+      ],
+      "answer": "32 * t^7",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Compute f_xy for f(x,y) = y * sin(x).",
+      "options": [
+        "sin(x)",
+        "cos(x)",
+        "y * cos(x)",
+        "-sin(x)"
+      ],
+      "answer": "cos(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the gradient of f(x,y) = e^(x*y) at (0,1)?",
+      "options": [
+        "<0, 1>",
+        "<1, 0>",
+        "<1, 1>",
+        "<0, 0>"
+      ],
+      "answer": "<1, 0>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The directional derivative of f(x,y) at a point is maximized in the direction of:",
+      "options": [
+        "The origin",
+        "The x-axis",
+        "The gradient",
+        "Orthogonal to the gradient"
+      ],
+      "answer": "The gradient",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The directional derivative of f(x,y) is zero in the direction:",
+      "options": [
+        "Parallel to the gradient",
+        "Orthogonal to the gradient",
+        "Of the y-axis",
+        "Where the Hessian is zero"
+      ],
+      "answer": "Orthogonal to the gradient",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the gradient of f(x,y,z) = x^2 + 2y^2 + 3z^2 at (1,1,1).",
+      "options": [
+        "<1, 2, 3>",
+        "<2, 4, 6>",
+        "<2, 2, 2>",
+        "<6, 4, 2>"
+      ],
+      "answer": "<2, 4, 6>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f_x = 2x and f_y = 2y, what are the critical points?",
+      "options": [
+        "(1, 1)",
+        "(0, 0)",
+        "All points on x^2+y^2=1",
+        "No critical points"
+      ],
+      "answer": "(0, 0)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the Hessian matrix determinant D for f(x,y) = x^2 + y^2.",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "-4"
+      ],
+      "answer": "4",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For f(x,y) = xy, what type of critical point is at (0,0)?",
+      "options": [
+        "Local Minimum",
+        "Local Maximum",
+        "Saddle Point",
+        "Cannot be determined"
+      ],
+      "answer": "Saddle Point",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the absolute maximum value of f(x,y) = 4 - x^2 - y^2?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "Infinity"
+      ],
+      "answer": "4",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using Lagrange Multipliers to maximize f(x,y) subject to g(x,y)=k, the level curves of f and g are:",
+      "options": [
+        "Orthogonal",
+        "Tangent",
+        "Parallel to the x-axis",
+        "Intersecting at a 45 degree angle"
+      ],
+      "answer": "Tangent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the minimum of f(x,y) = x^2 + y^2 subject to x + y = 2.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "0"
+      ],
+      "answer": "2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which condition ensures a critical point c is a local minimum for a single-variable function?",
+      "options": [
+        "f'(c) = 0 and f''(c) < 0",
+        "f'(c) = 0 and f''(c) = 0",
+        "f'(c) = 0 and f''(c) > 0",
+        "f'(c) is undefined"
+      ],
+      "answer": "f'(c) = 0 and f''(c) > 0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In machine learning, the gradient of the loss function indicates:",
+      "options": [
+        "The direction of steepest decrease",
+        "The direction of steepest increase",
+        "The global minimum",
+        "The learning rate"
+      ],
+      "answer": "The direction of steepest increase",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The goal of gradient descent is to move in the direction of:",
+      "options": [
+        "The positive gradient",
+        "The negative gradient",
+        "The zero vector",
+        "The Hessian trace"
+      ],
+      "answer": "The negative gradient",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For a convex loss function, a local minimum is guaranteed to be:",
+      "options": [
+        "A saddle point",
+        "The global maximum",
+        "The global minimum",
+        "Equal to zero"
+      ],
+      "answer": "The global minimum",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following functions is strictly convex?",
+      "options": [
+        "f(x) = x^3",
+        "f(x) = x^2",
+        "f(x) = sin(x)",
+        "f(x) = log(x)"
+      ],
+      "answer": "f(x) = x^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the gradient descent formula w = w - a * dL/dw, the parameter 'a' is:",
+      "options": [
+        "The activation function",
+        "The learning rate",
+        "The momentum term",
+        "The weight decay"
+      ],
+      "answer": "The learning rate",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If learning rate 'a' is zero, what happens to the weights during training?",
+      "options": [
+        "They become zero",
+        "They diverge to infinity",
+        "They remain unchanged",
+        "They randomize"
+      ],
+      "answer": "They remain unchanged",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which loss function is typically used for continuous value prediction (Regression)?",
+      "options": [
+        "Cross-Entropy Loss",
+        "Hinge Loss",
+        "Mean Squared Error (MSE)",
+        "0-1 Loss"
+      ],
+      "answer": "Mean Squared Error (MSE)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the Mean Absolute Error (MAE) |y - y_pred| with respect to y_pred?",
+      "options": [
+        "2(y - y_pred)",
+        "-sign(y - y_pred)",
+        "sign(y_pred - y)",
+        "1"
+      ],
+      "answer": "sign(y_pred - y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the gradient of L(w1, w2) = w1^2 + w2^2?",
+      "options": [
+        "<2w1, 2w2>",
+        "<w1, w2>",
+        "2w1 + 2w2",
+        "<2w2, 2w1>"
+      ],
+      "answer": "<2w1, 2w2>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If L(w) = w^2, perform one step of gradient descent from w=2 with learning rate 0.1.",
+      "options": [
+        "w = 1.6",
+        "w = 1.8",
+        "w = 1.9",
+        "w = 2.4"
+      ],
+      "answer": "w = 1.6",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following can help escape local minima in non-convex loss landscapes?",
+      "options": [
+        "Decreasing the learning rate to 0",
+        "Using Mean Squared Error",
+        "Adding Momentum to Gradient Descent",
+        "Using a linear activation function"
+      ],
+      "answer": "Adding Momentum to Gradient Descent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the natural log loss L(y_pred) = -y*ln(y_pred) with respect to y_pred?",
+      "options": [
+        "-y / y_pred",
+        "y / y_pred",
+        "-1 / y_pred",
+        "ln(y_pred)"
+      ],
+      "answer": "-y / y_pred",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the value of the partial derivative of f(x,y,z) = e^(xyz) with respect to x?",
+      "options": [
+        "yz * e^(xyz)",
+        "x * e^(xyz)",
+        "xyz * e^(xyz)",
+        "e^(xyz)"
+      ],
+      "answer": "yz * e^(xyz)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which theorem relates the gradient of a function to the normal vector of its tangent plane?",
+      "options": [
+        "Stokes' Theorem",
+        "Gradient Theorem",
+        "Implicit Function Theorem",
+        "Level Surface Theorem"
+      ],
+      "answer": "Implicit Function Theorem",
+      "points": 2
+    },
+     {
+      "kind": "mcq",
+      "text": "What is the limit of (e^x - 1 - x)/x^2 as x approaches 0?",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "Infinity"
+      ],
+      "answer": "1/2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of x^2 * sin(1/x) as x approaches 0.",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "Undefined"
+      ],
+      "answer": "0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of cos(x)/(x - pi/2) as x approaches pi/2?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "answer": "-1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of discontinuity does f(x) = (x^2 - 1)/(x - 1) have at x = 1?",
+      "options": [
+        "Jump discontinuity",
+        "Removable discontinuity",
+        "Infinite discontinuity",
+        "Oscillating discontinuity"
+      ],
+      "answer": "Removable discontinuity",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of (1 + 2/x)^x as x approaches infinity.",
+      "options": [
+        "1",
+        "e",
+        "e^2",
+        "Infinity"
+      ],
+      "answer": "e^2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of sin(5x)/sin(2x) as x approaches 0?",
+      "options": [
+        "1",
+        "5/2",
+        "2/5",
+        "0"
+      ],
+      "answer": "5/2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the limit of ln(x) as x approaches 0 from the right.",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "-Infinity"
+      ],
+      "answer": "-Infinity",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the limit of (1 - cos(3x))/x^2 as x approaches 0?",
+      "options": [
+        "0",
+        "3",
+        "9/2",
+        "9"
+      ],
+      "answer": "9/2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the limit of (2x^3 - x)/(5x^3 + 4) as x approaches infinity.",
+      "options": [
+        "0",
+        "2/5",
+        "1/2",
+        "Infinity"
+      ],
+      "answer": "2/5",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The formal limit definition of the derivative of f(x) at x=a is:",
+      "options": [
+        "Limit of (f(a+h) + f(a))/h as h approaches 0",
+        "Limit of (f(a+h) - f(a))/h as h approaches 0",
+        "Limit of (f(x) - f(a))/(x + a) as x approaches a",
+        "Limit of (f(x) - f(h))/h as h approaches 0"
+      ],
+      "answer": "Limit of (f(a+h) - f(a))/h as h approaches 0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of arcsin(x^2).",
+      "options": [
+        "1 / sqrt(1 - x^4)",
+        "2x / sqrt(1 - x^4)",
+        "2x / sqrt(1 - x^2)",
+        "1 / (1 + x^4)"
+      ],
+      "answer": "2x / sqrt(1 - x^4)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the product of three functions, d/dx [u(x)v(x)w(x)]?",
+      "options": [
+        "u'v'w'",
+        "u'vw + uv'w + uvw'",
+        "u'vw + u'v'w + uv'w'",
+        "(uvw)' / (u+v+w)"
+      ],
+      "answer": "u'vw + uv'w + uvw'",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of log_2(x)?",
+      "options": [
+        "1 / x",
+        "1 / (x * ln(2))",
+        "ln(2) / x",
+        "2^x / x"
+      ],
+      "answer": "1 / (x * ln(2))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of f(x) = |x| at x = 0?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "answer": "Undefined",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate f(x) = x^3 * e^x.",
+      "options": [
+        "3x^2 * e^x",
+        "x^3 * e^x",
+        "x^2 * e^x * (3 + x)",
+        "3x^2 * e^x + x^3"
+      ],
+      "answer": "x^2 * e^x * (3 + x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the derivative of tan^2(x).",
+      "options": [
+        "2 * tan(x)",
+        "sec^2(x)",
+        "2 * tan(x) * sec^2(x)",
+        "2 * sec^2(x)"
+      ],
+      "answer": "2 * tan(x) * sec^2(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of sqrt(x^2 + 1)?",
+      "options": [
+        "1 / (2 * sqrt(x^2 + 1))",
+        "x / sqrt(x^2 + 1)",
+        "2x / sqrt(x^2 + 1)",
+        "x / (x^2 + 1)"
+      ],
+      "answer": "x / sqrt(x^2 + 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Differentiate f(x) = 1 / sqrt(x).",
+      "options": [
+        "-1 / (2x^(3/2))",
+        "1 / (2x^(3/2))",
+        "-1 / (2sqrt(x))",
+        "x^(-1/2)"
+      ],
+      "answer": "-1 / (2x^(3/2))",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find dy/dx implicitly for y^2 = x.",
+      "options": [
+        "1 / y",
+        "1 / (2y)",
+        "2y",
+        "x / (2y)"
+      ],
+      "answer": "1 / (2y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the coefficient of (x-a)^n in the Taylor series expansion of f(x) centered at x=a?",
+      "options": [
+        "f^(n)(a)",
+        "f(a) / n!",
+        "f^(n)(a) / n!",
+        "n! / f^(n)(a)"
+      ],
+      "answer": "f^(n)(a) / n!",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the Maclaurin series for sinh(x) consist of?",
+      "options": [
+        "All even powers of x",
+        "All odd powers of x, with alternating signs",
+        "All odd powers of x, all positive",
+        "All powers of x"
+      ],
+      "answer": "All odd powers of x, all positive",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the Maclaurin series for cosh(x) consist of?",
+      "options": [
+        "All odd powers of x",
+        "All even powers of x, with alternating signs",
+        "All even powers of x, all positive",
+        "Only the constant term 1"
+      ],
+      "answer": "All even powers of x, all positive",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series for e^(-x)?",
+      "options": [
+        "sum(x^n / n!)",
+        "sum((-1)^n * x^n / n!)",
+        "sum(-x^n / n!)",
+        "sum((-1)^(n-1) * x^n / n!)"
+      ],
+      "answer": "sum((-1)^n * x^n / n!)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the degree 2 term in the Maclaurin series for sqrt(1 + x)?",
+      "options": [
+        "x^2 / 2",
+        "-x^2 / 4",
+        "-x^2 / 8",
+        "x^2 / 8"
+      ],
+      "answer": "-x^2 / 8",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Maclaurin series expansion of 1/(1+x)^2?",
+      "options": [
+        "1 - x + x^2 - x^3 + ...",
+        "1 + 2x + 3x^2 + 4x^3 + ...",
+        "1 - 2x + 3x^2 - 4x^3 + ...",
+        "1 - 2x + 4x^2 - 8x^3 + ..."
+      ],
+      "answer": "1 - 2x + 3x^2 - 4x^3 + ...",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the first-degree Taylor polynomial (linear approximation) of f(x) centered at a?",
+      "options": [
+        "f(a) + f'(a)x",
+        "f(a) + f'(a)(x - a)",
+        "f'(a)(x - a)",
+        "f(x) + f'(a)(x - a)"
+      ],
+      "answer": "f(a) + f'(a)(x - a)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function has the Maclaurin series x - x^3/3! + x^5/5! - ... ?",
+      "options": [
+        "cos(x)",
+        "sin(x)",
+        "sinh(x)",
+        "arctan(x)"
+      ],
+      "answer": "sin(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the domain of f(x,y) = ln(x*y)?",
+      "options": [
+        "x > 0 and y > 0",
+        "x*y >= 0",
+        "x*y > 0",
+        "All real numbers"
+      ],
+      "answer": "x*y > 0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the mixed partial derivative f_xy for f(x,y) = x^2 * sin(y).",
+      "options": [
+        "2x * sin(y)",
+        "x^2 * cos(y)",
+        "2x * cos(y)",
+        "-2x * cos(y)"
+      ],
+      "answer": "2x * cos(y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Evaluate the gradient of f(x,y) = ln(x^2 + y^2) at the point (1, 0).",
+      "options": [
+        "<1, 0>",
+        "<2, 0>",
+        "<0, 2>",
+        "<2, 2>"
+      ],
+      "answer": "<2, 0>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To calculate the directional derivative of f in the direction of a non-unit vector v, you must compute:",
+      "options": [
+        "Gradient(f) dot v",
+        "Gradient(f) dot (v / |v|)",
+        "Gradient(f) cross v",
+        "|Gradient(f)| * |v|"
+      ],
+      "answer": "Gradient(f) dot (v / |v|)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f(x,y) = x^y, what is the partial derivative with respect to x (f_x)?",
+      "options": [
+        "y * x^(y-1)",
+        "x^y * ln(x)",
+        "x^y * ln(y)",
+        "y * x^y"
+      ],
+      "answer": "y * x^(y-1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If f(x,y) = x^y, what is the partial derivative with respect to y (f_y)?",
+      "options": [
+        "y * x^(y-1)",
+        "x^y * ln(x)",
+        "x^y",
+        "x^(y-1) * ln(x)"
+      ],
+      "answer": "x^y * ln(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is the Hessian matrix generally symmetric for smooth functions?",
+      "options": [
+        "Because of the Chain Rule",
+        "Because of the Product Rule",
+        "Because of Clairaut's Theorem",
+        "Because gradients are orthogonal to level curves"
+      ],
+      "answer": "Because of Clairaut's Theorem",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What geometric shape is the level curve f(x,y) = 4x^2 + y^2 = 1?",
+      "options": [
+        "Circle",
+        "Parabola",
+        "Hyperbola",
+        "Ellipse"
+      ],
+      "answer": "Ellipse",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If z = f(x,y) and x = g(u,v), y = h(u,v), what is the formula for partial z / partial u?",
+      "options": [
+        "(dz/dx)*(dx/dv) + (dz/dy)*(dy/dv)",
+        "(dz/dx)*(dx/du) + (dz/dy)*(dy/du)",
+        "(dz/du)*(du/dx) + (dz/du)*(du/dy)",
+        "(dz/dx) + (dz/dy)"
+      ],
+      "answer": "(dz/dx)*(dx/du) + (dz/dy)*(dy/du)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To find the critical points of a multivariable function f(x,y), you should:",
+      "options": [
+        "Set f(x,y) = 0",
+        "Set the Hessian determinant to 0",
+        "Set the gradient vector to the zero vector",
+        "Set f_xx = 0 and f_yy = 0"
+      ],
+      "answer": "Set the gradient vector to the zero vector",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "For f(x) = x^4, the critical point is at x=0. What does the second derivative test tell us?",
+      "options": [
+        "It is a local minimum",
+        "It is a local maximum",
+        "It is an inflection point",
+        "The test is inconclusive"
+      ],
+      "answer": "The test is inconclusive",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The function f(x) = |x| has a global minimum at x=0. Is x=0 a critical point?",
+      "options": [
+        "No, because the derivative is not zero",
+        "Yes, because the derivative is zero",
+        "Yes, because the derivative is undefined at x=0",
+        "No, because it is not differentiable"
+      ],
+      "answer": "Yes, because the derivative is undefined at x=0",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the Lagrange Multiplier equation Gradient(f) = lambda * Gradient(g), what is 'lambda'?",
+      "options": [
+        "The learning rate",
+        "The constraint function",
+        "The Lagrange multiplier",
+        "The Hessian determinant"
+      ],
+      "answer": "The Lagrange multiplier",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In neural networks, the algorithm used to efficiently compute gradients of the loss function with respect to weights is called:",
+      "options": [
+        "Principal Component Analysis",
+        "Backpropagation",
+        "K-Means Clustering",
+        "Linear Programming"
+      ],
+      "answer": "Backpropagation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Backpropagation fundamentally relies on which calculus principle?",
+      "options": [
+        "The Product Rule",
+        "Integration by Parts",
+        "The Chain Rule",
+        "Taylor Series Expansion"
+      ],
+      "answer": "The Chain Rule",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "L1 Regularization in machine learning loss functions tends to encourage:",
+      "options": [
+        "Larger weights",
+        "Sparsity in weights (many weights become exactly zero)",
+        "Infinite gradients",
+        "Overfitting"
+      ],
+      "answer": "Sparsity in weights (many weights become exactly zero)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "L2 Regularization adds a penalty term to the loss function proportional to the:",
+      "options": [
+        "Absolute value of the weights",
+        "Sum of the squared weights",
+        "Exponential of the weights",
+        "Derivative of the weights"
+      ],
+      "answer": "Sum of the squared weights",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The 'vanishing gradient' problem in deep learning occurs when:",
+      "options": [
+        "The loss function becomes zero",
+        "The learning rate is too high",
+        "Derivatives of activation functions are very close to zero, shrinking gradients across layers",
+        "The dataset has too few examples"
+      ],
+      "answer": "Derivatives of activation functions are very close to zero, shrinking gradients across layers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the derivative of the hyperbolic tangent activation function, tanh(x)?",
+      "options": [
+        "1 - tanh^2(x)",
+        "tanh^2(x)",
+        "sech(x)",
+        "1 + tanh^2(x)"
+      ],
+      "answer": "1 - tanh^2(x)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a loss function is perfectly flat in a region, the gradient descent update will:",
+      "options": [
+        "Increase exponentially",
+        "Be zero, halting progress",
+        "Become randomized",
+        "Jump to the global minimum"
+      ],
+      "answer": "Be zero, halting progress",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which variation of gradient descent computes the gradient on a random subset of the data at each step?",
+      "options": [
+        "Batch Gradient Descent",
+        "Mini-batch Stochastic Gradient Descent",
+        "Conjugate Gradient Descent",
+        "Newton's Method"
+      ],
+      "answer": "Mini-batch Stochastic Gradient Descent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Find the partial derivative of f(x,y) = cos(x*y) with respect to x.",
+      "options": [
+        "-sin(x*y)",
+        "y * sin(x*y)",
+        "-y * sin(x*y)",
+        "-x * sin(x*y)"
+      ],
+      "answer": "-y * sin(x*y)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a negative Lagrange multiplier physically indicate in an optimization problem?",
+      "options": [
+        "The constraint is inactive",
+        "Increasing the constraint constant decreases the maximum possible objective value",
+        "The problem has no solution",
+        "The function is concave"
+      ],
+      "answer": "Increasing the constraint constant decreases the maximum possible objective value",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,3916 @@
+{
+  "questions": [
+    {
+      "kind": "mcq",
+      "text": "What underlying JavaScript engine powers Node.js?",
+      "options": [
+        "SpiderMonkey",
+        "Chakra",
+        "V8 Engine",
+        "JavaScriptCore"
+      ],
+      "answer": "V8 Engine",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following best describes the Node.js execution model?",
+      "options": [
+        "Multi-threaded, blocking I/O",
+        "Single-threaded, synchronous",
+        "Single-threaded, non-blocking asynchronous I/O",
+        "Multi-threaded, asynchronous I/O"
+      ],
+      "answer": "Single-threaded, non-blocking asynchronous I/O",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Who is the original creator of Node.js?",
+      "options": [
+        "Brendan Eich",
+        "Ryan Dahl",
+        "Guido van Rossum",
+        "Tim Berners-Lee"
+      ],
+      "answer": "Ryan Dahl",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default package manager that comes bundled with Node.js?",
+      "options": [
+        "yarn",
+        "bower",
+        "npm",
+        "webpack"
+      ],
+      "answer": "npm",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What global object provides information about, and control over, the current Node.js process?",
+      "options": [
+        "window",
+        "document",
+        "process",
+        "system"
+      ],
+      "answer": "process",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the traditional CommonJS module system used by Node.js, how do you expose functions or objects from a file?",
+      "options": [
+        "export default",
+        "module.exports",
+        "expose.module",
+        "public class"
+      ],
+      "answer": "module.exports",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which keyword/function is used to import a CommonJS module in Node.js?",
+      "options": [
+        "import",
+        "include",
+        "require",
+        "fetch"
+      ],
+      "answer": "require",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which built-in Node.js module provides utilities for working with file and directory paths?",
+      "options": [
+        "fs",
+        "os",
+        "path",
+        "url"
+      ],
+      "answer": "path",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which built-in module provides operating system-related utility methods and properties?",
+      "options": [
+        "system",
+        "env",
+        "os",
+        "kernel"
+      ],
+      "answer": "os",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `__dirname` global variable represent in a Node.js module?",
+      "options": [
+        "The absolute path of the directory containing the currently executing file",
+        "The file name of the currently executing script",
+        "The path to the Node.js installation",
+        "The root directory of the operating system"
+      ],
+      "answer": "The absolute path of the directory containing the currently executing file",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which core Node.js module is used to create a basic web server?",
+      "options": [
+        "net",
+        "web",
+        "http",
+        "server"
+      ],
+      "answer": "http",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is called on a server object to begin accepting incoming HTTP requests?",
+      "options": [
+        "start()",
+        "listen()",
+        "run()",
+        "serve()"
+      ],
+      "answer": "listen()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What HTTP status code generally indicates 'Not Found'?",
+      "options": [
+        "200",
+        "400",
+        "404",
+        "500"
+      ],
+      "answer": "404",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What HTTP status code generally indicates a successful request ('OK')?",
+      "options": [
+        "200",
+        "201",
+        "301",
+        "401"
+      ],
+      "answer": "200",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP header is commonly used to tell the client that the server is returning JSON data?",
+      "options": [
+        "Accept: application/json",
+        "Content-Type: application/json",
+        "Connection: keep-alive",
+        "Data-Type: json"
+      ],
+      "answer": "Content-Type: application/json",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does REST stand for in web services?",
+      "options": [
+        "Responsive Express State Transfer",
+        "Representational State Transfer",
+        "Remote Execution Status Tool",
+        "Reliable Server Transfer"
+      ],
+      "answer": "Representational State Transfer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP method is idempotent and primarily used to replace or update a resource entirely?",
+      "options": [
+        "POST",
+        "PATCH",
+        "PUT",
+        "GET"
+      ],
+      "answer": "PUT",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP method is used for making partial updates to a resource?",
+      "options": [
+        "PUT",
+        "POST",
+        "PATCH",
+        "UPDATE"
+      ],
+      "answer": "PATCH",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP method is conventionally used to create a brand new resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "answer": "POST",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is a core constraint of RESTful APIs?",
+      "options": [
+        "They must use XML",
+        "They maintain client state on the server (Stateful)",
+        "They are Stateless",
+        "They must be built with Node.js"
+      ],
+      "answer": "They are Stateless",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Express.js?",
+      "options": [
+        "A relational database",
+        "A frontend JavaScript framework",
+        "A minimal and flexible Node.js web application framework",
+        "An alternative runtime to Node.js"
+      ],
+      "answer": "A minimal and flexible Node.js web application framework",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you typically initialize an Express application instance?",
+      "options": [
+        "const app = new Express();",
+        "const app = express();",
+        "const app = express.createServer();",
+        "const app = require('express').init();"
+      ],
+      "answer": "const app = express();",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an Express route handler, what does the `req` object represent?",
+      "options": [
+        "The HTTP Response",
+        "The HTTP Request",
+        "The Requirement specification",
+        "The Routing instance"
+      ],
+      "answer": "The HTTP Request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an Express route handler, what does the `res` object represent?",
+      "options": [
+        "The Resource manager",
+        "The HTTP Request",
+        "The HTTP Response",
+        "The Resolution promise"
+      ],
+      "answer": "The HTTP Response",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Express method is specifically designed to send a JSON response to the client?",
+      "options": [
+        "res.sendJson()",
+        "res.json()",
+        "res.end()",
+        "res.render()"
+      ],
+      "answer": "res.json()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a CRUD application, the GET method corresponds to which operation?",
+      "options": [
+        "Create",
+        "Read",
+        "Update",
+        "Delete"
+      ],
+      "answer": "Read",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a CRUD application, the POST method corresponds to which operation?",
+      "options": [
+        "Create",
+        "Read",
+        "Update",
+        "Delete"
+      ],
+      "answer": "Create",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP status code is most appropriate for a successful resource creation (POST)?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "400 Bad Request"
+      ],
+      "answer": "201 Created",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP status code is often returned upon successful DELETE operation without returning a body?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "404 Not Found"
+      ],
+      "answer": "204 No Content",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access the parsed JSON data sent in a POST request body in Express?",
+      "options": [
+        "req.data",
+        "req.json",
+        "req.body",
+        "req.params"
+      ],
+      "answer": "req.body",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an Express middleware function?",
+      "options": [
+        "A function strictly used for connecting to a database",
+        "A function that has access to the request, response, and the next middleware function in the application's request-response cycle",
+        "A script running on the client side",
+        "The final rendering engine"
+      ],
+      "answer": "A function that has access to the request, response, and the next middleware function in the application's request-response cycle",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if a middleware function does NOT call `next()` or end the request (e.g., `res.send()`)?",
+      "options": [
+        "The request automatically proceeds to the next function",
+        "The server crashes",
+        "The request will hang and eventually time out",
+        "It throws a syntax error"
+      ],
+      "answer": "The request will hang and eventually time out",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which built-in Express middleware is used to parse incoming requests with JSON payloads?",
+      "options": [
+        "express.bodyParser()",
+        "express.json()",
+        "express.parse()",
+        "express.urlencoded()"
+      ],
+      "answer": "express.json()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you apply a middleware function named `logger` globally to all routes in an Express app?",
+      "options": [
+        "app.middleware(logger)",
+        "app.use(logger)",
+        "app.all(logger)",
+        "app.set('middleware', logger)"
+      ],
+      "answer": "app.use(logger)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a middleware function modify the `req` and `res` objects?",
+      "options": [
+        "Yes, they can add or change properties",
+        "No, they are strictly read-only",
+        "Only the `res` object can be modified",
+        "Only the `req` object can be modified"
+      ],
+      "answer": "Yes, they can add or change properties",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does CORS stand for?",
+      "options": [
+        "Cross-Origin Resource Sharing",
+        "Control-Origin Response System",
+        "Cross-Origin Routing Server",
+        "Centralized Object Resource Storage"
+      ],
+      "answer": "Cross-Origin Resource Sharing",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "CORS is primarily a security mechanism enforced by what?",
+      "options": [
+        "The Web Browser",
+        "The Web Server",
+        "The Operating System",
+        "The Database"
+      ],
+      "answer": "The Web Browser",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP header is sent by the server to indicate which origins are permitted to read the response?",
+      "options": [
+        "Allow-Origins",
+        "Access-Control-Allow-Origin",
+        "CORS-Allow",
+        "Origin-Accept"
+      ],
+      "answer": "Access-Control-Allow-Origin",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Setting `Access-Control-Allow-Origin: *` does what?",
+      "options": [
+        "Blocks all cross-origin requests",
+        "Allows requests from any origin",
+        "Only allows requests from localhost",
+        "Requires authentication for all requests"
+      ],
+      "answer": "Allows requests from any origin",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which popular npm package is commonly used to easily enable and configure CORS in Express apps?",
+      "options": [
+        "allow-cors",
+        "express-cors",
+        "cors",
+        "cross-origin"
+      ],
+      "answer": "cors",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a CORS 'preflight' request?",
+      "options": [
+        "A DNS lookup before the request",
+        "An initial OPTIONS request sent by the browser to check if the actual request is safe to send",
+        "A server ping to check latency",
+        "A request sent to authenticate the user"
+      ],
+      "answer": "An initial OPTIONS request sent by the browser to check if the actual request is safe to send",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP method is utilized by the browser to send a preflight request?",
+      "options": [
+        "GET",
+        "HEAD",
+        "OPTIONS",
+        "TRACE"
+      ],
+      "answer": "OPTIONS",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following requests is considered a 'simple request' and generally does NOT trigger a preflight?",
+      "options": [
+        "A PUT request",
+        "A DELETE request",
+        "A GET request with no custom headers",
+        "A POST request sending application/json"
+      ],
+      "answer": "A GET request with no custom headers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header does the server use in a preflight response to indicate which HTTP methods are allowed?",
+      "options": [
+        "Access-Control-Allow-Methods",
+        "Allow-Methods",
+        "CORS-Methods",
+        "Access-Methods"
+      ],
+      "answer": "Access-Control-Allow-Methods",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header indicates how long the results of a preflight request can be cached by the browser?",
+      "options": [
+        "Cache-Control",
+        "Access-Control-Max-Age",
+        "CORS-Cache-Time",
+        "Expires"
+      ],
+      "answer": "Access-Control-Max-Age",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which core Node.js module handles reading and writing files?",
+      "options": [
+        "file",
+        "filesystem",
+        "fs",
+        "io"
+      ],
+      "answer": "fs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to read a file synchronously, blocking the event loop until complete?",
+      "options": [
+        "fs.read()",
+        "fs.readFile()",
+        "fs.readFileSync()",
+        "fs.readSync()"
+      ],
+      "answer": "fs.readFileSync()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the modern, Promise-based alternative to using callbacks with the `fs` module?",
+      "options": [
+        "require('fs/promises')",
+        "require('fs-async')",
+        "fs.promisify()",
+        "fs.then()"
+      ],
+      "answer": "require('fs/promises')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to add data to the end of an existing file without overwriting it?",
+      "options": [
+        "fs.writeFile()",
+        "fs.concatFile()",
+        "fs.push()",
+        "fs.appendFile()"
+      ],
+      "answer": "fs.appendFile()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using the asynchronous `fs.readFile` with a callback, what is the standard signature of the callback function?",
+      "options": [
+        "(data, error)",
+        "(error, data)",
+        "(success, data)",
+        "(event)"
+      ],
+      "answer": "(error, data)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which core module is the basis for Node.js's event-driven architecture?",
+      "options": [
+        "emitter",
+        "events",
+        "triggers",
+        "async"
+      ],
+      "answer": "events",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which class is used to create custom event publishers and listeners?",
+      "options": [
+        "EventTarget",
+        "EventDispatcher",
+        "EventEmitter",
+        "EventListener"
+      ],
+      "answer": "EventEmitter",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to broadcast or trigger an event in an EventEmitter instance?",
+      "options": [
+        "fire()",
+        "trigger()",
+        "dispatch()",
+        "emit()"
+      ],
+      "answer": "emit()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used to attach a listener function to a specific event?",
+      "options": [
+        "on()",
+        "listen()",
+        "subscribe()",
+        "bind()"
+      ],
+      "answer": "on()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method attaches a listener that will be invoked at most one time before automatically detaching?",
+      "options": [
+        "on()",
+        "single()",
+        "once()",
+        "first()"
+      ],
+      "answer": "once()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you define a route parameter 'id' in an Express route path?",
+      "options": [
+        "/users/[id]",
+        "/users/{id}",
+        "/users/:id",
+        "/users/?id"
+      ],
+      "answer": "/users/:id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access the value of the 'id' route parameter in the handler?",
+      "options": [
+        "req.id",
+        "req.params.id",
+        "req.query.id",
+        "req.body.id"
+      ],
+      "answer": "req.params.id",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Are standard Express route parameters (e.g., `:id`) required for the route to match?",
+      "options": [
+        "Yes, they are required by default unless explicitly made optional",
+        "No, they are always optional",
+        "Only if they are numbers",
+        "Only for POST requests"
+      ],
+      "answer": "Yes, they are required by default unless explicitly made optional",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary use case for route parameters?",
+      "options": [
+        "Filtering a large list of items",
+        "Identifying a specific, single resource in a RESTful URL",
+        "Passing authentication tokens",
+        "Uploading files"
+      ],
+      "answer": "Identifying a specific, single resource in a RESTful URL",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a single route path contain multiple route parameters? (e.g., `/users/:userId/books/:bookId`)",
+      "options": [
+        "Yes",
+        "No, only one is allowed per route",
+        "Yes, but they must have the same name",
+        "Only if separated by a query string"
+      ],
+      "answer": "Yes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How are query parameters structured in a URL?",
+      "options": [
+        "As part of the path, prefixed with ':'",
+        "Appended to the end of the URL starting with '?' as key=value pairs",
+        "Hidden inside the HTTP headers",
+        "Inside the request body"
+      ],
+      "answer": "Appended to the end of the URL starting with '?' as key=value pairs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access query parameters in an Express route handler?",
+      "options": [
+        "req.params",
+        "req.url_params",
+        "req.query",
+        "req.search"
+      ],
+      "answer": "req.query",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which character is used to separate multiple distinct query parameters in a URL?",
+      "options": [
+        "?",
+        "/",
+        "&",
+        "#"
+      ],
+      "answer": "&",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What data type are query parameters extracted as by default in `req.query`?",
+      "options": [
+        "Integers",
+        "Strings",
+        "Booleans",
+        "Objects"
+      ],
+      "answer": "Strings",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary use case for query parameters?",
+      "options": [
+        "Identifying a single specific resource",
+        "Sending large JSON payloads",
+        "Providing extra operational instructions like filtering, sorting, or pagination",
+        "Defining the API version"
+      ],
+      "answer": "Providing extra operational instructions like filtering, sorting, or pagination",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which two query parameters are most commonly used to implement offset-based pagination?",
+      "options": [
+        "start and end",
+        "page and limit",
+        "min and max",
+        "first and last"
+      ],
+      "answer": "page and limit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the standard formula to calculate the 'skip' or 'offset' value for a database query based on 'page' and 'limit'?",
+      "options": [
+        "page * limit",
+        "(page - 1) * limit",
+        "page + limit",
+        "(page / limit) - 1"
+      ],
+      "answer": "(page - 1) * limit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is pagination crucial for API design?",
+      "options": [
+        "It encrypts the data",
+        "It prevents database overload and reduces network bandwidth by limiting response sizes",
+        "It prevents SQL injection",
+        "It forces the use of HTTPS"
+      ],
+      "answer": "It prevents database overload and reduces network bandwidth by limiting response sizes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which SQL keyword is analogous to the concept of 'skipping' records in pagination?",
+      "options": [
+        "LIMIT",
+        "IGNORE",
+        "OFFSET",
+        "BYPASS"
+      ],
+      "answer": "OFFSET",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which pagination method uses a unique identifier to fetch the next set of records, rather than a numeric page offset?",
+      "options": [
+        "Cursor-based pagination",
+        "Offset-based pagination",
+        "Index-based pagination",
+        "Chunk-based pagination"
+      ],
+      "answer": "Cursor-based pagination",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a common query parameter key used to specify the field by which to sort results?",
+      "options": [
+        "order",
+        "sort",
+        "align",
+        "arrange"
+      ],
+      "answer": "sort",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How is descending order commonly indicated in a sort query parameter in modern REST APIs?",
+      "options": [
+        "Adding a plus sign (+field)",
+        "Adding a minus sign (-field)",
+        "Adding an asterisk (*field)",
+        "Using brackets ([field])"
+      ],
+      "answer": "Adding a minus sign (-field)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a MongoDB sort object via Mongoose, what integer value represents ascending order?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can APIs support sorting by multiple fields simultaneously? (e.g., `?sort=age,name`)",
+      "options": [
+        "Yes, it's a common practice",
+        "No, databases only support single-column sorting",
+        "Yes, but only in GraphQL",
+        "No, URLs cannot parse commas"
+      ],
+      "answer": "Yes, it's a common practice",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When parsing `req.query.sort`, what operation is usually done to convert comma-separated fields into a format databases like MongoDB prefer?",
+      "options": [
+        "Encryption",
+        "Replacing commas with spaces (e.g., `split(',').join(' ')`)",
+        "Converting to uppercase",
+        "Base64 encoding"
+      ],
+      "answer": "Replacing commas with spaces (e.g., `split(',').join(' ')`)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What query parameter is universally recognized as representing a 'search' query string?",
+      "options": [
+        "s or search",
+        "q or query",
+        "find",
+        "Both A and B are common conventions"
+      ],
+      "answer": "Both A and B are common conventions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What MongoDB operator is commonly used to perform partial text matching (like SQL's LIKE)?",
+      "options": [
+        "$like",
+        "$match",
+        "$regex",
+        "$text"
+      ],
+      "answer": "$regex",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To ensure search APIs do not crash the database during frequent typing, what technique is implemented on the frontend?",
+      "options": [
+        "Debouncing",
+        "Minification",
+        "Memoization",
+        "Tree shaking"
+      ],
+      "answer": "Debouncing",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If performing heavy text searches frequently, what database feature should be applied to the search fields to improve performance?",
+      "options": [
+        "Foreign Keys",
+        "Indexes",
+        "Views",
+        "Triggers"
+      ],
+      "answer": "Indexes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What flag is used in a regex search to make the search case-insensitive?",
+      "options": [
+        "g",
+        "i",
+        "m",
+        "c"
+      ],
+      "answer": "i",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the MVC architectural pattern stand for?",
+      "options": [
+        "Module-Variable-Component",
+        "Model-View-Controller",
+        "Main-View-Container",
+        "Microservices-Virtual-Computing"
+      ],
+      "answer": "Model-View-Controller",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In MVC, which component is responsible for managing the data, business logic, and database operations?",
+      "options": [
+        "Model",
+        "View",
+        "Controller",
+        "Router"
+      ],
+      "answer": "Model",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In MVC, which component acts as the intermediary, receiving user input/requests and dictating the response?",
+      "options": [
+        "Model",
+        "View",
+        "Controller",
+        "Middleware"
+      ],
+      "answer": "Controller",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In MVC, which component is responsible for rendering the UI and presenting data to the user?",
+      "options": [
+        "Model",
+        "View",
+        "Controller",
+        "Database"
+      ],
+      "answer": "View",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a modern pure RESTful JSON API using MVC, what typically replaces the traditional 'View'?",
+      "options": [
+        "HTML Templates",
+        "The Client Application (React/Angular/Mobile) receiving JSON",
+        "The Database Schema",
+        "The Express Router"
+      ],
+      "answer": "The Client Application (React/Angular/Mobile) receiving JSON",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What defines a Monolithic Architecture?",
+      "options": [
+        "An application distributed across multiple small services",
+        "An application where all components (UI, logic, data access) are built and deployed as a single, indivisible unit",
+        "A database that stores all data in one table",
+        "A system that only uses one server"
+      ],
+      "answer": "An application where all components (UI, logic, data access) are built and deployed as a single, indivisible unit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a primary advantage of a monolithic architecture in the early stages of a project?",
+      "options": [
+        "Infinite scalability",
+        "Simple to develop, test, and deploy initially",
+        "Ability to mix and match programming languages",
+        "Zero downtime deployments"
+      ],
+      "answer": "Simple to develop, test, and deploy initially",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How is a traditional monolithic application typically scaled horizontally?",
+      "options": [
+        "By cloning the entire application onto multiple servers behind a load balancer",
+        "By scaling individual features independently",
+        "By splitting the code into smaller repositories",
+        "By using serverless functions"
+      ],
+      "answer": "By cloning the entire application onto multiple servers behind a load balancer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does 'tight coupling' mean in the context of a monolithic application's internal structure?",
+      "options": [
+        "Code modules are highly dependent on one another, making isolation difficult",
+        "The database is physically close to the server",
+        "Variables are scoped tightly",
+        "Servers are connected by high-speed cables"
+      ],
+      "answer": "Code modules are highly dependent on one another, making isolation difficult",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do different modules (e.g., Users and Orders) typically communicate inside a monolith?",
+      "options": [
+        "Over HTTP REST calls",
+        "Via a Message Broker like Kafka",
+        "Through direct in-memory function or method calls",
+        "Through WebSockets"
+      ],
+      "answer": "Through direct in-memory function or method calls",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is a major problem with large monolithic architectures?",
+      "options": [
+        "A fatal error or memory leak in one module can crash the entire application",
+        "They run inherently slower than microservices",
+        "They cannot use databases",
+        "They are difficult to run locally"
+      ],
+      "answer": "A fatal error or memory leak in one module can crash the entire application",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why are deployments considered riskier in large monoliths?",
+      "options": [
+        "Because cloud providers charge more for monoliths",
+        "A small change requires redeploying the entire enormous codebase, increasing the chance of regressions",
+        "Load balancers cannot route to monoliths",
+        "Monoliths cannot be containerized using Docker"
+      ],
+      "answer": "A small change requires redeploying the entire enormous codebase, increasing the chance of regressions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the 'technology lock-in' problem in monoliths?",
+      "options": [
+        "You must pay licensing fees",
+        "The entire app must essentially be written in the same language and tech stack",
+        "You cannot use open-source software",
+        "The app is locked to one specific cloud provider"
+      ],
+      "answer": "The entire app must essentially be written in the same language and tech stack",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does System Scalability mean?",
+      "options": [
+        "Making the UI look good on all devices",
+        "The ability of a system to handle a growing amount of work by adding resources",
+        "Compressing code files",
+        "Writing fewer lines of code"
+      ],
+      "answer": "The ability of a system to handle a growing amount of work by adding resources",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Bottleneck' in system architecture?",
+      "options": [
+        "A secure firewall",
+        "A component whose capacity limits the overall performance and throughput of the system",
+        "A storage area for logs",
+        "A fast caching mechanism"
+      ],
+      "answer": "A component whose capacity limits the overall performance and throughput of the system",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does 'Vertical Scaling' (Scaling Up) involve?",
+      "options": [
+        "Adding more separate servers to a pool",
+        "Increasing the CPU, RAM, or storage of an existing single server",
+        "Breaking the app into microservices",
+        "Deploying across multiple geographic regions"
+      ],
+      "answer": "Increasing the CPU, RAM, or storage of an existing single server",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does 'Horizontal Scaling' (Scaling Out) involve?",
+      "options": [
+        "Upgrading the processor of the main server",
+        "Adding more independent server machines to the resource pool",
+        "Optimizing the database queries",
+        "Switching from a hard drive to an SSD"
+      ],
+      "answer": "Adding more independent server machines to the resource pool",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which scaling approach eventually hits a strict physical hardware limit?",
+      "options": [
+        "Horizontal Scaling",
+        "Vertical Scaling",
+        "Diagonal Scaling",
+        "Elastic Scaling"
+      ],
+      "answer": "Vertical Scaling",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What critical component is strictly required when you scale horizontally to distribute traffic?",
+      "options": [
+        "A Message Broker",
+        "A Load Balancer",
+        "A Redis Cache",
+        "A Compiler"
+      ],
+      "answer": "A Load Balancer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is a common load balancing algorithm?",
+      "options": [
+        "Quick Sort",
+        "Round Robin",
+        "Binary Search",
+        "Breadth First"
+      ],
+      "answer": "Round Robin",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of a Cache in system design?",
+      "options": [
+        "To permanently backup database records",
+        "To provide an ultra-fast data storage layer for frequently accessed, computationally expensive, or heavily read data",
+        "To balance load across servers",
+        "To execute background jobs"
+      ],
+      "answer": "To provide an ultra-fast data storage layer for frequently accessed, computationally expensive, or heavily read data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which technologies are widely used as in-memory distributed caches?",
+      "options": [
+        "PostgreSQL and MySQL",
+        "Redis and Memcached",
+        "MongoDB and CouchDB",
+        "Nginx and Apache"
+      ],
+      "answer": "Redis and Memcached",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Database Replication?",
+      "options": [
+        "Splitting tables horizontally across different servers",
+        "Creating duplicate copies of a database (read-replicas) to distribute read load and ensure high availability",
+        "Backing up data to a tape drive",
+        "Combining multiple databases into one"
+      ],
+      "answer": "Creating duplicate copies of a database (read-replicas) to distribute read load and ensure high availability",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Database Sharding?",
+      "options": [
+        "Duplicating the exact same data to multiple servers",
+        "Partitioning a single large dataset into smaller, faster, more easily managed pieces distributed across multiple separate database servers",
+        "Encrypting database fields",
+        "Adding more RAM to the database server"
+      ],
+      "answer": "Partitioning a single large dataset into smaller, faster, more easily managed pieces distributed across multiple separate database servers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a Master-Slave (Primary-Replica) replication setup, what is the Master node typically responsible for?",
+      "options": [
+        "Only handling READ operations",
+        "Handling all WRITE operations, and propagating those changes to the slaves",
+        "Acting as a cache",
+        "Serving static assets"
+      ],
+      "answer": "Handling all WRITE operations, and propagating those changes to the slaves",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What defines a Microservices Architecture?",
+      "options": [
+        "An application built with extremely small functions, like AWS Lambda",
+        "An architectural style structuring an application as a collection of loosely coupled, independently deployable services based on business domains",
+        "A frontend architecture using micro-components",
+        "A single server running multiple monolithic apps"
+      ],
+      "answer": "An architectural style structuring an application as a collection of loosely coupled, independently deployable services based on business domains",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a major advantage of Microservices regarding technology stacks?",
+      "options": [
+        "They mandate the use of Java",
+        "Polyglot programming - each service can use the best language, framework, and database for its specific job",
+        "They don't require databases",
+        "They compile into a single native binary"
+      ],
+      "answer": "Polyglot programming - each service can use the best language, framework, and database for its specific job",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the 'Database per Service' pattern?",
+      "options": [
+        "All services share a single giant database instance",
+        "Each microservice manages its own separate database or schema to ensure loose coupling",
+        "Using a different database type for every single API endpoint",
+        "Storing data only in memory"
+      ],
+      "answer": "Each microservice manages its own separate database or schema to ensure loose coupling",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Synchronous Communication between microservices?",
+      "options": [
+        "Sending an event to a queue and immediately moving on",
+        "The client sends a request and waits (blocks) for a response from the service (e.g., HTTP REST, gRPC)",
+        "Both services executing code at the exact same millisecond",
+        "Communicating via a shared database"
+      ],
+      "answer": "The client sends a request and waits (blocks) for a response from the service (e.g., HTTP REST, gRPC)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Asynchronous Communication between microservices?",
+      "options": [
+        "The client sends a message/event without waiting for a direct response, often using a Message Broker",
+        "Making a GET request to an API",
+        "Direct function calls in memory",
+        "Using gRPC streams"
+      ],
+      "answer": "The client sends a message/event without waiting for a direct response, often using a Message Broker",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary role of an API Gateway in a microservices architecture?",
+      "options": [
+        "To host the database",
+        "To act as a single entry point for clients, routing requests to appropriate downstream microservices",
+        "To compile the code",
+        "To manage server memory"
+      ],
+      "answer": "To act as a single entry point for clients, routing requests to appropriate downstream microservices",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What problem does the Circuit Breaker pattern solve in service communication?",
+      "options": [
+        "It speeds up network latency",
+        "It prevents a system from repeatedly trying to execute an operation that's likely to fail, protecting failing downstream services from being overwhelmed",
+        "It encrypts the communication",
+        "It caches database queries"
+      ],
+      "answer": "It prevents a system from repeatedly trying to execute an operation that's likely to fail, protecting failing downstream services from being overwhelmed",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which technology is considered a high-throughput, distributed event streaming platform often used as the backbone of asynchronous microservices?",
+      "options": [
+        "Nginx",
+        "Apache Kafka",
+        "SQLite",
+        "Docker"
+      ],
+      "answer": "Apache Kafka",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In messaging systems, what is the Publish/Subscribe (Pub/Sub) model?",
+      "options": [
+        "One service writes to a database, another reads from it",
+        "A publisher emits an event to a topic, and multiple independent subscribers listen to and process that event",
+        "Client sends a request, server subscribes to the response",
+        "A synchronous HTTP call"
+      ],
+      "answer": "A publisher emits an event to a topic, and multiple independent subscribers listen to and process that event",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a Dead Letter Queue (DLQ) used for?",
+      "options": [
+        "Storing messages that have been successfully processed",
+        "A specialized queue holding messages that could not be processed successfully after multiple retries",
+        "A queue for user authentication requests",
+        "A cache for static files"
+      ],
+      "answer": "A specialized queue holding messages that could not be processed successfully after multiple retries",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access environment variables in a Node.js application?",
+      "options": [
+        "env.variables",
+        "system.env",
+        "process.env",
+        "global.environment"
+      ],
+      "answer": "process.env",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the Single Responsibility Principle state?",
+      "options": [
+        "A developer should only work on one project",
+        "A class or module should have one, and only one, reason to change",
+        "A server should only host one API",
+        "A database should only have one table"
+      ],
+      "answer": "A class or module should have one, and only one, reason to change",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In distributed systems, what is the Saga Pattern used for?",
+      "options": [
+        "Caching HTTP responses",
+        "Managing distributed transactions by coordinating local transactions across multiple microservices",
+        "Load balancing traffic",
+        "Generating unique IDs"
+      ],
+      "answer": "Managing distributed transactions by coordinating local transactions across multiple microservices",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Distributed Tracing' (e.g., using Jaeger or Zipkin)?",
+      "options": [
+        "Finding lost files on a hard drive",
+        "Tracking the progression of a single request as it passes through various independent microservices",
+        "A type of database replication",
+        "Deploying code to multiple servers"
+      ],
+      "answer": "Tracking the progression of a single request as it passes through various independent microservices",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Idempotency in API design?",
+      "options": [
+        "An API that runs very quickly",
+        "The property that making multiple identical requests has the same effect as making a single request",
+        "An API that requires authentication",
+        "An API that only returns XML"
+      ],
+      "answer": "The property that making multiple identical requests has the same effect as making a single request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which C library provides Node.js with its asynchronous, non-blocking I/O and event loop capabilities?",
+      "options": [
+        "glibc",
+        "libuv",
+        "libcurl",
+        "libasync"
+      ],
+      "answer": "libuv",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary language used to write the V8 engine?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "C++",
+        "Rust"
+      ],
+      "answer": "C++",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the Node.js event loop, which phase executes callbacks scheduled by `setTimeout()` and `setInterval()`?",
+      "options": [
+        "Timers phase",
+        "Poll phase",
+        "Check phase",
+        "Pending callbacks phase"
+      ],
+      "answer": "Timers phase",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function is used to defer the execution of a function until the next iteration of the Event Loop, specifically in the 'check' phase?",
+      "options": [
+        "process.nextTick()",
+        "setImmediate()",
+        "setTimeout()",
+        "queueMicrotask()"
+      ],
+      "answer": "setImmediate()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method schedules a callback to be invoked immediately after the current operation completes, before the event loop continues?",
+      "options": [
+        "setImmediate()",
+        "setTimeout()",
+        "process.nextTick()",
+        "Event.emit()"
+      ],
+      "answer": "process.nextTick()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the V8 engine's primary role in Node.js?",
+      "options": [
+        "To manage database connections",
+        "To compile and execute JavaScript code into native machine code",
+        "To handle file system operations",
+        "To provide a web server interface"
+      ],
+      "answer": "To compile and execute JavaScript code into native machine code",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a `Buffer` in Node.js?",
+      "options": [
+        "A temporary array of strings",
+        "A class used to handle raw binary data outside the V8 heap",
+        "A caching mechanism for HTTP requests",
+        "A tool for balancing server load"
+      ],
+      "answer": "A class used to handle raw binary data outside the V8 heap",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which module allows you to work with data streams in Node.js?",
+      "options": [
+        "stream",
+        "flow",
+        "buffer",
+        "data"
+      ],
+      "answer": "stream",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which type of stream is used for reading data from a source?",
+      "options": [
+        "Writable stream",
+        "Duplex stream",
+        "Transform stream",
+        "Readable stream"
+      ],
+      "answer": "Readable stream",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stream method connects a Readable stream directly to a Writable stream?",
+      "options": [
+        "connect()",
+        "pipe()",
+        "link()",
+        "flow()"
+      ],
+      "answer": "pipe()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does REPL stand for in the context of Node.js?",
+      "options": [
+        "Read Eval Print Loop",
+        "Run Execute Parse Loop",
+        "Read Execute Process Logic",
+        "Repeat Eval Print Logic"
+      ],
+      "answer": "Read Eval Print Loop",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command starts the Node.js REPL in your terminal?",
+      "options": [
+        "node start",
+        "node repl",
+        "node",
+        "npm run"
+      ],
+      "answer": "node",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `package.json` file primarily do?",
+      "options": [
+        "It stores the application's database schema",
+        "It holds metadata relevant to the project, including dependencies and scripts",
+        "It contains the source code for the main application",
+        "It defines the HTML structure"
+      ],
+      "answer": "It holds metadata relevant to the project, including dependencies and scripts",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm command is used to strictly install dependencies based on `package-lock.json` for reproducible builds?",
+      "options": [
+        "npm install",
+        "npm ci",
+        "npm build",
+        "npm sync"
+      ],
+      "answer": "npm ci",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of `devDependencies` in a `package.json` file?",
+      "options": [
+        "To list packages needed only for local development and testing, not production",
+        "To list obsolete packages",
+        "To list packages that are globally installed",
+        "To manage database dependencies"
+      ],
+      "answer": "To list packages needed only for local development and testing, not production",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Semantic Versioning (SemVer), what does the '1' represent in version '2.1.4'?",
+      "options": [
+        "Major version",
+        "Minor version",
+        "Patch version",
+        "Build number"
+      ],
+      "answer": "Minor version",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `^` (caret) symbol before a version number in `package.json` indicate?",
+      "options": [
+        "Install the exact version specified",
+        "Install the latest minor or patch updates, but do not update the major version",
+        "Install only patch updates",
+        "Do not install this package"
+      ],
+      "answer": "Install the latest minor or patch updates, but do not update the major version",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What folder contains the actual downloaded code of the dependencies listed in `package.json`?",
+      "options": [
+        "lib/",
+        "packages/",
+        "node_modules/",
+        "dependencies/"
+      ],
+      "answer": "node_modules/",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which popular tool automatically restarts a Node.js application when file changes in the directory are detected?",
+      "options": [
+        "pm2",
+        "webpack",
+        "nodemon",
+        "forever"
+      ],
+      "answer": "nodemon",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm command runs a custom script named 'start' defined in the `package.json`?",
+      "options": [
+        "npm execute start",
+        "npm start",
+        "node start",
+        "npm run start"
+      ],
+      "answer": "npm start",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the modern standard module system in JavaScript that uses `import` and `export` keywords?",
+      "options": [
+        "CommonJS",
+        "AMD",
+        "UMD",
+        "ECMAScript Modules (ESM)"
+      ],
+      "answer": "ECMAScript Modules (ESM)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How can you tell Node.js to treat `.js` files in a project as ES Modules by default?",
+      "options": [
+        "Add \"module\": \"es6\" to package.json",
+        "Add \"type\": \"module\" to package.json",
+        "Use the --esm flag when running node",
+        "Rename the main file to index.esm"
+      ],
+      "answer": "Add \"type\": \"module\" to package.json",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What file extension is explicitly used to denote an ECMAScript Module in Node.js without altering `package.json`?",
+      "options": [
+        ".esm",
+        ".mjs",
+        ".cjs",
+        ".jsm"
+      ],
+      "answer": ".mjs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What file extension explicitly denotes a CommonJS module in Node.js?",
+      "options": [
+        ".cjs",
+        ".com",
+        ".mjs",
+        ".common"
+      ],
+      "answer": ".cjs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an ES Module, which of the following is NOT available by default (unlike CommonJS)?",
+      "options": [
+        "import",
+        "export",
+        "__dirname",
+        "process.env"
+      ],
+      "answer": "__dirname",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node.js core module is used to create cryptographic hashes?",
+      "options": [
+        "security",
+        "hash",
+        "crypto",
+        "bcrypt"
+      ],
+      "answer": "crypto",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method of the `http` module creates a new web server?",
+      "options": [
+        "http.createServer()",
+        "http.init()",
+        "http.start()",
+        "http.serve()"
+      ],
+      "answer": "http.createServer()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a raw HTTP server request handler, how do you access the HTTP method (e.g., GET, POST)?",
+      "options": [
+        "req.type",
+        "req.method",
+        "req.verb",
+        "req.action"
+      ],
+      "answer": "req.method",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a raw Node.js HTTP server, which method writes the HTTP response headers to the client?",
+      "options": [
+        "res.sendHeaders()",
+        "res.writeHead()",
+        "res.set()",
+        "res.headers()"
+      ],
+      "answer": "res.writeHead()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method signals to the server that all response headers and body have been sent, finalizing the response?",
+      "options": [
+        "res.close()",
+        "res.finish()",
+        "res.end()",
+        "res.stop()"
+      ],
+      "answer": "res.end()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary advantage of using Express.js over the raw Node.js `http` module?",
+      "options": [
+        "It compiles faster",
+        "It provides robust routing, middleware support, and simplified APIs",
+        "It connects to MongoDB automatically",
+        "It is multi-threaded"
+      ],
+      "answer": "It provides robust routing, middleware support, and simplified APIs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used in Express to handle GET requests to a specific route?",
+      "options": [
+        "app.receive()",
+        "app.route()",
+        "app.get()",
+        "app.read()"
+      ],
+      "answer": "app.get()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is `express.Router` used for?",
+      "options": [
+        "To connect to the database",
+        "To create modular, mountable route handlers, keeping code organized",
+        "To parse JSON bodies",
+        "To serve static files"
+      ],
+      "answer": "To create modular, mountable route handlers, keeping code organized",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you mount a router object (e.g., `userRouter`) to a specific path (e.g., `/users`) in Express?",
+      "options": [
+        "app.mount('/users', userRouter)",
+        "app.route('/users', userRouter)",
+        "app.use('/users', userRouter)",
+        "app.add('/users', userRouter)"
+      ],
+      "answer": "app.use('/users', userRouter)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Express method sets the HTTP status code for the response?",
+      "options": [
+        "res.code()",
+        "res.state()",
+        "res.status()",
+        "res.set()"
+      ],
+      "answer": "res.status()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How can you chain the status and response in Express?",
+      "options": [
+        "res.status(200).json(data)",
+        "res.send(200, data)",
+        "res.status(200); res.json(data);",
+        "res.json(data).status(200)"
+      ],
+      "answer": "res.status(200).json(data)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which built-in Express middleware is used to serve static files like images, CSS, and HTML?",
+      "options": [
+        "express.static()",
+        "express.public()",
+        "express.serve()",
+        "express.files()"
+      ],
+      "answer": "express.static()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an Express application, what uniquely identifies an Error-Handling Middleware function?",
+      "options": [
+        "It is named 'errorHandler'",
+        "It is placed at the top of the file",
+        "It takes exactly four arguments: (err, req, res, next)",
+        "It returns a Promise"
+      ],
+      "answer": "It takes exactly four arguments: (err, req, res, next)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you trigger the global error-handling middleware from within a regular route handler?",
+      "options": [
+        "throw new Error()",
+        "next(error)",
+        "res.error()",
+        "return error"
+      ],
+      "answer": "next(error)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Where should the global Error-Handling Middleware be placed in an Express application?",
+      "options": [
+        "At the very top, before any routes",
+        "At the very bottom, after all other `app.use()` and route calls",
+        "Inside the routes folder",
+        "In the package.json"
+      ],
+      "answer": "At the very bottom, after all other `app.use()` and route calls",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What HTTP status code is returned by default if an unhandled error occurs in an Express app?",
+      "options": [
+        "400",
+        "404",
+        "500",
+        "502"
+      ],
+      "answer": "500",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP status code indicates 'Unauthorized' (often used when authentication is required but missing/invalid)?",
+      "options": [
+        "401",
+        "403",
+        "404",
+        "500"
+      ],
+      "answer": "401",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP status code indicates 'Forbidden' (authenticated, but lacking permissions)?",
+      "options": [
+        "401",
+        "402",
+        "403",
+        "405"
+      ],
+      "answer": "403",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a '400 Bad Request' status code imply?",
+      "options": [
+        "The server is down",
+        "The client sent invalid data or a malformed request",
+        "The resource was moved",
+        "The database connection failed"
+      ],
+      "answer": "The client sent invalid data or a malformed request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a '502 Bad Gateway' typically indicate in a microservices architecture?",
+      "options": [
+        "The user provided a bad password",
+        "An API Gateway or proxy received an invalid response from a downstream service",
+        "The URL does not exist",
+        "The request body is too large"
+      ],
+      "answer": "An API Gateway or proxy received an invalid response from a downstream service",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a RESTful design, what is the best URL path structure to retrieve all comments for a specific post with ID 123?",
+      "options": [
+        "/comments?postId=123",
+        "/posts/123/comments",
+        "/getComments/123",
+        "/posts/comments/123"
+      ],
+      "answer": "/posts/123/comments",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'API Versioning'?",
+      "options": [
+        "Storing the API in Git",
+        "The practice of appending a version number to the API endpoint (e.g., /api/v1/users) to manage breaking changes",
+        "Updating Node.js versions",
+        "Compressing API responses"
+      ],
+      "answer": "The practice of appending a version number to the API endpoint (e.g., /api/v1/users) to manage breaking changes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "HATEOAS is a constraint of REST. What does it emphasize?",
+      "options": [
+        "Using HTTP/2",
+        "Responses containing hypermedia links to guide the client on what actions are possible next",
+        "Encrypting all traffic",
+        "Using strictly XML"
+      ],
+      "answer": "Responses containing hypermedia links to guide the client on what actions are possible next",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary role of the `dotenv` npm package?",
+      "options": [
+        "To manage database migrations",
+        "To load environment variables from a `.env` file into `process.env`",
+        "To compile modern JavaScript",
+        "To validate JSON payloads"
+      ],
+      "answer": "To load environment variables from a `.env` file into `process.env`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Should `.env` files be committed to version control (e.g., Git)?",
+      "options": [
+        "Yes, so other developers have the credentials",
+        "No, they contain sensitive secrets and should be added to .gitignore",
+        "Only in private repositories",
+        "Only the production .env file"
+      ],
+      "answer": "No, they contain sensitive secrets and should be added to .gitignore",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an Express route, how do you handle asynchronous errors cleanly without `try/catch` blocks inside every route?",
+      "options": [
+        "Using a global window.onerror listener",
+        "Using an async wrapper middleware or a package like `express-async-errors`",
+        "It's handled automatically by default in Express 4",
+        "By avoiding async/await entirely"
+      ],
+      "answer": "Using an async wrapper middleware or a package like `express-async-errors`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which middleware is commonly used to log HTTP requests in an Express application?",
+      "options": [
+        "morgan",
+        "winston",
+        "logger",
+        "pino"
+      ],
+      "answer": "morgan",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm package is often used to secure Express apps by setting various HTTP headers?",
+      "options": [
+        "shield",
+        "helmet",
+        "guard",
+        "armor"
+      ],
+      "answer": "helmet",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if CORS is NOT enabled on a server, but a frontend app on a different domain tries to fetch data?",
+      "options": [
+        "The server rejects the connection",
+        "The browser blocks the response from being accessed by the frontend code",
+        "The request is sent as a GET instead of a POST",
+        "The data is encrypted"
+      ],
+      "answer": "The browser blocks the response from being accessed by the frontend code",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which CORS header must be set to `true` to allow the client to send cookies/authorization headers cross-origin?",
+      "options": [
+        "Access-Control-Allow-Cookies",
+        "Access-Control-Allow-Credentials",
+        "Access-Control-Expose-Headers",
+        "Allow-Auth"
+      ],
+      "answer": "Access-Control-Allow-Credentials",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If `Access-Control-Allow-Credentials` is `true`, what restriction applies to `Access-Control-Allow-Origin`?",
+      "options": [
+        "It must be set to '*' (wildcard)",
+        "It cannot be set to '*' (wildcard); it must specify a concrete domain",
+        "It must be completely omitted",
+        "It must use HTTPS"
+      ],
+      "answer": "It cannot be set to '*' (wildcard); it must specify a concrete domain",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In CORS, which header allows the frontend to read specific custom response headers sent by the server?",
+      "options": [
+        "Access-Control-Expose-Headers",
+        "Access-Control-Allow-Headers",
+        "Exposed-Custom-Headers",
+        "Allow-Headers"
+      ],
+      "answer": "Access-Control-Expose-Headers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a `206 Partial Content` HTTP status code imply, often used in file streaming?",
+      "options": [
+        "The file is corrupted",
+        "The server successfully fulfilled a range request for the file",
+        "The user lacks full permissions",
+        "The file upload was paused"
+      ],
+      "answer": "The server successfully fulfilled a range request for the file",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Node.js, `fs.createReadStream()` is preferred over `fs.readFile()` for large files because:",
+      "options": [
+        "It uses less memory by processing data in small chunks rather than loading the whole file into RAM",
+        "It is synchronous and blocks the thread",
+        "It automatically compresses the file",
+        "It converts the file to JSON"
+      ],
+      "answer": "It uses less memory by processing data in small chunks rather than loading the whole file into RAM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default encoding when reading a file with `fs.readFile` if no encoding is specified?",
+      "options": [
+        "utf8",
+        "ascii",
+        "It returns a raw Buffer",
+        "base64"
+      ],
+      "answer": "It returns a raw Buffer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method deletes a file asynchronously in Node.js?",
+      "options": [
+        "fs.delete()",
+        "fs.remove()",
+        "fs.unlink()",
+        "fs.destroy()"
+      ],
+      "answer": "fs.unlink()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node module is specifically designed to handle parsing `multipart/form-data`, primarily used for file uploads?",
+      "options": [
+        "body-parser",
+        "multer",
+        "express-files",
+        "upload-handler"
+      ],
+      "answer": "multer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building an event-driven architecture in Node.js, multiple listeners attached to a single event execute in what order?",
+      "options": [
+        "Random order",
+        "Simultaneously via multithreading",
+        "Synchronously in the order they were registered",
+        "Alphabetically by function name"
+      ],
+      "answer": "Synchronously in the order they were registered",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If an EventEmitter emits an 'error' event and no listener is attached to it, what happens?",
+      "options": [
+        "The error is silently ignored",
+        "The Node.js process crashes and exits",
+        "It triggers a console warning",
+        "It is added to a dead letter queue"
+      ],
+      "answer": "The Node.js process crashes and exits",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Express feature allows you to define a single route path and chain multiple HTTP handlers (get, post, put) onto it?",
+      "options": [
+        "app.chain()",
+        "app.all()",
+        "app.route()",
+        "app.use()"
+      ],
+      "answer": "app.route()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In routing, what does the `*` wildcard represent? (e.g., `app.get('*', ...)` )",
+      "options": [
+        "Matches only the root domain",
+        "Matches any path",
+        "Matches strictly static files",
+        "Matches error paths"
+      ],
+      "answer": "Matches any path",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the typical URL query string structure for an array of values? (e.g., colors=red and colors=blue)",
+      "options": [
+        "?colors=red,blue",
+        "?colors[]=red&colors[]=blue",
+        "?colors:red:blue",
+        "Both A and B are common depending on the parser"
+      ],
+      "answer": "Both A and B are common depending on the parser",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If `req.query` returns an object from `?age[gte]=18`, what is this pattern commonly used for?",
+      "options": [
+        "Syntax error",
+        "Passing complex filters/operators to the backend (e.g., Greater Than or Equal)",
+        "Defining an array index",
+        "Encrypting the query"
+      ],
+      "answer": "Passing complex filters/operators to the backend (e.g., Greater Than or Equal)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which is generally more efficient for querying large datasets: Offset-based pagination or Cursor-based pagination?",
+      "options": [
+        "Offset-based",
+        "Cursor-based",
+        "They are exactly the same",
+        "Neither, load everything into RAM"
+      ],
+      "answer": "Cursor-based",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a major downside of Offset-based pagination in large, frequently updated datasets?",
+      "options": [
+        "It cannot be implemented in SQL",
+        "It can cause duplicate or skipped records if items are added/deleted while a user navigates pages",
+        "It uses too much memory on the client side",
+        "It only works with MongoDB"
+      ],
+      "answer": "It can cause duplicate or skipped records if items are added/deleted while a user navigates pages",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When an API returns paginated data, what other information should ideally be included in the response payload?",
+      "options": [
+        "The database credentials",
+        "Metadata like total items, current page, and total pages",
+        "The entire dataset in a hidden field",
+        "HTML rendering tags"
+      ],
+      "answer": "Metadata like total items, current page, and total pages",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In MVC architecture, where should you primarily validate user input (e.g., checking if email is valid)?",
+      "options": [
+        "In the View",
+        "In the Controller (or via Middleware before reaching the controller)",
+        "In the Database",
+        "In the package.json"
+      ],
+      "answer": "In the Controller (or via Middleware before reaching the controller)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In an Express MVC folder structure, what is the responsibility of files in the `models/` directory?",
+      "options": [
+        "Defining API endpoints",
+        "Rendering HTML views",
+        "Defining data schemas and interacting directly with the database",
+        "Sending HTTP responses"
+      ],
+      "answer": "Defining data schemas and interacting directly with the database",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a robust Node.js architecture, what is a 'Service' layer (often put in a `services/` folder)?",
+      "options": [
+        "A layer that handles HTTP requests exclusively",
+        "A layer containing the core business logic, called by controllers to keep them thin",
+        "A database driver",
+        "A third-party API integration"
+      ],
+      "answer": "A layer containing the core business logic, called by controllers to keep them thin",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a monolithic application requires scaling due to heavy traffic on one specific endpoint, what is the common outcome?",
+      "options": [
+        "Only that endpoint is scaled",
+        "The entire monolithic application must be scaled/cloned",
+        "The endpoint shuts down automatically",
+        "The database handles the routing"
+      ],
+      "answer": "The entire monolithic application must be scaled/cloned",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the 'Two Pizza Rule' often associated with microservices?",
+      "options": [
+        "Each service must connect to two databases",
+        "A microservice team should be small enough to be fed by two pizzas",
+        "Services should reply within two milliseconds",
+        "A service should handle at most two responsibilities"
+      ],
+      "answer": "A microservice team should be small enough to be fed by two pizzas",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which design pattern is used in microservices to aggregate data from multiple services before returning it to the client?",
+      "options": [
+        "Singleton pattern",
+        "API Gateway / Backend For Frontend (BFF) pattern",
+        "Observer pattern",
+        "Strategy pattern"
+      ],
+      "answer": "API Gateway / Backend For Frontend (BFF) pattern",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Service Discovery in a microservices ecosystem?",
+      "options": [
+        "Scanning the internet for public APIs",
+        "A mechanism for microservices to dynamically locate each other on a network without hardcoded IP addresses",
+        "Documenting APIs with Swagger",
+        "Deploying services to Docker"
+      ],
+      "answer": "A mechanism for microservices to dynamically locate each other on a network without hardcoded IP addresses",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In microservices, what does CQRS stand for?",
+      "options": [
+        "Central Query Request System",
+        "Command Query Responsibility Segregation",
+        "Continuous Quality Review System",
+        "Common Query Routing Standard"
+      ],
+      "answer": "Command Query Responsibility Segregation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the core idea of CQRS?",
+      "options": [
+        "Separating the models/operations for reading data (Queries) from the models/operations for writing data (Commands)",
+        "Using a single database for everything",
+        "Writing code in C",
+        "Caching all HTTP requests"
+      ],
+      "answer": "Separating the models/operations for reading data (Queries) from the models/operations for writing data (Commands)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Event Sourcing is an architectural pattern where:",
+      "options": [
+        "Every function call triggers an HTTP request",
+        "State changes are stored as a continuous sequence of append-only events, rather than just storing the current state",
+        "Databases are removed entirely",
+        "Errors are emailed to admins"
+      ],
+      "answer": "State changes are stored as a continuous sequence of append-only events, rather than just storing the current state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is RabbitMQ?",
+      "options": [
+        "A graph database",
+        "An open-source message broker software that implements AMQP",
+        "A frontend JavaScript framework",
+        "A Node.js process manager"
+      ],
+      "answer": "An open-source message broker software that implements AMQP",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In messaging, what is the difference between a Queue and a Topic?",
+      "options": [
+        "Queues are for REST, Topics are for GraphQL",
+        "A Queue usually delivers a message to a single consumer; a Topic broadcasts a message to multiple subscribed consumers",
+        "Queues are synchronous, Topics are asynchronous",
+        "There is no difference"
+      ],
+      "answer": "A Queue usually delivers a message to a single consumer; a Topic broadcasts a message to multiple subscribed consumers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is a primary feature of Apache Kafka compared to traditional message queues?",
+      "options": [
+        "It deletes messages immediately upon reading",
+        "It stores event streams durably for a specified retention period, allowing replayability",
+        "It is built exclusively for Node.js",
+        "It requires a monolithic architecture"
+      ],
+      "answer": "It stores event streams durably for a specified retention period, allowing replayability",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Consumer Group' in Apache Kafka?",
+      "options": [
+        "A group of users paying for the service",
+        "A pool of consumer instances that share the workload of reading from partitions of a topic",
+        "A security policy",
+        "A set of API endpoints"
+      ],
+      "answer": "A pool of consumer instances that share the workload of reading from partitions of a topic",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a distributed system, what is 'Eventual Consistency'?",
+      "options": [
+        "The system will eventually crash",
+        "Given enough time without new updates, all replicas/nodes will eventually converge to hold the same updated data",
+        "Data is instantly synchronized across all databases",
+        "Transactions are always rolled back"
+      ],
+      "answer": "Given enough time without new updates, all replicas/nodes will eventually converge to hold the same updated data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is CAP Theorem primarily concerned with in distributed data stores?",
+      "options": [
+        "Cost, Accessibility, Performance",
+        "Consistency, Availability, Partition Tolerance",
+        "Caching, API, Processing",
+        "Concurrency, Async, Promises"
+      ],
+      "answer": "Consistency, Availability, Partition Tolerance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "According to CAP Theorem, a distributed system can simultaneously guarantee how many of its three properties?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "answer": "Two",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What mechanism does Node.js use to prevent standard asynchronous I/O operations from blocking the main thread?",
+      "options": [
+        "Thread pooling via libuv",
+        "Creating a new Node.js instance for every request",
+        "Compiling down to Assembly",
+        "Running entirely on the GPU"
+      ],
+      "answer": "Thread pooling via libuv",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "By default, how many threads are in the libuv thread pool in Node.js?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "16"
+      ],
+      "answer": "4",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How can you increase the size of the libuv thread pool?",
+      "options": [
+        "Using the --threads flag",
+        "Setting the UV_THREADPOOL_SIZE environment variable",
+        "Calling process.addThread()",
+        "It cannot be changed"
+      ],
+      "answer": "Setting the UV_THREADPOOL_SIZE environment variable",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which core Node.js module allows you to create actual separate JavaScript threads for CPU-intensive tasks?",
+      "options": [
+        "child_process",
+        "cluster",
+        "worker_threads",
+        "threads"
+      ],
+      "answer": "worker_threads",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary difference between `worker_threads` and `child_process` in Node.js?",
+      "options": [
+        "Child processes share memory, worker threads do not",
+        "Worker threads share memory within the same process, child processes are entirely separate OS processes",
+        "Child processes are faster",
+        "Worker threads are deprecated"
+      ],
+      "answer": "Worker threads share memory within the same process, child processes are entirely separate OS processes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `cluster` module do in Node.js?",
+      "options": [
+        "Connects to a database cluster",
+        "Groups similar files together",
+        "Forks multiple Node.js processes that share the same server port to balance the load",
+        "Handles memory garbage collection"
+      ],
+      "answer": "Forks multiple Node.js processes that share the same server port to balance the load",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a Node.js cluster, which process coordinates the other processes?",
+      "options": [
+        "The Slave",
+        "The Worker",
+        "The Primary (or Master)",
+        "The Node Router"
+      ],
+      "answer": "The Primary (or Master)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a user requires authorization to access an endpoint, which HTTP header is standardly used to send a JWT?",
+      "options": [
+        "Access-Token",
+        "Authorization",
+        "X-Auth-Token",
+        "Authentication-JWT"
+      ],
+      "answer": "Authorization",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the standard prefix used with a JWT inside the Authorization header?",
+      "options": [
+        "Token ",
+        "JWT ",
+        "Bearer ",
+        "Auth "
+      ],
+      "answer": "Bearer ",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the three parts of a JSON Web Token (JWT)?",
+      "options": [
+        "User, Password, Secret",
+        "Header, Payload, Signature",
+        "Algorithm, Data, Hash",
+        "Key, Value, Timestamp"
+      ],
+      "answer": "Header, Payload, Signature",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is the payload of a standard JWT encrypted and hidden from the user?",
+      "options": [
+        "Yes, it is highly secure",
+        "No, it is only Base64Url encoded and can be easily decoded by anyone",
+        "Yes, it requires a private key to decode",
+        "Only if sent over HTTP"
+      ],
+      "answer": "No, it is only Base64Url encoded and can be easily decoded by anyone",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node.js library is the most popular for creating and verifying JSON Web Tokens?",
+      "options": [
+        "jwt-builder",
+        "jsonwebtoken",
+        "node-jwt",
+        "auth-token"
+      ],
+      "answer": "jsonwebtoken",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When verifying a JWT using `jsonwebtoken`, what happens if the token has expired?",
+      "options": [
+        "It returns null",
+        "It automatically refreshes",
+        "It throws a TokenExpiredError",
+        "It returns the payload anyway"
+      ],
+      "answer": "It throws a TokenExpiredError",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a distributed microservice environment using JWTs, how do services verify the token?",
+      "options": [
+        "By asking the database if the token exists",
+        "By verifying the cryptographically signed signature using a shared secret or public key",
+        "By sending the token back to the API Gateway for validation",
+        "By matching the user IP address"
+      ],
+      "answer": "By verifying the cryptographically signed signature using a shared secret or public key",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the role of a 'Refresh Token' in authentication architectures?",
+      "options": [
+        "To refresh the browser page automatically",
+        "To obtain a new short-lived access token when the current one expires without requiring user login",
+        "To bypass security checks",
+        "To reset a user's password"
+      ],
+      "answer": "To obtain a new short-lived access token when the current one expires without requiring user login",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm command initializes a new Node.js project and creates a `package.json` file automatically, skipping prompts?",
+      "options": [
+        "npm init",
+        "npm init -y",
+        "npm create",
+        "node start"
+      ],
+      "answer": "npm init -y",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does installing an npm package with the `-g` flag do?",
+      "options": [
+        "Installs it globally on the system machine, rather than just the local project",
+        "Installs it as a Git dependency",
+        "Generates the documentation",
+        "Guarantees the latest version"
+      ],
+      "answer": "Installs it globally on the system machine, rather than just the local project",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you securely pass a connection string to a Node.js database connection script?",
+      "options": [
+        "Hardcode it in the connection.js file",
+        "Use an environment variable (e.g., `process.env.DB_URI`)",
+        "Write it in a public JSON file",
+        "Pass it as a URL query parameter"
+      ],
+      "answer": "Use an environment variable (e.g., `process.env.DB_URI`)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node module natively allows you to execute shell commands from within a Node.js application?",
+      "options": [
+        "shell",
+        "cmd",
+        "child_process",
+        "terminal"
+      ],
+      "answer": "child_process",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Middleware' in the context of Express.js architecture?",
+      "options": [
+        "The hardware that runs the server",
+        "A series of functions that intercept and can modify the request/response objects before the final route handler executes",
+        "The database layer",
+        "A frontend library"
+      ],
+      "answer": "A series of functions that intercept and can modify the request/response objects before the final route handler executes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to apply a middleware to ONLY routes starting with `/api`, what is the correct syntax?",
+      "options": [
+        "app.use(middleware, '/api')",
+        "app.api(middleware)",
+        "app.use('/api', middleware)",
+        "middleware.apply('/api')"
+      ],
+      "answer": "app.use('/api', middleware)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary danger of using `app.use(cors())` with default settings in production?",
+      "options": [
+        "It slows down the server",
+        "It automatically allows requests from absolutely any origin, which is a security risk if the API is private",
+        "It blocks all requests",
+        "It disables HTTPS"
+      ],
+      "answer": "It automatically allows requests from absolutely any origin, which is a security risk if the API is private",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you specify a specific origin in the `cors` package middleware?",
+      "options": [
+        "cors({ origin: 'https://example.com' })",
+        "cors('https://example.com')",
+        "cors.allow('https://example.com')",
+        "app.use('https://example.com', cors())"
+      ],
+      "answer": "cors({ origin: 'https://example.com' })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which property in Express contains key-value pairs of data submitted in the URL path (e.g., `/user/:name`)?",
+      "options": [
+        "req.query",
+        "req.body",
+        "req.params",
+        "req.urlData"
+      ],
+      "answer": "req.params",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which property in Express contains key-value pairs of data submitted via the URL query string (e.g., `?name=john`)?",
+      "options": [
+        "req.params",
+        "req.query",
+        "req.body",
+        "req.search"
+      ],
+      "answer": "req.query",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which property in Express contains data submitted in the request payload (e.g., JSON or form data)?",
+      "options": [
+        "req.params",
+        "req.query",
+        "req.data",
+        "req.body"
+      ],
+      "answer": "req.body",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "To read `req.body` containing JSON data, what MUST you do in your Express app?",
+      "options": [
+        "Nothing, it is built-in and active by default",
+        "Use the middleware `app.use(express.json())`",
+        "Parse it manually using `JSON.parse(req.data)`",
+        "Use `app.use(express.urlencoded())`"
+      ],
+      "answer": "Use the middleware `app.use(express.json())`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of `express.urlencoded({ extended: true })`?",
+      "options": [
+        "To parse incoming requests with JSON payloads",
+        "To parse incoming requests with URL-encoded payloads (typically from HTML form submissions)",
+        "To encode the URL string",
+        "To enable CORS"
+      ],
+      "answer": "To parse incoming requests with URL-encoded payloads (typically from HTML form submissions)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a reverse proxy like Nginx or HAProxy typically do when positioned in front of Node.js instances?",
+      "options": [
+        "Compiles JavaScript code faster",
+        "Handles load balancing, SSL termination, and serving static files",
+        "Translates Node.js to PHP",
+        "Replaces the database"
+      ],
+      "answer": "Handles load balancing, SSL termination, and serving static files",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why shouldn't you typically serve static files directly using Node.js in high-traffic production?",
+      "options": [
+        "Node.js cannot read files",
+        "It blocks the single thread; a dedicated web server like Nginx does this much more efficiently",
+        "Node.js corrupts image files",
+        "It causes CORS errors"
+      ],
+      "answer": "It blocks the single thread; a dedicated web server like Nginx does this much more efficiently",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'memory leak' in Node.js?",
+      "options": [
+        "When the database crashes",
+        "When objects are no longer needed but are still referenced in memory, preventing the Garbage Collector from freeing them",
+        "When API tokens are accidentally logged",
+        "When files are deleted automatically"
+      ],
+      "answer": "When objects are no longer needed but are still referenced in memory, preventing the Garbage Collector from freeing them",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which built-in module helps you easily create paths that work cross-platform (Windows, Linux, Mac)?",
+      "options": [
+        "os",
+        "fs",
+        "url",
+        "path"
+      ],
+      "answer": "path",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `path.join(__dirname, 'public')` do?",
+      "options": [
+        "Creates a public folder",
+        "Safely concatenates the current directory path with 'public', using the correct OS-specific separators",
+        "Reads the contents of the public folder",
+        "Validates if the public folder exists"
+      ],
+      "answer": "Safely concatenates the current directory path with 'public', using the correct OS-specific separators",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a robust API, what is the 'Rate Limiting' pattern used for?",
+      "options": [
+        "Speeding up the internet connection",
+        "Restricting the number of requests a user/IP can make in a given timeframe to prevent abuse/DDoS",
+        "Limiting the size of the database",
+        "Slowing down the event loop"
+      ],
+      "answer": "Restricting the number of requests a user/IP can make in a given timeframe to prevent abuse/DDoS",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm package is commonly used to implement rate limiting in Express?",
+      "options": [
+        "express-rate-limit",
+        "node-limiter",
+        "express-throttle",
+        "api-guard"
+      ],
+      "answer": "express-rate-limit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What HTTP status code is sent when a client exceeds the allowed rate limit?",
+      "options": [
+        "401 Unauthorized",
+        "403 Forbidden",
+        "429 Too Many Requests",
+        "503 Service Unavailable"
+      ],
+      "answer": "429 Too Many Requests",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary architectural difference between a REST API and a GraphQL API?",
+      "options": [
+        "REST uses JSON, GraphQL uses XML",
+        "REST exposes multiple endpoints for different resources; GraphQL typically exposes a single endpoint and the client specifies exactly what data it wants",
+        "REST is for Node.js, GraphQL is for React",
+        "REST is synchronous, GraphQL is asynchronous"
+      ],
+      "answer": "REST exposes multiple endpoints for different resources; GraphQL typically exposes a single endpoint and the client specifies exactly what data it wants",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an ORM (Object-Relational Mapper) in the context of Node.js backend development?",
+      "options": [
+        "A tool to convert objects to JSON",
+        "A library that allows you to interact with a SQL database using JavaScript objects instead of raw SQL queries",
+        "A router for handling URLs",
+        "A caching mechanism"
+      ],
+      "answer": "A library that allows you to interact with a SQL database using JavaScript objects instead of raw SQL queries",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is a highly popular ORM for SQL databases in the Node.js ecosystem?",
+      "options": [
+        "Mongoose",
+        "Sequelize",
+        "Express",
+        "Socket.io"
+      ],
+      "answer": "Sequelize",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an ODM (Object-Document Mapper) primarily used for?",
+      "options": [
+        "Interacting with NoSQL databases like MongoDB",
+        "Handling file uploads",
+        "Mapping URLs to controllers",
+        "Generating documentation"
+      ],
+      "answer": "Interacting with NoSQL databases like MongoDB",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which is the most popular ODM for MongoDB in Node.js?",
+      "options": [
+        "Sequelize",
+        "Knex",
+        "Mongoose",
+        "Prisma"
+      ],
+      "answer": "Mongoose",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In microservices, what does 'Choreography' refer to?",
+      "options": [
+        "Writing animations in CSS",
+        "A decentralized approach where each service reacts to events and independently decides what action to take, without a central controller",
+        "A central service orchestrating all actions",
+        "Load balancing traffic evenly"
+      ],
+      "answer": "A decentralized approach where each service reacts to events and independently decides what action to take, without a central controller",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In microservices, what does 'Orchestration' refer to?",
+      "options": [
+        "A centralized approach where one master service commands and directs other services to execute tasks",
+        "Services independently reacting to an event stream",
+        "Running Docker containers",
+        "Deploying microservices together"
+      ],
+      "answer": "A centralized approach where one master service commands and directs other services to execute tasks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens in a 'Split Brain' scenario in a distributed system?",
+      "options": [
+        "The CPU overloads",
+        "A network partition occurs, causing different parts of the system to act independently and potentially write conflicting data",
+        "A developer writes conflicting code",
+        "The load balancer routes traffic to dead servers"
+      ],
+      "answer": "A network partition occurs, causing different parts of the system to act independently and potentially write conflicting data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which technology is considered an industry-standard orchestrator for managing, scaling, and deploying containerized microservices?",
+      "options": [
+        "Git",
+        "Kubernetes",
+        "Jenkins",
+        "Nginx"
+      ],
+      "answer": "Kubernetes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a Container (like Docker) provide that is crucial for microservices?",
+      "options": [
+        "A free database",
+        "A lightweight, standalone, executable package of software that includes everything needed to run it, ensuring consistency across environments",
+        "Automatic code generation",
+        "A built-in message broker"
+      ],
+      "answer": "A lightweight, standalone, executable package of software that includes everything needed to run it, ensuring consistency across environments",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do microservices primarily scale compared to a monolith?",
+      "options": [
+        "They can only scale vertically",
+        "You can scale specific, high-demand services independently without scaling the entire application",
+        "They scale slower",
+        "They require manual hardware upgrades"
+      ],
+      "answer": "You can scale specific, high-demand services independently without scaling the entire application",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does CI/CD stand for in modern deployment practices?",
+      "options": [
+        "Central Integration / Central Deployment",
+        "Continuous Integration / Continuous Deployment (or Delivery)",
+        "Code Improvement / Code Design",
+        "Computer Interaction / Client Display"
+      ],
+      "answer": "Continuous Integration / Continuous Deployment (or Delivery)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why are automated tests heavily emphasized in a microservices architecture?",
+      "options": [
+        "Because Node.js requires them",
+        "Because there are many independent moving parts, making manual regression testing nearly impossible across updates",
+        "To slow down the deployment process",
+        "Because they replace the compiler"
+      ],
+      "answer": "Because there are many independent moving parts, making manual regression testing nearly impossible across updates",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When moving from a Monolith to Microservices, what is the 'Strangler Fig Pattern'?",
+      "options": [
+        "Deleting the monolith completely and starting over",
+        "Gradually creating new microservices to replace specific features of the monolith until the monolith is entirely obsolete",
+        "Strangling network traffic to test limits",
+        "A pattern for encrypting data"
+      ],
+      "answer": "Gradually creating new microservices to replace specific features of the monolith until the monolith is entirely obsolete",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Polyglot Persistence'?",
+      "options": [
+        "Storing data in multiple languages",
+        "Using different database technologies (e.g., SQL, NoSQL, Graph) within the same system, matching each database to the specific needs of a microservice",
+        "A caching strategy",
+        "A tool to translate database queries"
+      ],
+      "answer": "Using different database technologies (e.g., SQL, NoSQL, Graph) within the same system, matching each database to the specific needs of a microservice",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In HTTP, what does 'Stateless' mean?",
+      "options": [
+        "The server does not remember anything about previous requests; each request must contain all necessary information to be processed",
+        "The server stores user state in memory",
+        "The connection is permanently open",
+        "The request has no headers"
+      ],
+      "answer": "The server does not remember anything about previous requests; each request must contain all necessary information to be processed",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do stateless architectures maintain user sessions across requests?",
+      "options": [
+        "By keeping a persistent websocket connection",
+        "By relying on the client to send a token (like JWT) or a session cookie with every single request",
+        "By tracking IP addresses",
+        "By storing session variables in the Node.js global object"
+      ],
+      "answer": "By relying on the client to send a token (like JWT) or a session cookie with every single request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a Node.js process encounters a fatal, unhandled exception, what is the most robust practice to recover?",
+      "options": [
+        "Use a `try/catch` around the entire `server.listen`",
+        "Let the process crash, and rely on a process manager (like PM2 or Kubernetes) to automatically restart the application",
+        "Catch `uncaughtException` and forcefully keep the process running",
+        "Reboot the actual server machine"
+      ],
+      "answer": "Let the process crash, and rely on a process manager (like PM2 or Kubernetes) to automatically restart the application",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node.js event fires when a Promise is rejected but no `.catch()` handler is attached?",
+      "options": [
+        "uncaughtException",
+        "promiseError",
+        "unhandledRejection",
+        "error"
+      ],
+      "answer": "unhandledRejection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node.js event fires when a standard JavaScript error is thrown and not caught by a `try/catch`?",
+      "options": [
+        "unhandledRejection",
+        "uncaughtException",
+        "fatalError",
+        "crash"
+      ],
+      "answer": "uncaughtException",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is it dangerous to ignore an `uncaughtException` and resume code execution?",
+      "options": [
+        "It will break the compiler",
+        "The Node.js process is likely in an undefined, unstable state, which can cause severe memory leaks or data corruption",
+        "It triggers an automatic API ban",
+        "It will delete the database"
+      ],
+      "answer": "The Node.js process is likely in an undefined, unstable state, which can cause severe memory leaks or data corruption",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary function of the `node:assert` core module?",
+      "options": [
+        "To start the server",
+        "To write unit tests by evaluating expressions and throwing errors if they evaluate to false",
+        "To assert variable types in TypeScript",
+        "To parse JSON"
+      ],
+      "answer": "To write unit tests by evaluating expressions and throwing errors if they evaluate to false",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In testing frameworks like Jest or Mocha, what do you test when mocking a module?",
+      "options": [
+        "You test the actual module's internal code",
+        "You replace the real module with a fake 'mock' version to isolate the code you are specifically testing",
+        "You test the database connection",
+        "You compile the module"
+      ],
+      "answer": "You replace the real module with a fake 'mock' version to isolate the code you are specifically testing",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does TDD stand for in software development?",
+      "options": [
+        "Test Driven Deployment",
+        "Time Driven Development",
+        "Test Driven Development",
+        "Task Distributed Development"
+      ],
+      "answer": "Test Driven Development",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the TDD cycle (Red-Green-Refactor), what does 'Red' mean?",
+      "options": [
+        "Write a failing test before writing any implementation code",
+        "The server crashed",
+        "Write the code as fast as possible",
+        "Delete old tests"
+      ],
+      "answer": "Write a failing test before writing any implementation code",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is WebSockets?",
+      "options": [
+        "A database protocol",
+        "A protocol providing full-duplex, persistent, real-time communication channels over a single TCP connection",
+        "An alternative to the Node.js event loop",
+        "A tool for formatting HTML"
+      ],
+      "answer": "A protocol providing full-duplex, persistent, real-time communication channels over a single TCP connection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which library is most commonly used with Node.js to implement real-time, bidirectional event-based communication (WebSockets)?",
+      "options": [
+        "express-ws",
+        "Socket.io",
+        "realtime.js",
+        "net-socket"
+      ],
+      "answer": "Socket.io",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does Socket.io differ from standard raw WebSockets?",
+      "options": [
+        "It is slower and older",
+        "It provides fallbacks (like HTTP long-polling), automatic reconnections, and broadcasting features out of the box",
+        "It only works on the backend",
+        "It uses UDP instead of TCP"
+      ],
+      "answer": "It provides fallbacks (like HTTP long-polling), automatic reconnections, and broadcasting features out of the box",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building a chat application, what does 'broadcasting' an event in Socket.io do?",
+      "options": [
+        "Sends the message only to the sender",
+        "Sends the message to all connected clients EXCEPT the client that triggered the event",
+        "Sends the message to a specific database",
+        "Saves the message to a file"
+      ],
+      "answer": "Sends the message to all connected clients EXCEPT the client that triggered the event",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a backend operation takes 5 minutes to complete (e.g., video rendering), what architecture pattern should be used?",
+      "options": [
+        "Keep the HTTP request open until it finishes",
+        "Use a Message Queue to offload the task to a background worker, and return an immediate 'Accepted' response to the user",
+        "Run the task directly in the Express route",
+        "Increase the load balancer timeout"
+      ],
+      "answer": "Use a Message Queue to offload the task to a background worker, and return an immediate 'Accepted' response to the user",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which HTTP status code signifies that a request has been accepted for processing, but the processing has not been completed?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "202 Accepted",
+        "204 No Content"
+      ],
+      "answer": "202 Accepted",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When returning a large dataset in batches natively over an HTTP stream, which Node.js mechanism is utilized?",
+      "options": [
+        "Promises",
+        "Writable/Readable Streams piped to the `res` object",
+        "Callbacks",
+        "WebSockets"
+      ],
+      "answer": "Writable/Readable Streams piped to the `res` object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a 'Reverse Proxy' do?",
+      "options": [
+        "Hides the client's IP from the internet",
+        "Sits in front of backend servers, directing client requests to the appropriate server and hiding the server's identity",
+        "Reverses the text of the HTTP request",
+        "Bypasses CORS"
+      ],
+      "answer": "Sits in front of backend servers, directing client requests to the appropriate server and hiding the server's identity",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node.js core module is used for making outgoing HTTP requests directly from the server to another API?",
+      "options": [
+        "fetch",
+        "axios",
+        "http / https",
+        "request"
+      ],
+      "answer": "http / https",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Though Node.js provides core `http`, which third-party Promise-based HTTP client is wildly popular for making outgoing API requests?",
+      "options": [
+        "axios",
+        "fetch-node",
+        "express",
+        "socket.io"
+      ],
+      "answer": "axios",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the global `fetch` API in modern Node.js versions (v18+)?",
+      "options": [
+        "A package you must install via npm",
+        "A native, built-in global function for making HTTP requests, mirroring the browser fetch API",
+        "A function for reading files",
+        "A database query tool"
+      ],
+      "answer": "A native, built-in global function for making HTTP requests, mirroring the browser fetch API",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node module would you use to compress HTTP responses to save bandwidth?",
+      "options": [
+        "zip",
+        "zlib",
+        "tar",
+        "compress"
+      ],
+      "answer": "zlib",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Express middleware is commonly used to implement response compression?",
+      "options": [
+        "express-zip",
+        "compression",
+        "gzip-express",
+        "minify"
+      ],
+      "answer": "compression",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `req.ip` property in Express contain?",
+      "options": [
+        "The server's IP address",
+        "The client's IP address",
+        "The database's IP address",
+        "The port number"
+      ],
+      "answer": "The client's IP address",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If an Express app is running behind a proxy (like Nginx), what setting must be enabled for `req.ip` to report the true client IP correctly?",
+      "options": [
+        "app.enable('proxy')",
+        "app.set('trust proxy', true)",
+        "app.use(proxy())",
+        "It happens automatically"
+      ],
+      "answer": "app.set('trust proxy', true)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Daemon' in server environments?",
+      "options": [
+        "A security threat",
+        "A background process that runs continuously without user intervention",
+        "A type of caching database",
+        "A load balancing algorithm"
+      ],
+      "answer": "A background process that runs continuously without user intervention",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When running a Node.js server via `node index.js`, what happens when you close the terminal session?",
+      "options": [
+        "The server runs infinitely",
+        "The server shuts down",
+        "It switches to a background daemon",
+        "It pauses until the terminal opens again"
+      ],
+      "answer": "The server shuts down",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which tool is commonly used in production to keep a Node.js process alive, manage logs, and restart it on failure?",
+      "options": [
+        "nodemon",
+        "webpack",
+        "PM2",
+        "npm"
+      ],
+      "answer": "PM2",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you cluster a Node.js application across all CPU cores instantly using PM2?",
+      "options": [
+        "pm2 start app.js -i max",
+        "pm2 cluster app.js",
+        "pm2 scale max",
+        "pm2 start cluster"
+      ],
+      "answer": "pm2 start app.js -i max",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is gRPC?",
+      "options": [
+        "A UI framework",
+        "A high-performance, open-source universal RPC framework developed by Google, often used for microservice communication",
+        "A database query language",
+        "A type of JSON parser"
+      ],
+      "answer": "A high-performance, open-source universal RPC framework developed by Google, often used for microservice communication",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What data serialization format does gRPC use by default instead of JSON?",
+      "options": [
+        "XML",
+        "YAML",
+        "Protocol Buffers (Protobufs)",
+        "BSON"
+      ],
+      "answer": "Protocol Buffers (Protobufs)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is gRPC often preferred over REST for internal microservice-to-microservice communication?",
+      "options": [
+        "It is strictly slower and safer",
+        "It uses highly efficient binary serialization (Protobufs) and HTTP/2, resulting in lower latency and bandwidth",
+        "It is the only way to communicate in Node",
+        "It works natively in browsers without translation"
+      ],
+      "answer": "It uses highly efficient binary serialization (Protobufs) and HTTP/2, resulting in lower latency and bandwidth",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a Service Mesh (like Istio) do in a microservices ecosystem?",
+      "options": [
+        "Compiles JavaScript",
+        "Provides a dedicated infrastructure layer for managing service-to-service communication, including routing, security, and observability",
+        "Stores the database schemas",
+        "Acts as the frontend UI"
+      ],
+      "answer": "Provides a dedicated infrastructure layer for managing service-to-service communication, including routing, security, and observability",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Serverless' computing (e.g., AWS Lambda)?",
+      "options": [
+        "Running code on client browsers only",
+        "A cloud model where the provider dynamically manages the allocation and provisioning of servers, abstracting hardware from developers",
+        "A physical server without an operating system",
+        "Running a database locally"
+      ],
+      "answer": "A cloud model where the provider dynamically manages the allocation and provisioning of servers, abstracting hardware from developers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Cold Start' in Serverless Node.js functions?",
+      "options": [
+        "Starting the computer from an off state",
+        "The latency experienced when a function is invoked for the first time or after a period of inactivity because the environment must be provisioned",
+        "A memory error",
+        "A syntax error"
+      ],
+      "answer": "The latency experienced when a function is invoked for the first time or after a period of inactivity because the environment must be provisioned",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which format is widely used for configuring CI/CD pipelines (e.g., GitHub Actions, GitLab CI)?",
+      "options": [
+        "XML",
+        "JSON",
+        "YAML",
+        "INI"
+      ],
+      "answer": "YAML",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a Dockerfile?",
+      "options": [
+        "A text document containing all the commands a user could call on the command line to assemble an image",
+        "A database backup",
+        "A configuration for NPM",
+        "A routing file for Express"
+      ],
+      "answer": "A text document containing all the commands a user could call on the command line to assemble an image",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a Dockerfile for a Node app, what does the command `COPY package*.json ./` do?",
+      "options": [
+        "Executes the package.json file",
+        "Copies both package.json and package-lock.json to the container's working directory",
+        "Deletes the files",
+        "Installs the dependencies"
+      ],
+      "answer": "Copies both package.json and package-lock.json to the container's working directory",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is `COPY package*.json ./` usually run BEFORE `COPY . .` in a Dockerfile?",
+      "options": [
+        "It looks better aesthetically",
+        "To leverage Docker layer caching: dependencies only reinstall if package.json changes, drastically speeding up builds",
+        "Because it is required by Node.js",
+        "To prevent overwriting files"
+      ],
+      "answer": "To leverage Docker layer caching: dependencies only reinstall if package.json changes, drastically speeding up builds",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is `docker-compose` used for?",
+      "options": [
+        "Writing music in Docker",
+        "Defining and running multi-container Docker applications (e.g., starting Node.js, Redis, and MongoDB together)",
+        "Compiling Dockerfiles to C++",
+        "Pushing images to the cloud"
+      ],
+      "answer": "Defining and running multi-container Docker applications (e.g., starting Node.js, Redis, and MongoDB together)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In OAuth 2.0, what does an application trade an 'Authorization Code' for?",
+      "options": [
+        "A password",
+        "An Access Token",
+        "A username",
+        "A database connection"
+      ],
+      "answer": "An Access Token",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which popular npm package is used to implement authentication strategies (like OAuth, Local, JWT) seamlessly in Express?",
+      "options": [
+        "auth-master",
+        "passport",
+        "express-login",
+        "secure-route"
+      ],
+      "answer": "passport",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which npm package securely hashes passwords using the blowfish cipher before saving them to a database?",
+      "options": [
+        "crypto",
+        "bcrypt",
+        "sha256",
+        "hash-password"
+      ],
+      "answer": "bcrypt",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Salting' a password?",
+      "options": [
+        "Adding random string data to the password before hashing it to defend against dictionary/rainbow table attacks",
+        "Encrypting it twice",
+        "Storing it in a secondary database",
+        "Removing special characters"
+      ],
+      "answer": "Adding random string data to the password before hashing it to defend against dictionary/rainbow table attacks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a major advantage of using Redis over a traditional relational database for caching?",
+      "options": [
+        "It natively understands SQL",
+        "It holds all data strictly in-memory, making read and write operations exceptionally fast",
+        "It has a built-in UI",
+        "It writes directly to the hard drive"
+      ],
+      "answer": "It holds all data strictly in-memory, making read and write operations exceptionally fast",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When caching API responses, what does TTL stand for?",
+      "options": [
+        "Total Transfer Latency",
+        "Time To Live (the duration before the cache expires)",
+        "Transfer Transaction Log",
+        "Target Total Length"
+      ],
+      "answer": "Time To Live (the duration before the cache expires)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Cache Invalidation'?",
+      "options": [
+        "When the cache is encrypted",
+        "The process of removing or updating stale cache entries when the underlying data changes",
+        "When the server runs out of memory",
+        "Ignoring the cache entirely"
+      ],
+      "answer": "The process of removing or updating stale cache entries when the underlying data changes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a user updates their profile, what should happen to the cached version of their profile?",
+      "options": [
+        "It should be locked",
+        "It must be invalidated or updated to reflect the new data",
+        "It should be moved to the database",
+        "Nothing"
+      ],
+      "answer": "It must be invalidated or updated to reflect the new data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Webhook'?",
+      "options": [
+        "A fishing tool",
+        "A user-defined HTTP POST callback that is triggered by specific events in a web application",
+        "A database view",
+        "A static HTML page"
+      ],
+      "answer": "A user-defined HTTP POST callback that is triggered by specific events in a web application",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When receiving a Webhook (e.g., from Stripe), how do you typically verify that the payload is authentic?",
+      "options": [
+        "By trusting the IP address",
+        "By computing a cryptographic signature of the raw body using a shared secret and comparing it to a signature in the header",
+        "By making a GET request back",
+        "By asking the user"
+      ],
+      "answer": "By computing a cryptographic signature of the raw body using a shared secret and comparing it to a signature in the header",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why must you capture the 'raw' unparsed body (often using `express.raw()`) when verifying webhook signatures?",
+      "options": [
+        "Because JSON parsing changes formatting/spacing, which alters the resulting cryptographic hash",
+        "Because webhooks don't use JSON",
+        "To save memory",
+        "Because it is required by CORS"
+      ],
+      "answer": "Because JSON parsing changes formatting/spacing, which alters the resulting cryptographic hash",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a 'Health Check' endpoint (e.g., `/health`) do in a microservices environment?",
+      "options": [
+        "Checks for virus infections",
+        "Returns a simple 200 OK status to inform load balancers and orchestrators that the service is up and functioning",
+        "Tests database queries",
+        "Compiles the code"
+      ],
+      "answer": "Returns a simple 200 OK status to inform load balancers and orchestrators that the service is up and functioning",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In GraphQL, what is a 'Resolver'?",
+      "options": [
+        "A function that is responsible for populating the data for a single field in your schema",
+        "A routing module",
+        "An error handling class",
+        "A database index"
+      ],
+      "answer": "A function that is responsible for populating the data for a single field in your schema",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which fundamental problem with REST does GraphQL aim to solve?",
+      "options": [
+        "High latency in databases",
+        "Over-fetching and under-fetching of data by allowing the client to request precisely what it needs",
+        "CORS errors",
+        "Inability to use HTTPS"
+      ],
+      "answer": "Over-fetching and under-fetching of data by allowing the client to request precisely what it needs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Over-fetching' in a REST API?",
+      "options": [
+        "Downloading data too quickly",
+        "Retrieving a large payload of data from an endpoint when the client only actually needed one or two fields",
+        "Fetching data from multiple databases",
+        "Making too many HTTP requests"
+      ],
+      "answer": "Retrieving a large payload of data from an endpoint when the client only actually needed one or two fields",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Under-fetching' in a REST API?",
+      "options": [
+        "Not downloading enough data to fill a screen",
+        "When a specific endpoint doesn't provide enough data, forcing the client to make multiple additional HTTP requests to gather all required info",
+        "A network timeout",
+        "Fetching data that is empty"
+      ],
+      "answer": "When a specific endpoint doesn't provide enough data, forcing the client to make multiple additional HTTP requests to gather all required info",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In GraphQL terminology, what is a Mutation?",
+      "options": [
+        "A server error",
+        "An operation used to create, update, or delete data (equivalent to POST, PUT, DELETE in REST)",
+        "A background process",
+        "A read-only operation"
+      ],
+      "answer": "An operation used to create, update, or delete data (equivalent to POST, PUT, DELETE in REST)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does Server-Side Rendering (SSR) mean?",
+      "options": [
+        "Rendering graphics on the GPU",
+        "Generating the full HTML for a page on the server and sending it to the client, rather than sending a bare HTML file and rendering via client-side JavaScript",
+        "Creating PDFs",
+        "Sending JSON only"
+      ],
+      "answer": "Generating the full HTML for a page on the server and sending it to the client, rather than sending a bare HTML file and rendering via client-side JavaScript",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which technology is widely used as a templating engine in Express to dynamically generate HTML views?",
+      "options": [
+        "EJS (Embedded JavaScript)",
+        "Axios",
+        "Mongoose",
+        "Bcrypt"
+      ],
+      "answer": "EJS (Embedded JavaScript)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you render an EJS view named 'index.ejs' in an Express route and pass it an object containing a title?",
+      "options": [
+        "res.send('index', { title: 'Hello' })",
+        "res.render('index', { title: 'Hello' })",
+        "res.html('index', { title: 'Hello' })",
+        "res.view('index', { title: 'Hello' })"
+      ],
+      "answer": "res.render('index', { title: 'Hello' })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'Streaming' in the context of Node.js performance?",
+      "options": [
+        "Watching videos on the server",
+        "Processing data piece by piece as it arrives without keeping it all in memory, drastically reducing RAM usage",
+        "Transferring code files quickly",
+        "A database query technique"
+      ],
+      "answer": "Processing data piece by piece as it arrives without keeping it all in memory, drastically reducing RAM usage",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary characteristic of a 'Micro-frontend' architecture?",
+      "options": [
+        "Writing CSS efficiently",
+        "Extending the microservices concept to the frontend, breaking a monolithic frontend app into smaller, independent pieces built by different teams",
+        "Using micro-controllers to display websites",
+        "Serving static assets only"
+      ],
+      "answer": "Extending the microservices concept to the frontend, breaking a monolithic frontend app into smaller, independent pieces built by different teams",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In caching strategies, what does 'Write-Through' cache mean?",
+      "options": [
+        "Writing to the cache and database simultaneously",
+        "Writing to the cache first, and then the cache synchronously writes to the database",
+        "Writing to the database only",
+        "Ignoring the cache on writes"
+      ],
+      "answer": "Writing to the cache first, and then the cache synchronously writes to the database",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a 'Reverse Proxy' typically handle besides routing traffic?",
+      "options": [
+        "Code compilation",
+        "SSL/TLS Termination, caching static assets, and load balancing",
+        "Database migrations",
+        "Managing NPM packages"
+      ],
+      "answer": "SSL/TLS Termination, caching static assets, and load balancing",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary use of the `util.promisify` core Node function?",
+      "options": [
+        "It compiles async code",
+        "It converts an older callback-based Node.js function into a function that returns a Promise",
+        "It generates API documentation",
+        "It handles Promise rejections"
+      ],
+      "answer": "It converts an older callback-based Node.js function into a function that returns a Promise",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Node module provides a way of working with timers, specifically implementing the `setTimeout` equivalent for Promises?",
+      "options": [
+        "timers/promises",
+        "async/time",
+        "wait/promise",
+        "util/timeout"
+      ],
+      "answer": "timers/promises",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the main advantage of the Node.js Non-Blocking I/O model when dealing with 10,000 concurrent network requests?",
+      "options": [
+        "It creates 10,000 threads instantly",
+        "A single thread can efficiently handle all of them by delegating waiting tasks to the OS and firing callbacks when ready, saving immense CPU overhead",
+        "It blocks all requests until memory is free",
+        "It uses WebSockets exclusively"
+      ],
+      "answer": "A single thread can efficiently handle all of them by delegating waiting tasks to the OS and firing callbacks when ready, saving immense CPU overhead",
+      "points": 2
+    }
+  ]
+}

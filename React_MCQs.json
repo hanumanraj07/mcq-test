@@ -1,0 +1,4276 @@
+{
+  "questions": [
+    {
+      "kind": "mcq",
+      "text": "What is React?",
+      "options": [
+        "A server-side framework",
+        "A JavaScript library for building user interfaces",
+        "A CSS preprocessor",
+        "A database management tool"
+      ],
+      "answer": "A JavaScript library for building user interfaces",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Who developed and maintains React?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Facebook (Meta)",
+        "Twitter"
+      ],
+      "answer": "Facebook (Meta)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does JSX stand for?",
+      "options": [
+        "JavaScript XML",
+        "Java Syntax Extension",
+        "JavaScript Extension",
+        "Java XML Syntax"
+      ],
+      "answer": "JavaScript XML",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the virtual DOM in React?",
+      "options": [
+        "The actual browser DOM",
+        "A lightweight in-memory copy of the real DOM",
+        "A CSS rendering engine",
+        "A server-side rendering tool"
+      ],
+      "answer": "A lightweight in-memory copy of the real DOM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which command creates a new React app using Create React App?",
+      "options": [
+        "npm init react",
+        "npx create-react-app my-app",
+        "npm install react-app",
+        "react new my-app"
+      ],
+      "answer": "npx create-react-app my-app",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the entry point file of a React application?",
+      "options": [
+        "App.js",
+        "index.html",
+        "index.js",
+        "main.js"
+      ],
+      "answer": "index.js",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you apply a CSS class to a JSX element?",
+      "options": [
+        "class='myClass'",
+        "className='myClass'",
+        "cssClass='myClass'",
+        "style='myClass'"
+      ],
+      "answer": "className='myClass'",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you apply inline styles in React JSX?",
+      "options": [
+        "style='color: red'",
+        "style={{ color: 'red' }}",
+        "styles={color: 'red'}",
+        "css={{ color: 'red' }}"
+      ],
+      "answer": "style={{ color: 'red' }}",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In React inline styles, CSS property names must use which casing?",
+      "options": [
+        "kebab-case",
+        "snake_case",
+        "camelCase",
+        "PascalCase"
+      ],
+      "answer": "camelCase",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following correctly sets background color via inline style in React?",
+      "options": [
+        "style={{ background-color: 'blue' }}",
+        "style={{ backgroundColor: 'blue' }}",
+        "style='background-color: blue'",
+        "style={{ BackgroundColor: 'blue' }}"
+      ],
+      "answer": "style={{ backgroundColor: 'blue' }}",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you import a local image in a React component?",
+      "options": [
+        "import img from './image.png'",
+        "require('./image.png') inside JSX",
+        "load('./image.png')",
+        "<img src='./image.png' />"
+      ],
+      "answer": "import img from './image.png'",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which folder in Create React App is accessible publicly via URL for static assets?",
+      "options": [
+        "src/assets",
+        "src/images",
+        "public",
+        "static"
+      ],
+      "answer": "public",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a functional component in React?",
+      "options": [
+        "A class that extends React.Component",
+        "A JavaScript function that returns JSX",
+        "A function that directly manipulates the DOM",
+        "A helper utility function"
+      ],
+      "answer": "A JavaScript function that returns JSX",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What must every React component return?",
+      "options": [
+        "A string",
+        "An object",
+        "JSX or null",
+        "An array"
+      ],
+      "answer": "JSX or null",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you handle a button click event in React?",
+      "options": [
+        "<button onclick={handleClick}>",
+        "<button onClick={handleClick}>",
+        "<button on-click={handleClick}>",
+        "<button click={handleClick}>"
+      ],
+      "answer": "<button onClick={handleClick}>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does event.preventDefault() do in a React event handler?",
+      "options": [
+        "Stops event propagation to parent elements",
+        "Removes the event listener",
+        "Prevents the default browser action for that event",
+        "Deletes the event object"
+      ],
+      "answer": "Prevents the default browser action for that event",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass an argument to an event handler in React?",
+      "options": [
+        "<button onClick={handleClick(arg)}>",
+        "<button onClick={() => handleClick(arg)}>",
+        "<button onClick={handleClick, arg}>",
+        "<button onClick=handleClick(arg)>"
+      ],
+      "answer": "<button onClick={() => handleClick(arg)}>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a SyntheticEvent in React?",
+      "options": [
+        "A native browser event object",
+        "React's cross-browser wrapper around the native browser event",
+        "A custom DOM event",
+        "An asynchronous event handler"
+      ],
+      "answer": "React's cross-browser wrapper around the native browser event",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook is used for direct DOM element access in React?",
+      "options": [
+        "useState",
+        "useEffect",
+        "useRef",
+        "useContext"
+      ],
+      "answer": "useRef",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does document.getElementById() return in React if used inside a functional component without useRef?",
+      "options": [
+        "A React element",
+        "A DOM node (may be null on first render)",
+        "A React ref object",
+        "Always returns null"
+      ],
+      "answer": "A DOM node (may be null on first render)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a controlled component in React forms?",
+      "options": [
+        "A component where the DOM manages its own state",
+        "A component whose form data is controlled by React state",
+        "A component with no event handlers",
+        "A component that uses refs for form values"
+      ],
+      "answer": "A component whose form data is controlled by React state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which attribute connects an input element to React state in a controlled component?",
+      "options": [
+        "defaultValue",
+        "value",
+        "data",
+        "bind"
+      ],
+      "answer": "value",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you handle form submission in React?",
+      "options": [
+        "<form action='/submit'>",
+        "<form onSubmit={handleSubmit}>",
+        "<form submit={handleSubmit}>",
+        "<form method='post'>"
+      ],
+      "answer": "<form onSubmit={handleSubmit}>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the .map() function return when used in React JSX?",
+      "options": [
+        "A single React element",
+        "An array of React elements",
+        "A string",
+        "A number"
+      ],
+      "answer": "An array of React elements",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is the 'key' prop required when rendering lists in React?",
+      "options": [
+        "To style list items",
+        "To help React identify which items have changed, been added, or removed",
+        "To pass data to child components",
+        "To sort the list items"
+      ],
+      "answer": "To help React identify which items have changed, been added, or removed",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is wrong with using array index as the key prop in React lists?",
+      "options": [
+        "Indexes are not numbers",
+        "It can cause rendering bugs when items are reordered or deleted",
+        "React does not accept numeric keys",
+        "It slows down rendering always"
+      ],
+      "answer": "It can cause rendering bugs when items are reordered or deleted",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is the correct way to render a list of names in React?",
+      "options": [
+        "names.forEach(name => <li>{name}</li>)",
+        "names.map(name => <li key={name}>{name}</li>)",
+        "for(let name of names) { <li>{name}</li> }",
+        "names.filter(name => <li>{name}</li>)"
+      ],
+      "answer": "names.map(name => <li key={name}>{name}</li>)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you conditionally render a component in React?",
+      "options": [
+        "Using if-else directly in JSX template tags",
+        "Using ternary operator or && inside JSX",
+        "Using switch statements inside JSX",
+        "Using for loops inside JSX"
+      ],
+      "answer": "Using ternary operator or && inside JSX",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does {isLoggedIn && <Dashboard />} do in React?",
+      "options": [
+        "Always renders Dashboard",
+        "Renders Dashboard only when isLoggedIn is true",
+        "Hides Dashboard when isLoggedIn is true",
+        "Throws an error"
+      ],
+      "answer": "Renders Dashboard only when isLoggedIn is true",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are props in React?",
+      "options": [
+        "Internal component state variables",
+        "Read-only inputs passed from a parent component to a child component",
+        "DOM attributes",
+        "CSS class names"
+      ],
+      "answer": "Read-only inputs passed from a parent component to a child component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a child component modify the props it receives?",
+      "options": [
+        "Yes, always",
+        "Yes, using setState",
+        "No, props are read-only",
+        "Yes, using useRef"
+      ],
+      "answer": "No, props are read-only",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass a prop called 'name' with value 'John' to a component?",
+      "options": [
+        "<MyComponent name='John' />",
+        "<MyComponent props.name='John' />",
+        "<MyComponent>{name: 'John'}</MyComponent>",
+        "<MyComponent set:name='John' />"
+      ],
+      "answer": "<MyComponent name='John' />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is props.children in React?",
+      "options": [
+        "An array of all props",
+        "The content nested between opening and closing tags of a component",
+        "Child component state",
+        "A lifecycle method"
+      ],
+      "answer": "The content nested between opening and closing tags of a component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the useState hook return?",
+      "options": [
+        "A single state value",
+        "An array with the current state value and a function to update it",
+        "An object with state and setState",
+        "A ref object"
+      ],
+      "answer": "An array with the current state value and a function to update it",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the correct syntax for initializing state with useState?",
+      "options": [
+        "const state = useState(0)",
+        "const [count, setCount] = useState(0)",
+        "const {count, setCount} = useState(0)",
+        "let count = useState(0)"
+      ],
+      "answer": "const [count, setCount] = useState(0)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens when you call a setState function from useState?",
+      "options": [
+        "The component unmounts",
+        "The component re-renders with the updated state",
+        "Only the DOM updates without a re-render",
+        "Nothing changes"
+      ],
+      "answer": "The component re-renders with the updated state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following correctly increments count using useState?",
+      "options": [
+        "count++",
+        "setCount(count + 1)",
+        "count = count + 1",
+        "useState(count + 1)"
+      ],
+      "answer": "setCount(count + 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the useEffect hook?",
+      "options": [
+        "To manage component state",
+        "To perform side effects such as data fetching, subscriptions, or DOM updates",
+        "To create refs",
+        "To handle routing"
+      ],
+      "answer": "To perform side effects such as data fetching, subscriptions, or DOM updates",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When does useEffect run by default (with no dependency array)?",
+      "options": [
+        "Only once when the component mounts",
+        "After every render of the component",
+        "Only when state changes",
+        "Only when props change"
+      ],
+      "answer": "After every render of the component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you make useEffect run only once (on mount)?",
+      "options": [
+        "useEffect(() => {}, null)",
+        "useEffect(() => {})",
+        "useEffect(() => {}, [])",
+        "useEffect(() => {}, [once])"
+      ],
+      "answer": "useEffect(() => {}, [])",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the cleanup function in useEffect used for?",
+      "options": [
+        "To reset state to initial value",
+        "To clear side effects like subscriptions or timers before the component unmounts or re-runs",
+        "To delete props",
+        "To remove CSS classes"
+      ],
+      "answer": "To clear side effects like subscriptions or timers before the component unmounts or re-runs",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you write a cleanup in useEffect?",
+      "options": [
+        "useEffect(() => { return () => { /* cleanup */ } }, [])",
+        "useEffect(() => { cleanup() }, [])",
+        "useEffect.cleanup(() => {}, [])",
+        "useEffect(() => {}, () => { /* cleanup */ })"
+      ],
+      "answer": "useEffect(() => { return () => { /* cleanup */ } }, [])",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the three phases of a React component lifecycle?",
+      "options": [
+        "Start, Middle, End",
+        "Mounting, Updating, Unmounting",
+        "Create, Render, Destroy",
+        "Init, Run, Stop"
+      ],
+      "answer": "Mounting, Updating, Unmounting",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which lifecycle method in a class component is equivalent to useEffect with an empty dependency array?",
+      "options": [
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "componentDidMount",
+        "shouldComponentUpdate"
+      ],
+      "answer": "componentDidMount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which lifecycle method is called just before a class component is removed from the DOM?",
+      "options": [
+        "componentDidMount",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "render"
+      ],
+      "answer": "componentWillUnmount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a class-based React component, how is state initialized?",
+      "options": [
+        "Using useState()",
+        "Inside the constructor with this.state = {}",
+        "Using this.setState() directly",
+        "As a variable declaration"
+      ],
+      "answer": "Inside the constructor with this.state = {}",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you update state in a class-based component?",
+      "options": [
+        "this.state.count = 1",
+        "this.setState({ count: 1 })",
+        "setState({ count: 1 })",
+        "this.updateState({ count: 1 })"
+      ],
+      "answer": "this.setState({ count: 1 })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method must every class-based React component implement?",
+      "options": [
+        "componentDidMount()",
+        "constructor()",
+        "render()",
+        "shouldComponentUpdate()"
+      ],
+      "answer": "render()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the main advantage of functional components over class components in modern React?",
+      "options": [
+        "They have access to more lifecycle methods",
+        "They are simpler and can use hooks for state and side effects",
+        "They render faster always",
+        "They support TypeScript better"
+      ],
+      "answer": "They are simpler and can use hooks for state and side effects",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the useContext hook used for?",
+      "options": [
+        "To manage local component state",
+        "To consume values from a React Context without prop drilling",
+        "To create new contexts",
+        "To connect to Redux store"
+      ],
+      "answer": "To consume values from a React Context without prop drilling",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you create a Context in React?",
+      "options": [
+        "const MyContext = useContext()",
+        "const MyContext = React.createContext(defaultValue)",
+        "const MyContext = new Context()",
+        "const MyContext = createStore()"
+      ],
+      "answer": "const MyContext = React.createContext(defaultValue)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component makes context values available to its children?",
+      "options": [
+        "MyContext.Consumer",
+        "MyContext.Provider",
+        "ContextWrapper",
+        "MyContext.Subscriber"
+      ],
+      "answer": "MyContext.Provider",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What problem does React Context solve?",
+      "options": [
+        "Async data fetching",
+        "Prop drilling — passing data through many layers of components",
+        "Component styling",
+        "Route management"
+      ],
+      "answer": "Prop drilling — passing data through many layers of components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is useMemo used for in React?",
+      "options": [
+        "To memoize functions so they are not re-created on every render",
+        "To memoize the result of an expensive computation and recompute only when dependencies change",
+        "To store persistent data between sessions",
+        "To cache API responses"
+      ],
+      "answer": "To memoize the result of an expensive computation and recompute only when dependencies change",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is useCallback used for in React?",
+      "options": [
+        "To run a callback after state updates",
+        "To memoize a function so it is not re-created on every render",
+        "To memoize computed values",
+        "To handle asynchronous callbacks"
+      ],
+      "answer": "To memoize a function so it is not re-created on every render",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the key difference between useMemo and useCallback?",
+      "options": [
+        "useMemo is for class components, useCallback for functional",
+        "useMemo memoizes a value, useCallback memoizes a function",
+        "useMemo is faster than useCallback",
+        "There is no difference"
+      ],
+      "answer": "useMemo memoizes a value, useCallback memoizes a function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does useRef return?",
+      "options": [
+        "A state value",
+        "A mutable ref object with a .current property",
+        "A context value",
+        "A callback function"
+      ],
+      "answer": "A mutable ref object with a .current property",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does updating a useRef value cause a component re-render?",
+      "options": [
+        "Yes, always",
+        "Only if the ref is in the dependency array",
+        "No, updating ref.current does not trigger a re-render",
+        "Only in class components"
+      ],
+      "answer": "No, updating ref.current does not trigger a re-render",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you attach a ref to a DOM element using useRef?",
+      "options": [
+        "<input ref={() => inputRef} />",
+        "<input attach={inputRef} />",
+        "<input ref={inputRef} />",
+        "<input useRef={inputRef} />"
+      ],
+      "answer": "<input ref={inputRef} />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is useReducer used for in React?",
+      "options": [
+        "To reduce the size of the component bundle",
+        "To manage complex state logic using a reducer function",
+        "To combine multiple contexts",
+        "To optimize rendering"
+      ],
+      "answer": "To manage complex state logic using a reducer function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the arguments passed to the useReducer hook?",
+      "options": [
+        "useReducer(state, action)",
+        "useReducer(reducer, initialState)",
+        "useReducer(dispatch, reducer)",
+        "useReducer(action, dispatch)"
+      ],
+      "answer": "useReducer(reducer, initialState)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the dispatch function do in useReducer?",
+      "options": [
+        "Directly modifies state",
+        "Sends an action object to the reducer to update state",
+        "Fetches data from an API",
+        "Renders a new component"
+      ],
+      "answer": "Sends an action object to the reducer to update state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a custom hook in React?",
+      "options": [
+        "A built-in React function",
+        "A JavaScript function starting with 'use' that can call other hooks",
+        "A class method used for state management",
+        "A CSS-in-JS solution"
+      ],
+      "answer": "A JavaScript function starting with 'use' that can call other hooks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why do custom hooks start with the prefix 'use'?",
+      "options": [
+        "It is required by the JavaScript engine",
+        "It is a React convention that enables the React linter to enforce rules of hooks",
+        "It improves performance",
+        "It is required for TypeScript support"
+      ],
+      "answer": "It is a React convention that enables the React linter to enforce rules of hooks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary benefit of creating a custom hook?",
+      "options": [
+        "It improves CSS styling",
+        "It allows reusing stateful logic across multiple components",
+        "It replaces the need for Context",
+        "It removes the need for useEffect"
+      ],
+      "answer": "It allows reusing stateful logic across multiple components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which package is used for client-side routing in React?",
+      "options": [
+        "react-navigation",
+        "next/router",
+        "react-router-dom",
+        "react-link"
+      ],
+      "answer": "react-router-dom",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component from react-router-dom wraps your entire app to enable routing?",
+      "options": [
+        "<Switch>",
+        "<BrowserRouter>",
+        "<RouterProvider>",
+        "<HashRouter>"
+      ],
+      "answer": "<BrowserRouter>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component is used to define a route in React Router v6?",
+      "options": [
+        "<Route path='/home' element={<Home />} />",
+        "<Route path='/home' component={Home} />",
+        "<Link to='/home' />",
+        "<Switch path='/home'>"
+      ],
+      "answer": "<Route path='/home' element={<Home />} />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component from react-router-dom creates a navigation link without full page reload?",
+      "options": [
+        "<a href='/home'>",
+        "<Link to='/home'>",
+        "<Navigate to='/home'>",
+        "<Anchor to='/home'>"
+      ],
+      "answer": "<Link to='/home'>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access URL parameters in React Router v6?",
+      "options": [
+        "props.match.params",
+        "useParams() hook",
+        "this.props.params",
+        "useRouteParams()"
+      ],
+      "answer": "useParams() hook",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook from react-router-dom is used to navigate programmatically?",
+      "options": [
+        "useHistory()",
+        "useRoute()",
+        "useNavigate()",
+        "useRedirect()"
+      ],
+      "answer": "useNavigate()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component wraps all Route components in React Router v6?",
+      "options": [
+        "<Router>",
+        "<Switch>",
+        "<Routes>",
+        "<RouteGroup>"
+      ],
+      "answer": "<Routes>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you fetch data from an API inside a React functional component?",
+      "options": [
+        "Using useEffect with fetch or axios",
+        "Using useState directly with fetch",
+        "Using render() method",
+        "Using componentDidMount as a hook"
+      ],
+      "answer": "Using useEffect with fetch or axios",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is the correct pattern to fetch API data and store it in state?",
+      "options": [
+        "const data = fetch(url).json()",
+        "useEffect(() => { fetch(url).then(r => r.json()).then(d => setData(d)) }, [])",
+        "useState(() => fetch(url))",
+        "useData(url)"
+      ],
+      "answer": "useEffect(() => { fetch(url).then(r => r.json()).then(d => setData(d)) }, [])",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of async/await in React API calls?",
+      "options": [
+        "To style components asynchronously",
+        "To write asynchronous code in a synchronous-looking manner",
+        "To make state updates synchronous",
+        "To delay component mounting"
+      ],
+      "answer": "To write asynchronous code in a synchronous-looking manner",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the correct way to use async/await inside useEffect?",
+      "options": [
+        "useEffect(async () => { await fetch(url) }, [])",
+        "useEffect(() => { const fetchData = async () => { await fetch(url) }; fetchData(); }, [])",
+        "async useEffect(() => { await fetch(url) }, [])",
+        "useEffect(() => async { await fetch(url) }, [])"
+      ],
+      "answer": "useEffect(() => { const fetchData = async () => { await fetch(url) }; fetchData(); }, [])",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Redux?",
+      "options": [
+        "A CSS framework",
+        "A predictable state management container for JavaScript apps",
+        "A routing library",
+        "A testing framework"
+      ],
+      "answer": "A predictable state management container for JavaScript apps",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the three core principles of Redux?",
+      "options": [
+        "Component, State, Props",
+        "Single source of truth, State is read-only, Changes via pure functions",
+        "Actions, Reducers, Components",
+        "Store, Dispatch, Subscribe"
+      ],
+      "answer": "Single source of truth, State is read-only, Changes via pure functions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a Redux action?",
+      "options": [
+        "A function that updates the DOM",
+        "A plain JavaScript object with a 'type' property describing what happened",
+        "A class that manages state",
+        "A middleware function"
+      ],
+      "answer": "A plain JavaScript object with a 'type' property describing what happened",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a reducer in Redux?",
+      "options": [
+        "A function that fetches API data",
+        "A pure function that takes the current state and an action, and returns a new state",
+        "A component that renders state",
+        "A middleware that processes actions"
+      ],
+      "answer": "A pure function that takes the current state and an action, and returns a new state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you connect a React component to the Redux store?",
+      "options": [
+        "Using props directly",
+        "Using useSelector and useDispatch hooks from react-redux",
+        "Using this.props.store",
+        "Using Redux.connect()"
+      ],
+      "answer": "Using useSelector and useDispatch hooks from react-redux",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the useSelector hook do in React-Redux?",
+      "options": [
+        "Dispatches actions to the store",
+        "Selects and returns a specific slice of state from the Redux store",
+        "Creates reducers",
+        "Creates action creators"
+      ],
+      "answer": "Selects and returns a specific slice of state from the Redux store",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the useDispatch hook return?",
+      "options": [
+        "The Redux store state",
+        "The dispatch function to send actions to the Redux store",
+        "A selector function",
+        "A middleware function"
+      ],
+      "answer": "The dispatch function to send actions to the Redux store",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which package provides a Provider component to make the Redux store available to all React components?",
+      "options": [
+        "redux",
+        "redux-thunk",
+        "react-redux",
+        "@reduxjs/toolkit"
+      ],
+      "answer": "react-redux",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Redux Toolkit (RTK)?",
+      "options": [
+        "A separate state management library unrelated to Redux",
+        "The official, opinionated toolset for efficient Redux development",
+        "A CSS utility for Redux components",
+        "A testing library for Redux"
+      ],
+      "answer": "The official, opinionated toolset for efficient Redux development",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function from Redux Toolkit creates a slice of state with actions and reducers?",
+      "options": [
+        "createReducer()",
+        "createStore()",
+        "createSlice()",
+        "createAction()"
+      ],
+      "answer": "createSlice()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does createSlice() automatically generate?",
+      "options": [
+        "Only reducers",
+        "Only action creators",
+        "Both action creators and reducers based on the name and reducers provided",
+        "The Redux store"
+      ],
+      "answer": "Both action creators and reducers based on the name and reducers provided",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function from Redux Toolkit creates the Redux store?",
+      "options": [
+        "createStore()",
+        "configureStore()",
+        "createReducer()",
+        "setupStore()"
+      ],
+      "answer": "configureStore()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does Redux Toolkit use Immer for state updates?",
+      "options": [
+        "No, you must always return a new state object manually",
+        "Yes, Immer allows you to write mutating logic in reducers that is safely converted to immutable updates",
+        "Only in production mode",
+        "Only when using TypeScript"
+      ],
+      "answer": "Yes, Immer allows you to write mutating logic in reducers that is safely converted to immutable updates",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is RTK Query?",
+      "options": [
+        "A database query language for Redux",
+        "A built-in data fetching and caching solution included in Redux Toolkit",
+        "A GraphQL client for Redux",
+        "A testing utility for RTK"
+      ],
+      "answer": "A built-in data fetching and caching solution included in Redux Toolkit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function from RTK Query is used to create an API service?",
+      "options": [
+        "createQuery()",
+        "createAPI()",
+        "createApi()",
+        "setupApi()"
+      ],
+      "answer": "createApi()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the fetchBaseQuery utility provide in RTK Query?",
+      "options": [
+        "A mock server for testing",
+        "A lightweight fetch wrapper to set the base URL for API requests",
+        "GraphQL support",
+        "WebSocket support"
+      ],
+      "answer": "A lightweight fetch wrapper to set the base URL for API requests",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook does RTK Query auto-generate for a query endpoint named 'getPosts'?",
+      "options": [
+        "useFetchPosts()",
+        "useGetPostsQuery()",
+        "usePostsSelector()",
+        "useQuery('getPosts')"
+      ],
+      "answer": "useGetPostsQuery()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Formik used for in React?",
+      "options": [
+        "CSS-in-JS styling",
+        "Managing form state, validation, and submission in React",
+        "API data fetching",
+        "Client-side routing"
+      ],
+      "answer": "Managing form state, validation, and submission in React",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Yup used for with Formik?",
+      "options": [
+        "Styling forms",
+        "Schema-based form validation",
+        "Form submission to a backend",
+        "Routing after form submission"
+      ],
+      "answer": "Schema-based form validation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which prop on Formik's <Formik> component accepts a Yup validation schema?",
+      "options": [
+        "schema",
+        "validationSchema",
+        "yupSchema",
+        "validate"
+      ],
+      "answer": "validationSchema",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does Formik's handleSubmit do?",
+      "options": [
+        "Resets the form",
+        "Handles form submission and calls the onSubmit function if validation passes",
+        "Validates a single field",
+        "Fetches data from an API"
+      ],
+      "answer": "Handles form submission and calls the onSubmit function if validation passes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of Formik's touched object?",
+      "options": [
+        "Tracks which fields have been focused and then blurred (visited)",
+        "Tracks which fields have errors",
+        "Tracks which fields have been submitted",
+        "Tracks which fields are required"
+      ],
+      "answer": "Tracks which fields have been focused and then blurred (visited)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Formik component simplifies connecting form fields to Formik state?",
+      "options": [
+        "<FormInput>",
+        "<Field>",
+        "<Input>",
+        "<FormControl>"
+      ],
+      "answer": "<Field>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does Yup.string().required() do?",
+      "options": [
+        "Makes a field optional",
+        "Validates that a field is a non-empty string",
+        "Validates email format",
+        "Sets a maximum length"
+      ],
+      "answer": "Validates that a field is a non-empty string",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is MUI (Material UI) in React?",
+      "options": [
+        "A CSS preprocessor",
+        "A popular React UI component library based on Google's Material Design",
+        "A state management library",
+        "A routing library"
+      ],
+      "answer": "A popular React UI component library based on Google's Material Design",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which MUI component is used to create a responsive grid layout?",
+      "options": [
+        "<Flex>",
+        "<Grid>",
+        "<Row>",
+        "<Layout>"
+      ],
+      "answer": "<Grid>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you install MUI in a React project?",
+      "options": [
+        "npm install material-ui",
+        "npm install @material-ui/core",
+        "npm install @mui/material @emotion/react @emotion/styled",
+        "npx add-mui"
+      ],
+      "answer": "npm install @mui/material @emotion/react @emotion/styled",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Tailwind CSS?",
+      "options": [
+        "A component library like Bootstrap",
+        "A utility-first CSS framework for styling directly in HTML/JSX",
+        "A CSS preprocessor like Sass",
+        "A CSS-in-JS library"
+      ],
+      "answer": "A utility-first CSS framework for styling directly in HTML/JSX",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you apply a background color of blue-500 using Tailwind CSS in React?",
+      "options": [
+        "style={{ backgroundColor: 'blue-500' }}",
+        "className='bg-blue-500'",
+        "className='background-blue-500'",
+        "style='bg-blue-500'"
+      ],
+      "answer": "className='bg-blue-500'",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is SEO and why does it matter for React apps?",
+      "options": [
+        "Security Enhancement Object — it protects API calls",
+        "Search Engine Optimization — it ensures React apps are indexable by search engines",
+        "State Execution Order — it manages React rendering",
+        "Selective Element Output — it controls JSX rendering"
+      ],
+      "answer": "Search Engine Optimization — it ensures React apps are indexable by search engines",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which package is commonly used to manage SEO meta tags in a React app?",
+      "options": [
+        "react-seo",
+        "react-helmet",
+        "react-meta",
+        "head-manager"
+      ],
+      "answer": "react-helmet",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why do client-side rendered (CSR) React apps have SEO challenges?",
+      "options": [
+        "They use too much CSS",
+        "Search engine bots may not execute JavaScript, so they may see an empty HTML page",
+        "They load too fast for crawlers",
+        "They use too many images"
+      ],
+      "answer": "Search engine bots may not execute JavaScript, so they may see an empty HTML page",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Server-Side Rendering (SSR) and how does it help SEO in React?",
+      "options": [
+        "SSR renders the app on the client; it doesn't help SEO",
+        "SSR pre-renders HTML on the server so crawlers receive fully rendered content",
+        "SSR is a CSS technique for React",
+        "SSR is only useful for mobile apps"
+      ],
+      "answer": "SSR pre-renders HTML on the server so crawlers receive fully rendered content",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does React.memo improve performance?",
+      "options": [
+        "It stores state in localStorage",
+        "It prevents a functional component from re-rendering if its props have not changed",
+        "It memoizes API responses",
+        "It caches Redux store updates"
+      ],
+      "answer": "It prevents a functional component from re-rendering if its props have not changed",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is lazy loading in React?",
+      "options": [
+        "Loading all components upfront",
+        "Delaying the loading of a component until it is actually needed using React.lazy()",
+        "Slowing down rendering for debugging",
+        "Loading CSS asynchronously"
+      ],
+      "answer": "Delaying the loading of a component until it is actually needed using React.lazy()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component must wrap a lazily loaded component in React?",
+      "options": [
+        "<ErrorBoundary>",
+        "<Suspense fallback={<Loading />}>",
+        "<Lazy>",
+        "<AsyncWrapper>"
+      ],
+      "answer": "<Suspense fallback={<Loading />}>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an Error Boundary in React?",
+      "options": [
+        "A try-catch block in JSX",
+        "A class component that catches JavaScript errors in its child component tree and displays a fallback UI",
+        "A hook that handles async errors",
+        "A Redux middleware for error handling"
+      ],
+      "answer": "A class component that catches JavaScript errors in its child component tree and displays a fallback UI",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of React.Fragment?",
+      "options": [
+        "To add styling to multiple elements",
+        "To group multiple elements without adding an extra DOM node",
+        "To split code for lazy loading",
+        "To create portals"
+      ],
+      "answer": "To group multiple elements without adding an extra DOM node",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the shorthand syntax for React.Fragment?",
+      "options": [
+        "<></> (empty tags)",
+        "<Fragment />",
+        "<React.Empty>",
+        "<Wrap>"
+      ],
+      "answer": "<></> (empty tags)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are React Portals used for?",
+      "options": [
+        "Navigating between pages",
+        "Rendering children into a DOM node outside the parent component's DOM hierarchy",
+        "Managing global state",
+        "Creating reusable hooks"
+      ],
+      "answer": "Rendering children into a DOM node outside the parent component's DOM hierarchy",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is prop drilling in React?",
+      "options": [
+        "A performance optimization technique",
+        "Passing props through multiple nested components just to reach a deeply nested child",
+        "Drilling into DOM nodes with refs",
+        "A debugging technique"
+      ],
+      "answer": "Passing props through multiple nested components just to reach a deeply nested child",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is NOT a React hook?",
+      "options": [
+        "useState",
+        "useEffect",
+        "useComponent",
+        "useRef"
+      ],
+      "answer": "useComponent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can React hooks be called inside loops or conditions?",
+      "options": [
+        "Yes, anywhere in the component",
+        "No, hooks must always be called at the top level of a React function",
+        "Yes, but only inside loops",
+        "Only inside if statements"
+      ],
+      "answer": "No, hooks must always be called at the top level of a React function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can you call hooks inside a regular JavaScript function (not a React component)?",
+      "options": [
+        "Yes, always",
+        "No, hooks can only be called inside React functional components or custom hooks",
+        "Yes, if you import React",
+        "Only in arrow functions"
+      ],
+      "answer": "No, hooks can only be called inside React functional components or custom hooks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of defaultProps in React?",
+      "options": [
+        "To set default CSS styles",
+        "To define default values for props if they are not provided by the parent",
+        "To set default state values",
+        "To provide fallback routes"
+      ],
+      "answer": "To define default values for props if they are not provided by the parent",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is PropTypes used for in React?",
+      "options": [
+        "To define CSS types",
+        "To type-check props passed to a component at runtime",
+        "To manage state types",
+        "To define Redux action types"
+      ],
+      "answer": "To type-check props passed to a component at runtime",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the spread operator do when passing props in React?",
+      "options": [
+        "<Child ...props> passes all parent props to the child",
+        "<Child {...props}> passes all properties of the props object as individual props to the child",
+        "It merges two components",
+        "It spreads state into DOM attributes"
+      ],
+      "answer": "<Child {...props}> passes all properties of the props object as individual props to the child",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is reconciliation in React?",
+      "options": [
+        "The process of saving state to localStorage",
+        "The algorithm React uses to diff the virtual DOM and update only the changed parts of the real DOM",
+        "The process of merging multiple stores",
+        "Connecting Redux to React"
+      ],
+      "answer": "The algorithm React uses to diff the virtual DOM and update only the changed parts of the real DOM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does ReactDOM.render() do?",
+      "options": [
+        "Creates a new React component",
+        "Renders a React element into the specified DOM container",
+        "Fetches data for a component",
+        "Creates a Redux store"
+      ],
+      "answer": "Renders a React element into the specified DOM container",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In React 18, which method replaces ReactDOM.render()?",
+      "options": [
+        "ReactDOM.mount()",
+        "ReactDOM.createRoot().render()",
+        "ReactDOM.start()",
+        "ReactDOM.init()"
+      ],
+      "answer": "ReactDOM.createRoot().render()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is React Strict Mode?",
+    "options": [
+        "A production-only mode for performance",
+        "A development mode wrapper that highlights potential problems in the app",
+        "A TypeScript-only feature",
+        "A Redux middleware"
+      ],
+      "answer": "A development mode wrapper that highlights potential problems in the app",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the useLayoutEffect hook?",
+      "options": [
+        "It is identical to useEffect",
+        "It fires synchronously after all DOM mutations, before the browser paints",
+        "It measures component render time",
+        "It applies CSS layout rules"
+      ],
+      "answer": "It fires synchronously after all DOM mutations, before the browser paints",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does axios provide over the native fetch API?",
+      "options": [
+        "Axios only works with REST APIs",
+        "Axios automatically transforms JSON, handles request/response interceptors, and supports older browsers",
+        "Axios is faster than fetch",
+        "Axios requires no configuration"
+      ],
+      "answer": "Axios automatically transforms JSON, handles request/response interceptors, and supports older browsers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the difference between state and props in React?",
+      "options": [
+        "State is passed from parent; props are internal",
+        "Props are read-only and passed from parent; state is managed internally by the component",
+        "There is no difference",
+        "State is for styling; props are for logic"
+      ],
+      "answer": "Props are read-only and passed from parent; state is managed internally by the component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a React component re-render without a state or prop change?",
+      "options": [
+        "No, never",
+        "Yes, if its parent re-renders (unless wrapped in React.memo)",
+        "Yes, only in class components",
+        "No, React always prevents unnecessary re-renders"
+      ],
+      "answer": "Yes, if its parent re-renders (unless wrapped in React.memo)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the key prop when rendering a list of components?",
+      "options": [
+        "It styles the list item",
+        "It uniquely identifies each element so React can efficiently update the list",
+        "It passes the key as a prop to the child component",
+        "It sets the tab index for the element"
+      ],
+      "answer": "It uniquely identifies each element so React can efficiently update the list",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Redux Toolkit, how do you export action creators from a slice?",
+      "options": [
+        "export const { action1 } = mySlice.actions",
+        "export mySlice.actions.action1",
+        "export action1 from mySlice",
+        "module.exports = mySlice.actions"
+      ],
+      "answer": "export const { action1 } = mySlice.actions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the role of the 'reducer' key in configureStore()?",
+      "options": [
+        "It defines the middleware",
+        "It combines all slice reducers into the root reducer for the store",
+        "It configures DevTools",
+        "It sets the initial state"
+      ],
+      "answer": "It combines all slice reducers into the root reducer for the store",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does createAsyncThunk do in Redux Toolkit?",
+      "options": [
+        "Creates synchronous reducers",
+        "Creates an async action creator that dispatches pending, fulfilled, and rejected actions",
+        "Creates a middleware for async calls",
+        "Wraps the Redux store for async support"
+      ],
+      "answer": "Creates an async action creator that dispatches pending, fulfilled, and rejected actions",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are the three lifecycle action types generated by createAsyncThunk?",
+      "options": [
+        "start, success, failure",
+        "pending, fulfilled, rejected",
+        "loading, done, error",
+        "request, response, catch"
+      ],
+      "answer": "pending, fulfilled, rejected",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you handle the result of createAsyncThunk in a slice?",
+      "options": [
+        "Inside the reducers field of createSlice",
+        "Inside the extraReducers field of createSlice using builder.addCase()",
+        "Using a separate createReducer() call",
+        "By subscribing to the store"
+      ],
+      "answer": "Inside the extraReducers field of createSlice using builder.addCase()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of Formik's initialValues?",
+      "options": [
+        "To define form validation rules",
+        "To set the default values for the form fields when the form first renders",
+        "To reset the form after submission",
+        "To define the form's submit handler"
+      ],
+      "answer": "To set the default values for the form fields when the form first renders",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does Formik's getFieldProps() helper provide?",
+      "options": [
+        "Only the error message for a field",
+        "onChange, onBlur, and value props that connect an input to Formik state",
+        "The validation schema for a field",
+        "The submit handler"
+      ],
+      "answer": "onChange, onBlur, and value props that connect an input to Formik state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Yup method is used to validate that a string is a valid email address?",
+      "options": [
+        "Yup.string().isEmail()",
+        "Yup.string().email()",
+        "Yup.email()",
+        "Yup.string().validateEmail()"
+      ],
+      "answer": "Yup.string().email()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Yup method sets a minimum length for a string field?",
+      "options": [
+        "Yup.string().length(8)",
+        "Yup.string().min(8, 'Too short')",
+        "Yup.string().minimum(8)",
+        "Yup.string().minLength(8)"
+      ],
+      "answer": "Yup.string().min(8, 'Too short')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the useFormik hook used for?",
+      "options": [
+        "To create a global form context",
+        "To initialize and manage Formik state, handlers, and validation in a component",
+        "To connect Formik with Redux",
+        "To style form elements"
+      ],
+      "answer": "To initialize and manage Formik state, handlers, and validation in a component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does Tailwind CSS handle responsive design?",
+      "options": [
+        "Using separate CSS files for each breakpoint",
+        "Using responsive prefix utilities like sm:, md:, lg: on class names",
+        "Using JavaScript media query listeners",
+        "Using a grid component"
+      ],
+      "answer": "Using responsive prefix utilities like sm:, md:, lg: on class names",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the tailwind.config.js file?",
+      "options": [
+        "To write custom Tailwind components",
+        "To customize Tailwind's default theme, content paths, and extend utilities",
+        "To connect Tailwind to Redux",
+        "To configure Tailwind's routing"
+      ],
+      "answer": "To customize Tailwind's default theme, content paths, and extend utilities",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which MUI component is used for a reusable themed button?",
+      "options": [
+        "<MUIButton>",
+        "<Button>",
+        "<Btn>",
+        "<MaterialButton>"
+      ],
+      "answer": "<Button>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the sx prop in MUI?",
+      "options": [
+        "A prop for setting component size",
+        "A shorthand for applying inline styles and theme-aware CSS directly on MUI components",
+        "A prop for server-side rendering",
+        "A prop for accessibility"
+      ],
+      "answer": "A shorthand for applying inline styles and theme-aware CSS directly on MUI components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the <NavLink> component in React Router?",
+      "options": [
+        "It is identical to <Link>",
+        "It renders a link that knows whether it is 'active' (matching the current route) and applies active styling",
+        "It navigates programmatically",
+        "It creates nested routes"
+      ],
+      "answer": "It renders a link that knows whether it is 'active' (matching the current route) and applies active styling",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the <Outlet /> component do in React Router v6?",
+      "options": [
+        "Redirects to another page",
+        "Renders the matched child route's component inside a parent layout route",
+        "Creates a portal",
+        "Handles 404 pages"
+      ],
+      "answer": "Renders the matched child route's component inside a parent layout route",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you define a 404 Not Found route in React Router v6?",
+      "options": [
+        "<Route path='404' element={<NotFound />} />",
+        "<Route path='*' element={<NotFound />} />",
+        "<Route default element={<NotFound />} />",
+        "<NotFound />"
+      ],
+      "answer": "<Route path='*' element={<NotFound />} />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you redirect a user in React Router v6?",
+      "options": [
+        "Using <Redirect to='/home' />",
+        "Using <Navigate to='/home' replace />",
+        "Using history.push('/home')",
+        "Using window.location.href = '/home'"
+      ],
+      "answer": "Using <Navigate to='/home' replace />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the useLocation hook in React Router?",
+      "options": [
+        "To get the user's geographic location",
+        "To access the current URL location object including pathname, search, and hash",
+        "To navigate to a new route",
+        "To access route parameters"
+      ],
+      "answer": "To access the current URL location object including pathname, search, and hash",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass state when navigating with useNavigate?",
+      "options": [
+        "navigate('/path', data)",
+        "navigate('/path', { state: { key: value } })",
+        "navigate('/path').setState(data)",
+        "navigate({ to: '/path', state: data })"
+      ],
+      "answer": "navigate('/path', { state: { key: value } })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the useSearchParams hook provide in React Router v6?",
+      "options": [
+        "Access to the URL hash",
+        "Access to read and update query string parameters in the URL",
+        "Access to nested route params",
+        "A search bar component"
+      ],
+      "answer": "Access to read and update query string parameters in the URL",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Redux store?",
+      "options": [
+        "A local component state",
+        "A centralized object that holds the entire application state",
+        "A database",
+        "A component for displaying state"
+      ],
+      "answer": "A centralized object that holds the entire application state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In RTK Query, what is a 'mutation' endpoint used for?",
+      "options": [
+        "Fetching read-only data",
+        "Sending data to a server to create, update, or delete resources",
+        "Transforming fetched data",
+        "Caching API responses"
+      ],
+      "answer": "Sending data to a server to create, update, or delete resources",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook does RTK Query generate for a mutation endpoint named 'addPost'?",
+      "options": [
+        "useAddPost()",
+        "useAddPostMutation()",
+        "useMutation('addPost')",
+        "usePostMutation()"
+      ],
+      "answer": "useAddPostMutation()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does RTK Query's 'invalidatesTags' option do?",
+      "options": [
+        "Deletes cached data immediately",
+        "Marks specific cached data as stale so it gets refetched after a mutation",
+        "Cancels an in-flight request",
+        "Validates response data"
+      ],
+      "answer": "Marks specific cached data as stale so it gets refetched after a mutation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is code splitting in React?",
+      "options": [
+        "Splitting CSS from JavaScript",
+        "Breaking the app's bundle into smaller chunks that are loaded on demand to improve performance",
+        "Separating state from components",
+        "Splitting routes into separate files"
+      ],
+      "answer": "Breaking the app's bundle into smaller chunks that are loaded on demand to improve performance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the forwardRef function in React allow?",
+      "options": [
+        "Forwarding props to child components",
+        "Passing a ref from a parent component through to a child DOM element or component",
+        "Creating multiple refs",
+        "Forwarding context values"
+      ],
+      "answer": "Passing a ref from a parent component through to a child DOM element or component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the useImperativeHandle hook used for?",
+      "options": [
+        "To imperatively update state",
+        "To customize the instance value (ref) exposed to parent components when using forwardRef",
+        "To handle imperative DOM operations",
+        "To wrap third-party libraries"
+      ],
+      "answer": "To customize the instance value (ref) exposed to parent components when using forwardRef",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the useId hook introduced in React 18?",
+      "options": [
+        "To generate user IDs for authentication",
+        "To generate stable, unique IDs for accessibility attributes across server and client",
+        "To assign keys to list items",
+        "To create unique Redux action types"
+      ],
+      "answer": "To generate stable, unique IDs for accessibility attributes across server and client",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is React Concurrent Mode?",
+      "options": [
+        "Running multiple React apps simultaneously",
+        "A set of features that allow React to interrupt, pause, resume, and abandon renders for better user experience",
+        "A Redux feature for async state",
+        "A testing mode for concurrent tests"
+      ],
+      "answer": "A set of features that allow React to interrupt, pause, resume, and abandon renders for better user experience",
+      "points": 2
+    },
+     {
+      "kind": "mcq",
+      "text": "What is React primarily used for?",
+      "options": [
+        "Database management",
+        "Building user interfaces",
+        "Server-side processing",
+        "Operating system development"
+      ],
+      "answer": "Building user interfaces",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which company developed and maintains React?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Meta (Facebook)",
+        "Twitter"
+      ],
+      "answer": "Meta (Facebook)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the Virtual DOM in React?",
+      "options": [
+        "A direct copy of the browser's database",
+        "A lightweight JavaScript representation of the actual DOM",
+        "A virtual machine running React",
+        "A specialized CSS framework"
+      ],
+      "answer": "A lightweight JavaScript representation of the actual DOM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you correctly apply inline CSS styles in React?",
+      "options": [
+        "style=\"color: red;\"",
+        "style={color: 'red'}",
+        "style={{ color: 'red' }}",
+        "css={{ color: 'red' }}"
+      ],
+      "answer": "style={{ color: 'red' }}",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which attribute is used to assign a CSS class to a JSX element?",
+      "options": [
+        "class",
+        "className",
+        "cssClass",
+        "styleClass"
+      ],
+      "answer": "className",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Material-UI (MUI) in the context of React?",
+      "options": [
+        "A state management library",
+        "A popular component library implementing Google's Material Design",
+        "A routing package",
+        "A database ORM"
+      ],
+      "answer": "A popular component library implementing Google's Material Design",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following represents a Tailwind CSS utility class approach in React?",
+      "options": [
+        "<div className=\"flex justify-center p-4\">",
+        "<div style=\"flex; justify-content: center; padding: 1rem;\">",
+        "<div mui=\"flex-center\">",
+        "<div class=\"tailwind-box\">"
+      ],
+      "answer": "<div className=\"flex justify-center p-4\">",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you typically import a local image in a React component?",
+      "options": [
+        "import image from './logo.png';",
+        "require('./logo.png');",
+        "<img src=import('./logo.png') />",
+        "import './logo.png' as image;"
+      ],
+      "answer": "import image from './logo.png';",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which tag is best suited for embedding a video file directly in a React component?",
+      "options": [
+        "<media>",
+        "<video>",
+        "<embedVideo>",
+        "<ReactVideo>"
+      ],
+      "answer": "<video>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the proper naming convention for React component functions?",
+      "options": [
+        "camelCase",
+        "PascalCase",
+        "snake_case",
+        "kebab-case"
+      ],
+      "answer": "PascalCase",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How are events named in React compared to standard HTML?",
+      "options": [
+        "lowercase (e.g., onclick)",
+        "UPPERCASE (e.g., ONCLICK)",
+        "camelCase (e.g., onClick)",
+        "kebab-case (e.g., on-click)"
+      ],
+      "answer": "camelCase (e.g., onClick)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass a parameter to an event handler in React?",
+      "options": [
+        "onClick={handleClick(id)}",
+        "onClick={() => handleClick(id)}",
+        "onClick={handleClick.bind(id)}",
+        "Both B and C"
+      ],
+      "answer": "Both B and C",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In React, why is direct DOM manipulation (like document.getElementById) generally discouraged?",
+      "options": [
+        "It causes security vulnerabilities",
+        "It conflicts with React's Virtual DOM rendering cycle",
+        "It deletes the DOM element",
+        "It is not supported in modern browsers"
+      ],
+      "answer": "It conflicts with React's Virtual DOM rendering cycle",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What makes a form component 'controlled' in React?",
+      "options": [
+        "It uses a <form> tag",
+        "Its input values are controlled by React state",
+        "It has a submit button",
+        "It prevents default browser behavior"
+      ],
+      "answer": "Its input values are controlled by React state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which event is primarily used to update state as a user types into a controlled text input?",
+      "options": [
+        "onBlur",
+        "onSubmit",
+        "onChange",
+        "onClick"
+      ],
+      "answer": "onChange",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which JavaScript array method is heavily used in React to render lists of elements?",
+      "options": [
+        "filter()",
+        "reduce()",
+        "forEach()",
+        "map()"
+      ],
+      "answer": "map()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What special string attribute must be included when rendering a list of elements in React?",
+      "options": [
+        "id",
+        "key",
+        "index",
+        "ref"
+      ],
+      "answer": "key",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why are 'keys' important in React lists?",
+      "options": [
+        "They encrypt the data",
+        "They help React identify which items have changed, are added, or are removed for efficient rendering",
+        "They automatically style the list",
+        "They act as database primary keys"
+      ],
+      "answer": "They help React identify which items have changed, are added, or are removed for efficient rendering",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is commonly used for inline conditional rendering in React if you only want to render something when a condition is true?",
+      "options": [
+        "||",
+        "&&",
+        "??",
+        "=="
+      ],
+      "answer": "&&",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used for if-else conditional rendering in JSX?",
+      "options": [
+        "Ternary operator (? :)",
+        "Logical AND (&&)",
+        "Switch statement",
+        "If-else block directly inside JSX"
+      ],
+      "answer": "Ternary operator (? :)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What are 'props' in React?",
+      "options": [
+        "Internal component state",
+        "Arguments passed into React components from parent components",
+        "CSS properties",
+        "HTML attributes"
+      ],
+      "answer": "Arguments passed into React components from parent components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Are React props mutable or immutable?",
+      "options": [
+        "Mutable (they can be changed by the child)",
+        "Immutable (they are read-only in the child component)",
+        "It depends on the component type",
+        "Only string props are mutable"
+      ],
+      "answer": "Immutable (they are read-only in the child component)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Hook is used to add state to a functional component?",
+      "options": [
+        "useEffect",
+        "useContext",
+        "useState",
+        "useReducer"
+      ],
+      "answer": "useState",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `useState` hook return?",
+      "options": [
+        "A single value representing the state",
+        "A function to update the state",
+        "An array containing the current state value and a function to update it",
+        "An object with state properties"
+      ],
+      "answer": "An array containing the current state value and a function to update it",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is the state update function returned by `useState` synchronous or asynchronous?",
+      "options": [
+        "Synchronous",
+        "Asynchronous",
+        "It blocks the main thread",
+        "It depends on the browser"
+      ],
+      "answer": "Asynchronous",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If new state depends on the previous state, what is the safest way to update it?",
+      "options": [
+        "setCount(count + 1)",
+        "setCount(prevCount => prevCount + 1)",
+        "count = count + 1",
+        "setState({ count: count + 1 })"
+      ],
+      "answer": "setCount(prevCount => prevCount + 1)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Hook lets you perform side effects in functional components?",
+      "options": [
+        "useSideEffect",
+        "useState",
+        "useEffect",
+        "useMemo"
+      ],
+      "answer": "useEffect",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you provide an empty dependency array `[]` to `useEffect`, when does it run?",
+      "options": [
+        "On every render",
+        "Only once after the initial render (component mount)",
+        "When the component unmounts",
+        "Never"
+      ],
+      "answer": "Only once after the initial render (component mount)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens if you omit the dependency array entirely in `useEffect`?",
+      "options": [
+        "It runs only once",
+        "It never runs",
+        "It runs after every single render",
+        "It throws an error"
+      ],
+      "answer": "It runs after every single render",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you handle cleanup (like clearing an interval) in `useEffect`?",
+      "options": [
+        "By returning a function from the effect callback",
+        "By passing a third argument",
+        "By calling useCleanup()",
+        "By deleting the component"
+      ],
+      "answer": "By returning a function from the effect callback",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In class-based components, which lifecycle method is equivalent to `useEffect` with an empty array?",
+      "options": [
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "componentDidMount",
+        "shouldComponentUpdate"
+      ],
+      "answer": "componentDidMount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which lifecycle method in class components is used to clean up timers or subscriptions?",
+      "options": [
+        "componentDidMount",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "render"
+      ],
+      "answer": "componentWillUnmount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is required for a class-based component to render UI?",
+      "options": [
+        "A return statement directly in the class body",
+        "A render() method that returns JSX",
+        "A constructor() method",
+        "The useState hook"
+      ],
+      "answer": "A render() method that returns JSX",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access props in a class-based component?",
+      "options": [
+        "this.props",
+        "props",
+        "self.props",
+        "super.props"
+      ],
+      "answer": "this.props",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why are functional components preferred over class components in modern React?",
+      "options": [
+        "They execute faster",
+        "They are more concise and hooks allow them to manage state and side effects easily",
+        "Class components are completely removed from React",
+        "They don't require JSX"
+      ],
+      "answer": "They are more concise and hooks allow them to manage state and side effects easily",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What problem does the Context API (`useContext`) primarily solve?",
+      "options": [
+        "Slow rendering",
+        "Prop drilling (passing props deeply through nested components)",
+        "Database connection issues",
+        "CSS styling conflicts"
+      ],
+      "answer": "Prop drilling (passing props deeply through nested components)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component makes the context value available to the tree below it?",
+      "options": [
+        "Context.Consumer",
+        "Context.Provider",
+        "Context.Supplier",
+        "Context.Wrapper"
+      ],
+      "answer": "Context.Provider",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the `useMemo` hook?",
+      "options": [
+        "To memorize user inputs",
+        "To cache a DOM element",
+        "To memoize an expensive calculation result between renders",
+        "To memoize a function definition"
+      ],
+      "answer": "To memoize an expensive calculation result between renders",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary difference between `useMemo` and `useCallback`?",
+      "options": [
+        "useMemo caches a computed value; useCallback caches a function definition",
+        "useCallback caches a computed value; useMemo caches a function definition",
+        "There is no difference",
+        "useMemo is for class components"
+      ],
+      "answer": "useMemo caches a computed value; useCallback caches a function definition",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why would you use `useCallback` when passing a function down to a child component?",
+      "options": [
+        "To make the function execute faster",
+        "To prevent the child component from re-rendering unnecessarily due to referential inequality of the function prop",
+        "To allow the function to modify state",
+        "To make it an async function"
+      ],
+      "answer": "To prevent the child component from re-rendering unnecessarily due to referential inequality of the function prop",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Hook is used to access a DOM element directly or to persist a mutable value without causing re-renders?",
+      "options": [
+        "useDOM",
+        "useState",
+        "useRef",
+        "useEffect"
+      ],
+      "answer": "useRef",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access the current value stored in a `useRef` object?",
+      "options": [
+        "ref.value",
+        "ref.current",
+        "ref.data",
+        "ref.target"
+      ],
+      "answer": "ref.current",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does updating a `useRef` value trigger a component re-render?",
+      "options": [
+        "Yes, always",
+        "No, modifying ref.current does not trigger a re-render",
+        "Only if used inside useEffect",
+        "Yes, if it is passed as a prop"
+      ],
+      "answer": "No, modifying ref.current does not trigger a re-render",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Hook is an alternative to `useState` for managing complex state logic that involves multiple sub-values?",
+      "options": [
+        "useContext",
+        "useComplexState",
+        "useReducer",
+        "useStore"
+      ],
+      "answer": "useReducer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What arguments does the `useReducer` hook take?",
+      "options": [
+        "An initial state and a callback",
+        "A reducer function and an initial state",
+        "An action and a payload",
+        "A dispatch function and an object"
+      ],
+      "answer": "A reducer function and an initial state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a reducer function `(state, action) => newState`, what does the `action` typically contain?",
+      "options": [
+        "A type and an optional payload",
+        "The previous state",
+        "A DOM event",
+        "A ref object"
+      ],
+      "answer": "A type and an optional payload",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What defines a Custom Hook in React?",
+      "options": [
+        "A function written in a .hook file",
+        "A JavaScript function whose name starts with 'use' and that may call other Hooks",
+        "A class extending React.Hook",
+        "A component that doesn't return JSX"
+      ],
+      "answer": "A JavaScript function whose name starts with 'use' and that may call other Hooks",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary benefit of creating Custom Hooks?",
+      "options": [
+        "It increases the app's loading speed",
+        "It extracts and reuses stateful logic across multiple components",
+        "It replaces Redux entirely",
+        "It allows using React in backend servers"
+      ],
+      "answer": "It extracts and reuses stateful logic across multiple components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which library is the standard for implementing routing in React applications?",
+      "options": [
+        "React Navigator",
+        "React Router DOM",
+        "Express",
+        "React Route Manager"
+      ],
+      "answer": "React Router DOM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component wraps the entire React app to enable routing capabilities?",
+      "options": [
+        "<Routes>",
+        "<RouteProvider>",
+        "<BrowserRouter>",
+        "<RouterContainer>"
+      ],
+      "answer": "<BrowserRouter>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which component is used to define an individual route and its corresponding element?",
+      "options": [
+        "<Path>",
+        "<Route>",
+        "<Link>",
+        "<View>"
+      ],
+      "answer": "<Route>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Instead of an anchor `<a>` tag, what component from React Router should be used for client-side navigation to prevent full page reloads?",
+      "options": [
+        "<Href>",
+        "<Navigate>",
+        "<Link>",
+        "<Anchor>"
+      ],
+      "answer": "<Link>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook from React Router DOM is used to programmatically navigate users (e.g., after a login)?",
+      "options": [
+        "useHistory",
+        "useLocation",
+        "useNavigate",
+        "useRedirect"
+      ],
+      "answer": "useNavigate",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Where is the best place to make an asynchronous API call to fetch initial data for a component?",
+      "options": [
+        "Directly inside the functional component body",
+        "Inside a useEffect hook",
+        "Inside the return statement",
+        "Inside a useMemo hook"
+      ],
+      "answer": "Inside a useEffect hook",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why shouldn't you make the `useEffect` callback function itself `async` (e.g., `useEffect(async () => {...})`)?",
+      "options": [
+        "It causes a syntax error",
+        "useEffect expects a cleanup function (or nothing) to be returned, not a Promise",
+        "Async functions are not supported in React",
+        "It crashes the server"
+      ],
+      "answer": "useEffect expects a cleanup function (or nothing) to be returned, not a Promise",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you correctly use async/await inside `useEffect`?",
+      "options": [
+        "Define an async function inside the effect and call it immediately",
+        "Make the component itself async",
+        "Use the useAsync hook",
+        "You cannot use async/await in React"
+      ],
+      "answer": "Define an async function inside the effect and call it immediately",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Redux?",
+      "options": [
+        "A backend server framework",
+        "A predictable state container for JavaScript apps",
+        "A CSS preprocessor",
+        "A database management system"
+      ],
+      "answer": "A predictable state container for JavaScript apps",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the single source of truth in Redux?",
+      "options": [
+        "The Reducer",
+        "The Action",
+        "The Store",
+        "The Component"
+      ],
+      "answer": "The Store",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Redux, what describes an event or a change that has happened?",
+      "options": [
+        "A reducer",
+        "A dispatch",
+        "An action",
+        "A payload"
+      ],
+      "answer": "An action",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the official, recommended approach for writing Redux logic today?",
+      "options": [
+        "Redux Thunk",
+        "Vanilla Redux",
+        "Redux Toolkit (RTK)",
+        "MobX"
+      ],
+      "answer": "Redux Toolkit (RTK)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which RTK function is used to setup the Redux store with good defaults?",
+      "options": [
+        "createStore",
+        "configureStore",
+        "setupRedux",
+        "initStore"
+      ],
+      "answer": "configureStore",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `createSlice` do in Redux Toolkit?",
+      "options": [
+        "It slices an array in state",
+        "It automatically generates action creators and action types that correspond to the reducers and state",
+        "It connects the store to the React app",
+        "It handles asynchronous API calls"
+      ],
+      "answer": "It automatically generates action creators and action types that correspond to the reducers and state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React-Redux hook is used to extract data from the Redux store state?",
+      "options": [
+        "useStore",
+        "useState",
+        "useSelector",
+        "useReducer"
+      ],
+      "answer": "useSelector",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React-Redux hook returns a reference to the dispatch function from the Redux store?",
+      "options": [
+        "useDispatcher",
+        "useDispatch",
+        "useActions",
+        "useStoreDispatch"
+      ],
+      "answer": "useDispatch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does RTK `createSlice` allow you to write 'mutating' logic in reducers?",
+      "options": [
+        "No, state is always immutable in JavaScript",
+        "Yes, it uses the Immer library under the hood to safely translate mutating code into immutable updates",
+        "Yes, because Redux allows direct mutations now",
+        "No, it throws a strict mode error"
+      ],
+      "answer": "Yes, it uses the Immer library under the hood to safely translate mutating code into immutable updates",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is RTK Query primarily used for?",
+      "options": [
+        "Querying the local Redux store",
+        "Managing form state",
+        "Powerful data fetching and caching tool designed to simplify loading web data",
+        "Translating GraphQL to REST"
+      ],
+      "answer": "Powerful data fetching and caching tool designed to simplify loading web data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which RTK Query API is used to define a set of endpoints and generate hooks?",
+      "options": [
+        "fetchApi",
+        "createApi",
+        "setupApi",
+        "buildQuery"
+      ],
+      "answer": "createApi",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of hooks does RTK Query automatically generate for your endpoints?",
+      "options": [
+        "use[EndpointName]Query and use[EndpointName]Mutation",
+        "useFetch and usePost",
+        "useGet[EndpointName] and useSet[EndpointName]",
+        "useRequest and useResponse"
+      ],
+      "answer": "use[EndpointName]Query and use[EndpointName]Mutation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In RTK Query, what is a 'mutation' endpoint used for?",
+      "options": [
+        "Fetching read-only data",
+        "Sending updates to the server (POST, PUT, DELETE)",
+        "Mutating the local Redux state directly",
+        "Clearing the cache"
+      ],
+      "answer": "Sending updates to the server (POST, PUT, DELETE)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using `useQuery` from RTK Query, what does it typically return?",
+      "options": [
+        "Just the data array",
+        "A promise that resolves to the data",
+        "An object containing data, isLoading, isError, and other status flags",
+        "A dispatch function"
+      ],
+      "answer": "An object containing data, isLoading, isError, and other status flags",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you provide the Redux store to your React application?",
+      "options": [
+        "Wrap the app in <Provider store={store}> from react-redux",
+        "Pass the store as a prop to every component",
+        "Import the store directly into every component",
+        "Use the useStoreContext hook"
+      ],
+      "answer": "Wrap the app in <Provider store={store}> from react-redux",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Formik primarily used for in React?",
+      "options": [
+        "Fetching data from APIs",
+        "Managing forms, handling validation, and tracking touched fields",
+        "Applying CSS styles",
+        "Managing global application state"
+      ],
+      "answer": "Managing forms, handling validation, and tracking touched fields",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What hook does Formik provide to easily manage form state in a functional component?",
+      "options": [
+        "useFormState",
+        "useFormik",
+        "useForm",
+        "useValidation"
+      ],
+      "answer": "useFormik",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is Yup typically used for in conjunction with Formik?",
+      "options": [
+        "Sending form data to the server",
+        "Schema-based form validation",
+        "Styling form inputs",
+        "Generating random mock data"
+      ],
+      "answer": "Schema-based form validation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you integrate a Yup validation schema into `useFormik`?",
+      "options": [
+        "Pass it to the `validationSchema` property in the useFormik config object",
+        "Pass it to the `validate` property",
+        "Wrap the form in a <YupProvider>",
+        "Call yup.validate(values) inside onSubmit"
+      ],
+      "answer": "Pass it to the `validationSchema` property in the useFormik config object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `formik.handleChange` do when attached to an input's `onChange` event?",
+      "options": [
+        "It submits the form",
+        "It automatically updates the Formik state for the field matching the input's `name` attribute",
+        "It triggers Yup validation immediately",
+        "It resets the form"
+      ],
+      "answer": "It automatically updates the Formik state for the field matching the input's `name` attribute",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is tracking `formik.touched` important for displaying error messages?",
+      "options": [
+        "To ensure errors only show AFTER the user has interacted with the field, rather than on initial load",
+        "To count how many times a user clicks the input",
+        "To prevent form submission",
+        "It is required by Yup"
+      ],
+      "answer": "To ensure errors only show AFTER the user has interacted with the field, rather than on initial load",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What object contains the validation error messages in Formik?",
+      "options": [
+        "formik.messages",
+        "formik.errors",
+        "formik.warnings",
+        "formik.validation"
+      ],
+      "answer": "formik.errors",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Yup method is used to specify that an input field cannot be left blank?",
+      "options": [
+        ".mandatory()",
+        ".notEmpty()",
+        ".required()",
+        ".filled()"
+      ],
+      "answer": ".required()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a standard Yup email validation look like?",
+      "options": [
+        "yup.string().isEmail()",
+        "yup.string().email('Invalid email format')",
+        "yup.email()",
+        "yup.format('email')"
+      ],
+      "answer": "yup.string().email('Invalid email format')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens when `formik.handleSubmit` is triggered and validation fails?",
+      "options": [
+        "The `onSubmit` function is executed anyway",
+        "The browser crashes",
+        "Formik aborts the submission and updates the `errors` and `touched` state",
+        "An alert box pops up automatically"
+      ],
+      "answer": "Formik aborts the submission and updates the `errors` and `touched` state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a React application, why is traditional client-side rendering (CSR) sometimes bad for SEO?",
+      "options": [
+        "Because Google bans React sites",
+        "Because the initial HTML sent to the browser is mostly empty until JavaScript executes, which some web crawlers struggle to index",
+        "Because React adds too many meta tags",
+        "Because React apps are too fast"
+      ],
+      "answer": "Because the initial HTML sent to the browser is mostly empty until JavaScript executes, which some web crawlers struggle to index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React framework is highly recommended for building SEO-friendly React applications through Server-Side Rendering (SSR)?",
+      "options": [
+        "Create React App",
+        "Vite",
+        "Next.js",
+        "Redux"
+      ],
+      "answer": "Next.js",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which library allows you to manage changes to the document head (like `<title>` and `<meta>` tags) in a standard React SPA?",
+      "options": [
+        "React Router",
+        "React Helmet",
+        "React Head",
+        "React SEO"
+      ],
+      "answer": "React Helmet",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'hydration' in the context of React SSR?",
+      "options": [
+        "Adding CSS to HTML",
+        "The process of attaching React event listeners to the server-rendered static HTML so it becomes interactive",
+        "Fetching data from the database",
+        "Minifying the JavaScript bundle"
+      ],
+      "answer": "The process of attaching React event listeners to the server-rendered static HTML so it becomes interactive",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why are semantic HTML tags (like `<article>`, `<nav>`, `<header>`) important in React components for SEO?",
+      "options": [
+        "They make the code run faster",
+        "They help search engine bots understand the structure and importance of content better than generic `<div>` tags",
+        "They are required for React to compile",
+        "They automatically style the application"
+      ],
+      "answer": "They help search engine bots understand the structure and importance of content better than generic `<div>` tags",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is considered a 'Frontend Task' in a typical React project?",
+      "options": [
+        "Setting up database schemas",
+        "Configuring server load balancers",
+        "Translating UI/UX designs into responsive React components",
+        "Writing SQL queries"
+      ],
+      "answer": "Translating UI/UX designs into responsive React components",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When mapping over an array in React, what happens if you use the array index as the `key` prop and the array order changes?",
+      "options": [
+        "Nothing, it's perfectly safe",
+        "React will throw a fatal error",
+        "It can lead to unpredictable UI bugs and performance issues because React associates state with the index",
+        "React will automatically re-sort the array"
+      ],
+      "answer": "It can lead to unpredictable UI bugs and performance issues because React associates state with the index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you prevent a form submission from refreshing the entire page in React?",
+      "options": [
+        "return false;",
+        "event.preventDefault();",
+        "event.stopPropagation();",
+        "React prevents it automatically"
+      ],
+      "answer": "event.preventDefault();",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React feature allows you to wrap a component and render a fallback UI while it's waiting for asynchronous code (like lazy loading) to resolve?",
+      "options": [
+        "<ErrorBoundary>",
+        "<Fallback>",
+        "<Suspense>",
+        "<Async>"
+      ],
+      "answer": "<Suspense>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is `React.lazy()` used for?",
+      "options": [
+        "To delay the execution of a function",
+        "To dynamically import a component only when it's first rendered, enabling code-splitting",
+        "To lazy load images natively",
+        "To throttle API requests"
+      ],
+      "answer": "To dynamically import a component only when it's first rendered, enabling code-splitting",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a functional component, calling `useState` returns an array. How is this array typically assigned to variables?",
+      "options": [
+        "Using dot notation (const state = useState(); state.value)",
+        "Using array destructuring (const [value, setValue] = useState())",
+        "Using object destructuring (const {value, setValue} = useState())",
+        "Using a callback function"
+      ],
+      "answer": "Using array destructuring (const [value, setValue] = useState())",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does it mean that React State is 'lifted up'?",
+      "options": [
+        "Moving state to Redux",
+        "Moving state from child components to their closest common parent component to share data between them",
+        "Storing state in LocalStorage",
+        "Using the Context API"
+      ],
+      "answer": "Moving state from child components to their closest common parent component to share data between them",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook would you use if you need to fetch data precisely when a specific prop changes, but not on every render?",
+      "options": [
+        "useEffect with the prop in its dependency array",
+        "useMemo",
+        "useState",
+        "useContext"
+      ],
+      "answer": "useEffect with the prop in its dependency array",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Fragment' (`<> ... </>`) in React used for?",
+      "options": [
+        "To conditionally render elements",
+        "To group multiple elements without adding an extra node (like a `<div>`) to the DOM",
+        "To create a React component",
+        "To catch errors"
+      ],
+      "answer": "To group multiple elements without adding an extra node (like a `<div>`) to the DOM",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to style an MUI component, what is a common prop provided by MUI to apply custom styles directly?",
+      "options": [
+        "style",
+        "css",
+        "sx",
+        "className"
+      ],
+      "answer": "sx",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Tailwind CSS, which class applies a flexbox layout to a container?",
+      "options": [
+        "flex",
+        "display-flex",
+        "flexbox",
+        "box-flex"
+      ],
+      "answer": "flex",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Tailwind CSS, what does the class `p-4` generally represent?",
+      "options": [
+        "Position 4",
+        "Padding of 1rem (assuming default scale)",
+        "Paragraph size 4",
+        "Pointer events 4"
+      ],
+      "answer": "Padding of 1rem (assuming default scale)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following creates a functional React component correctly?",
+      "options": [
+        "const MyComponent = () => { return <div>Hello</div>; }",
+        "function MyComponent() { return <div>Hello</div>; }",
+        "Both A and B",
+        "class MyComponent extends React.Component {}"
+      ],
+      "answer": "Both A and B",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'prop drilling'?",
+      "options": [
+        "A tool for creating components",
+        "Passing data through multiple layers of nested components, even if intermediate components don't need the data",
+        "Extracting props using destructuring",
+        "Validating prop types"
+      ],
+      "answer": "Passing data through multiple layers of nested components, even if intermediate components don't need the data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you access the children passed between the opening and closing tags of a custom component?",
+      "options": [
+        "props.content",
+        "props.children",
+        "props.inner",
+        "this.innerHtml"
+      ],
+      "answer": "props.children",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary rule of React Hooks?",
+      "options": [
+        "They must be called inside class components",
+        "They must be called conditionally",
+        "They must be called at the top level of a React function component or custom hook",
+        "They must always be asynchronous"
+      ],
+      "answer": "They must be called at the top level of a React function component or custom hook",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can you use `useState` inside an `if` statement?",
+      "options": [
+        "Yes, always",
+        "No, it violates the Rules of Hooks by changing the call order",
+        "Yes, if it's the first hook",
+        "Only in custom hooks"
+      ],
+      "answer": "No, it violates the Rules of Hooks by changing the call order",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the second argument passed to the `reduce` function internally in Redux/useReducer?",
+      "options": [
+        "State",
+        "Action",
+        "Store",
+        "Dispatch"
+      ],
+      "answer": "Action",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a Redux Thunk allow you to do?",
+      "options": [
+        "Write pure functions",
+        "Write action creators that return a function instead of an action object, useful for async logic",
+        "Style components based on state",
+        "Connect React Router to Redux"
+      ],
+      "answer": "Write action creators that return a function instead of an action object, useful for async logic",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In RTK Query, how do you trigger a data fetch?",
+      "options": [
+        "By calling dispatch(fetchData())",
+        "By calling the auto-generated hook (e.g., const { data } = useGetUsersQuery()) in your component",
+        "By using useEffect and axios",
+        "By mapping state to props"
+      ],
+      "answer": "By calling the auto-generated hook (e.g., const { data } = useGetUsersQuery()) in your component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What feature of RTK Query helps prevent duplicate requests for the same data?",
+      "options": [
+        "Redux Thunk",
+        "Automatic caching and request deduplication",
+        "React Suspense",
+        "The useMemo hook"
+      ],
+      "answer": "Automatic caching and request deduplication",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does RTK Query handle data invalidation and refetching?",
+      "options": [
+        "Through window.reload()",
+        "Through tags (providesTags and invalidatesTags) allowing automated refetching when mutations occur",
+        "You must manually refresh the page",
+        "Through polling only"
+      ],
+      "answer": "Through tags (providesTags and invalidatesTags) allowing automated refetching when mutations occur",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In React Router v6, what component replaced the `<Switch>` component used in v5?",
+      "options": [
+        "<Routes>",
+        "<Router>",
+        "<Navigate>",
+        "<Outlet>"
+      ],
+      "answer": "<Routes>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `<Outlet />` component do in React Router v6?",
+      "options": [
+        "It redirects the user",
+        "It renders the matching child route elements within a parent layout component",
+        "It handles 404 errors",
+        "It acts as a hyperlink"
+      ],
+      "answer": "It renders the matching child route elements within a parent layout component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you extract URL parameters (like `:id`) in a functional component using React Router?",
+      "options": [
+        "window.location.id",
+        "props.match.params.id",
+        "using the useParams() hook",
+        "using the useQuery() hook"
+      ],
+      "answer": "using the useParams() hook",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a controlled component, the input's `value` prop is directly tied to:",
+      "options": [
+        "A React ref",
+        "A React state variable",
+        "The DOM's innerHTML",
+        "The window object"
+      ],
+      "answer": "A React state variable",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "An 'uncontrolled' form component in React typically gathers user input using:",
+      "options": [
+        "useState",
+        "useReducer",
+        "useRef",
+        "Redux"
+      ],
+      "answer": "useRef",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the typical use case for `useCallback`?",
+      "options": [
+        "Fetching data from an API",
+        "Memoizing a function to prevent unnecessary re-renders of child components that depend on it",
+        "Changing document title",
+        "Handling form submissions"
+      ],
+      "answer": "Memoizing a function to prevent unnecessary re-renders of child components that depend on it",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Pure Component' conceptually in React?",
+      "options": [
+        "A component that doesn't use HTML",
+        "A component that always renders the same output for the same state and props",
+        "A component without CSS",
+        "A component that only uses Redux"
+      ],
+      "answer": "A component that always renders the same output for the same state and props",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which higher-order component (HOC) is used to wrap functional components to prevent them from re-rendering if their props haven't changed?",
+      "options": [
+        "React.PureComponent",
+        "React.memo",
+        "React.useMemo",
+        "React.cache"
+      ],
+      "answer": "React.memo",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the difference between `React.memo` and `useMemo`?",
+      "options": [
+        "There is no difference",
+        "React.memo memoizes a whole component, while useMemo memoizes a computed value within a component",
+        "React.memo is for classes, useMemo is for functions",
+        "React.memo caches functions, useMemo caches components"
+      ],
+      "answer": "React.memo memoizes a whole component, while useMemo memoizes a computed value within a component",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a custom hook MUST return?",
+      "options": [
+        "JSX",
+        "An array",
+        "An object",
+        "Whatever data or functions the calling component needs (array, object, primitive)"
+      ],
+      "answer": "Whatever data or functions the calling component needs (array, object, primitive)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When using `useEffect`, what does a returned function do?",
+      "options": [
+        "Initializes the state",
+        "Runs immediately after render",
+        "Acts as a cleanup function running before the component unmounts or before the effect runs again",
+        "Renders the JSX"
+      ],
+      "answer": "Acts as a cleanup function running before the component unmounts or before the effect runs again",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of these is NOT a valid React Hook?",
+      "options": [
+        "useState",
+        "useFetch",
+        "useReducer",
+        "useLayoutEffect"
+      ],
+      "answer": "useFetch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In RTK `createSlice`, what property holds the functions that define how state is updated?",
+      "options": [
+        "actions",
+        "reducers",
+        "state",
+        "initialState"
+      ],
+      "answer": "reducers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Redux Toolkit, how do you handle asynchronous logic like API calls if not using RTK Query?",
+      "options": [
+        "createAsyncThunk",
+        "createApi",
+        "useAsync",
+        "useReducer"
+      ],
+      "answer": "createAsyncThunk",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What three action types does `createAsyncThunk` automatically generate?",
+      "options": [
+        "start, success, fail",
+        "pending, fulfilled, rejected",
+        "loading, loaded, error",
+        "init, complete, crash"
+      ],
+      "answer": "pending, fulfilled, rejected",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Where do you handle the `pending/fulfilled/rejected` actions generated by `createAsyncThunk` in a slice?",
+      "options": [
+        "In the standard `reducers` object",
+        "In the `extraReducers` object",
+        "Inside the component directly",
+        "Inside the configureStore setup"
+      ],
+      "answer": "In the `extraReducers` object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does Yup's `.matches()` method allow you to do for form validation?",
+      "options": [
+        "Compare two fields",
+        "Test a string against a Regular Expression (Regex)",
+        "Check if a string is identical to another",
+        "Verify an exact numerical match"
+      ],
+      "answer": "Test a string against a Regular Expression (Regex)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you define an initial state for Formik?",
+      "options": [
+        "initialValues object",
+        "defaultState object",
+        "startValues property",
+        "useState hook"
+      ],
+      "answer": "initialValues object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Formik, what prop is commonly spread onto inputs to automatically wire up onChange, onBlur, and value?",
+      "options": [
+        "{...formik.bind()}",
+        "{...formik.getFieldProps('fieldName')}",
+        "{...formik.props('fieldName')}",
+        "{...formik.input}"
+      ],
+      "answer": "{...formik.getFieldProps('fieldName')}",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is triggered when a Formik form is submitted successfully (passes validation)?",
+      "options": [
+        "onValid",
+        "onSuccess",
+        "onSubmit",
+        "onComplete"
+      ],
+      "answer": "onSubmit",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary difference between `useEffect` and `useLayoutEffect`?",
+      "options": [
+        "useLayoutEffect is asynchronous, useEffect is synchronous",
+        "useLayoutEffect fires synchronously after all DOM mutations but before the browser paints, useEffect fires asynchronously after paint",
+        "They are completely identical",
+        "useLayoutEffect is only for class components"
+      ],
+      "answer": "useLayoutEffect fires synchronously after all DOM mutations but before the browser paints, useEffect fires asynchronously after paint",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building an SEO-friendly React app, what is 'Pre-rendering'?",
+      "options": [
+        "Loading images before the page loads",
+        "Generating HTML for each page in advance, either at build time (SSG) or request time (SSR)",
+        "Rendering components without CSS",
+        "Compiling React to WebAssembly"
+      ],
+      "answer": "Generating HTML for each page in advance, either at build time (SSG) or request time (SSR)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is SSG (Static Site Generation) in frameworks like Next.js?",
+      "options": [
+        "HTML is generated on every user request",
+        "HTML is generated at build time and reused for each request",
+        "HTML is generated entirely in the client browser",
+        "No HTML is generated, only JSON"
+      ],
+      "answer": "HTML is generated at build time and reused for each request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a major SEO benefit of SSG/SSR over standard React CSR?",
+      "options": [
+        "It uses less server memory",
+        "Search engine crawlers instantly see the fully rendered HTML content upon request",
+        "It hides the source code from users",
+        "It prevents XSS attacks"
+      ],
+      "answer": "Search engine crawlers instantly see the fully rendered HTML content upon request",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'Higher-Order Component' (HOC)?",
+      "options": [
+        "A component that renders a <header>",
+        "A function that takes a component and returns a new component with added props or logic",
+        "A component built with classes",
+        "The root component of the app"
+      ],
+      "answer": "A function that takes a component and returns a new component with added props or logic",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you avoid mutating state directly in a React functional component?",
+      "options": [
+        "By modifying the variable directly",
+        "By using the setter function provided by useState and returning a new object/array copy",
+        "By using document.getElementById",
+        "By bypassing React"
+      ],
+      "answer": "By using the setter function provided by useState and returning a new object/array copy",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What syntax is used to copy an existing array into a new array to update state safely in React?",
+      "options": [
+        "Array.merge()",
+        "The spread operator (e.g., [...oldArray, newItem])",
+        "oldArray.push(newItem)",
+        "Object.assign()"
+      ],
+      "answer": "The spread operator (e.g., [...oldArray, newItem])",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does JSX stand for?",
+      "options": [
+        "JavaScript XML",
+        "Java Syntax Extension",
+        "JSON X",
+        "JavaScript X-code"
+      ],
+      "answer": "JavaScript XML",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does React handle cross-site scripting (XSS) attacks by default in JSX?",
+      "options": [
+        "It encrypts all text",
+        "It automatically escapes any values embedded in JSX before rendering them",
+        "It requires a third-party plugin",
+        "It does not protect against XSS"
+      ],
+      "answer": "It automatically escapes any values embedded in JSX before rendering them",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React attribute is used to explicitly inject unescaped HTML (acting as a warning against XSS)?",
+      "options": [
+        "innerHTML",
+        "dangerouslySetInnerHTML",
+        "setHtml",
+        "unsafeHTML"
+      ],
+      "answer": "dangerouslySetInnerHTML",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In MUI, which component is typically used as a wrapper to provide theme context to the entire app?",
+      "options": [
+        "<MuiApp>",
+        "<ThemeProvider>",
+        "<ThemeWrapper>",
+        "<CssBaseline>"
+      ],
+      "answer": "<ThemeProvider>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `<CssBaseline />` do in an MUI application?",
+      "options": [
+        "It adds animations",
+        "It acts as an elegant reset, normalizing CSS across browsers",
+        "It injects Tailwind classes",
+        "It creates a database connection"
+      ],
+      "answer": "It acts as an elegant reset, normalizing CSS across browsers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary configuration file for Tailwind CSS where you can customize the theme?",
+      "options": [
+        "tailwind.config.js",
+        "tailwind.json",
+        "tailwind.css",
+        "config.tailwind"
+      ],
+      "answer": "tailwind.config.js",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Tailwind, how do you typically apply hover states?",
+      "options": [
+        "By writing custom CSS in a separate file",
+        "Using the hover: prefix (e.g., hover:bg-blue-500)",
+        "By using onMouseOver events in React",
+        "Tailwind doesn't support hover states"
+      ],
+      "answer": "Using the hover: prefix (e.g., hover:bg-blue-500)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Redux Toolkit, what is `Provider`?",
+      "options": [
+        "A component from react-redux that makes the store available to the rest of the app",
+        "A function to create the store",
+        "A middleware for async tasks",
+        "An RTK Query endpoint"
+      ],
+      "answer": "A component from react-redux that makes the store available to the rest of the app",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When structuring a Redux Toolkit application, what is a 'feature folder' approach?",
+      "options": [
+        "Putting all reducers in one giant file",
+        "Grouping logic by feature (e.g., a 'users' folder containing the slice, components, and API calls for users)",
+        "Separating actions, reducers, and constants into strictly different folders globally",
+        "Only using RTK Query"
+      ],
+      "answer": "Grouping logic by feature (e.g., a 'users' folder containing the slice, components, and API calls for users)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the Redux DevTools extension?",
+      "options": [
+        "To compile React faster",
+        "To visually inspect state changes, actions dispatched, and 'time-travel' debug",
+        "To host the application",
+        "To manage CSS styles"
+      ],
+      "answer": "To visually inspect state changes, actions dispatched, and 'time-travel' debug",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does Redux Toolkit enable Redux DevTools by default?",
+      "options": [
+        "No, it requires manual complex setup",
+        "Yes, configureStore enables it automatically",
+        "Only in production",
+        "Only if you pay for it"
+      ],
+      "answer": "Yes, configureStore enables it automatically",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Formik, how do you handle radio buttons or select dropdowns?",
+      "options": [
+        "They are not supported",
+        "By using the standard `onChange={formik.handleChange}` and `value={formik.values.fieldName}`",
+        "By writing a custom Redux reducer",
+        "By using useReducer exclusively"
+      ],
+      "answer": "By using the standard `onChange={formik.handleChange}` and `value={formik.values.fieldName}`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you want to validate that a password and confirm password match using Yup, which method is used?",
+      "options": [
+        ".equals()",
+        ".sameAs()",
+        ".oneOf([yup.ref('password')], 'Passwords must match')",
+        ".match()"
+      ],
+      "answer": ".oneOf([yup.ref('password')], 'Passwords must match')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'lazy initialization' in `useState`?",
+      "options": [
+        "Delaying the state update by 1 second",
+        "Passing a function to useState so the initial state is only computed once on the first render, optimizing performance for expensive calculations",
+        "Using React.lazy()",
+        "Loading components asynchronously"
+      ],
+      "answer": "Passing a function to useState so the initial state is only computed once on the first render, optimizing performance for expensive calculations",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a component have multiple `useEffect` hooks?",
+      "options": [
+        "No, only one per component",
+        "Yes, it is recommended to separate unrelated concerns into different useEffects",
+        "Yes, but they will override each other",
+        "Only if they have the same dependencies"
+      ],
+      "answer": "Yes, it is recommended to separate unrelated concerns into different useEffects",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'strict mode' (`<React.StrictMode>`)?",
+      "options": [
+        "A mode that enforces TypeScript rules",
+        "A tool highlighting potential problems in an application, like intentionally double-invoking lifecycle methods in development",
+        "A production optimization tool",
+        "A CSS enforcer"
+      ],
+      "answer": "A tool highlighting potential problems in an application, like intentionally double-invoking lifecycle methods in development",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why might `console.log` inside a component render run twice during development?",
+      "options": [
+        "Because of a memory leak",
+        "Because React Strict Mode intentionally double-invokes render phases to detect side effects",
+        "Because of Redux",
+        "Because the browser is glitching"
+      ],
+      "answer": "Because React Strict Mode intentionally double-invokes render phases to detect side effects",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In React Router, what is the difference between `<Link>` and standard `<a>` tags?",
+      "options": [
+        "There is no difference",
+        "<Link> handles routing internally without refreshing the browser, while <a> triggers a full page reload",
+        "<a> is faster",
+        "<Link> is only for external websites"
+      ],
+      "answer": "<Link> handles routing internally without refreshing the browser, while <a> triggers a full page reload",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you define a 'catch-all' or 404 Not Found route in React Router v6?",
+      "options": [
+        "<Route path=\"404\" element={<NotFound />} />",
+        "<Route path=\"*\" element={<NotFound />} />",
+        "<Route default element={<NotFound />} />",
+        "<Route fallback element={<NotFound />} />"
+      ],
+      "answer": "<Route path=\"*\" element={<NotFound />} />",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does RTK Query's `isFetching` flag indicate?",
+      "options": [
+        "The app is currently sending data to the server",
+        "A query is currently in flight, regardless of whether data already exists in the cache",
+        "The cache is empty",
+        "The server is down"
+      ],
+      "answer": "A query is currently in flight, regardless of whether data already exists in the cache",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does RTK Query's `isLoading` flag indicate?",
+      "options": [
+        "A query is in flight AND there is no cached data yet (first load)",
+        "The component is mounting",
+        "The server is sending HTML",
+        "The user is typing"
+      ],
+      "answer": "A query is in flight AND there is no cached data yet (first load)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass data up from a child component to a parent component in React?",
+      "options": [
+        "By using Context API exclusively",
+        "By passing a callback function from the parent as a prop to the child, which the child then calls with the data",
+        "By modifying the parent's state directly via refs",
+        "It is impossible"
+      ],
+      "answer": "By passing a callback function from the parent as a prop to the child, which the child then calls with the data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the context of SEO, why is setting correct HTTP status codes (like 404 for missing pages) important, even in a React app (using SSR)?",
+      "options": [
+        "It colors the browser console",
+        "Search engine bots use status codes to know if a page should be removed from their index",
+        "It encrypts data",
+        "It speeds up React"
+      ],
+      "answer": "Search engine bots use status codes to know if a page should be removed from their index",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which React element allows rendering children into a DOM node that exists outside the DOM hierarchy of the parent component (often used for modals)?",
+      "options": [
+        "React.Portal",
+        "ReactDOM.createPortal",
+        "React.Outside",
+        "React.Modal"
+      ],
+      "answer": "ReactDOM.createPortal",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When making an async API call, what state is commonly tracked to provide a good user experience?",
+      "options": [
+        "Loading state, error state, and data state",
+        "Only the data state",
+        "The user's IP address",
+        "The browser version"
+      ],
+      "answer": "Loading state, error state, and data state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a component returns `null`, what does React render to the DOM?",
+      "options": [
+        "A blank <div>",
+        "The word 'null'",
+        "Nothing",
+        "An error message"
+      ],
+      "answer": "Nothing",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the recommended approach to mutate an array in state (e.g., removing an item) without directly altering the original?",
+      "options": [
+        "array.splice()",
+        "array.pop()",
+        "array.filter()",
+        "delete array[index]"
+      ],
+      "answer": "array.filter()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you update a state variable but `console.log` it immediately on the next line, why does it show the old value?",
+      "options": [
+        "State updates in React are asynchronous/batched",
+        "React has crashed",
+        "The variable is a constant",
+        "console.log is broken"
+      ],
+      "answer": "State updates in React are asynchronous/batched",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is primarily used in React classes to handle side effects after an initial render?",
+      "options": [
+        "componentWillMount",
+        "componentDidMount",
+        "componentDidUpdate",
+        "render"
+      ],
+      "answer": "componentDidMount",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which class method dictates whether a component should re-render or not, acting similarly to `React.memo`?",
+      "options": [
+        "componentWillRender",
+        "shouldComponentUpdate",
+        "componentDidUpdate",
+        "componentWillUpdate"
+      ],
+      "answer": "shouldComponentUpdate",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'thunk' in programming terminology, specifically within Redux?",
+      "options": [
+        "A sound effect",
+        "A function that wraps an expression to delay its evaluation, often used for async operations",
+        "A type of CSS framework",
+        "An error boundary"
+      ],
+      "answer": "A function that wraps an expression to delay its evaluation, often used for async operations",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of the `Provider` component when using the Context API?",
+      "options": [
+        "To fetch data from a server",
+        "To establish the value that all consuming components will read",
+        "To route to a new page",
+        "To provide CSS styles"
+      ],
+      "answer": "To establish the value that all consuming components will read",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When implementing conditional rendering, why might `condition && <Component />` be dangerous if `condition` is the number 0?",
+      "options": [
+        "It causes an infinite loop",
+        "React renders '0' to the DOM because 0 is falsy but still a valid renderable value",
+        "It crashes the application",
+        "It ignores the component completely"
+      ],
+      "answer": "React renders '0' to the DOM because 0 is falsy but still a valid renderable value",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you safely use `&&` conditional rendering with numbers to avoid rendering '0'?",
+      "options": [
+        "Convert the number to a boolean (e.g., count > 0 && <Component />)",
+        "Use a ternary instead",
+        "Both A and B",
+        "You can't"
+      ],
+      "answer": "Both A and B",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is 'memoization'?",
+      "options": [
+        "Writing down code notes",
+        "An optimization technique that speeds up programs by storing the results of expensive function calls",
+        "Adding variables to memory",
+        "A memory leak"
+      ],
+      "answer": "An optimization technique that speeds up programs by storing the results of expensive function calls",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a Redux Toolkit slice, what does the `initialState` property define?",
+      "options": [
+        "The backend database schema",
+        "The starting values of the state managed by that specific slice",
+        "The initial URL path",
+        "The state of the entire application"
+      ],
+      "answer": "The starting values of the state managed by that specific slice",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which object acts as a centralized store for all configuration details when creating a Formik form using `useFormik`?",
+      "options": [
+        "formOptions",
+        "configObject",
+        "The configuration object passed into useFormik({ ... })",
+        "yup.object()"
+      ],
+      "answer": "The configuration object passed into useFormik({ ... })",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `formik.resetForm()` do?",
+      "options": [
+        "Deletes the form from the DOM",
+        "Reverts the form's values, errors, and touched states back to their initial values",
+        "Submits the form silently",
+        "Reloads the page"
+      ],
+      "answer": "Reverts the form's values, errors, and touched states back to their initial values",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook from React Router is useful to read query parameters from the URL (e.g., `?search=react`)?",
+      "options": [
+        "useParams",
+        "useLocation",
+        "useSearchParams",
+        "useNavigate"
+      ],
+      "answer": "useSearchParams",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `useLocation` hook return in React Router?",
+      "options": [
+        "The user's GPS coordinates",
+        "An object representing the current URL location, including pathname, search, and hash",
+        "A function to change the URL",
+        "The history stack"
+      ],
+      "answer": "An object representing the current URL location, including pathname, search, and hash",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why should images in a React app ideally include an `alt` attribute?",
+      "options": [
+        "To make the image load faster",
+        "For accessibility (screen readers) and SEO",
+        "To act as a fallback link",
+        "To apply CSS classes"
+      ],
+      "answer": "For accessibility (screen readers) and SEO",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When building an SEO-optimized site with React, why is creating a proper URL structure (routing) important?",
+      "options": [
+        "It isn't; SPAs should only have one URL",
+        "To allow search engines to crawl and index different views/pages independently",
+        "To hide parameters from the user",
+        "To prevent XSS attacks"
+      ],
+      "answer": "To allow search engines to crawl and index different views/pages independently",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is an anti-pattern when updating state in React?",
+      "options": [
+        "Using setState",
+        "Mutating the state variable directly (e.g., this.state.value = 'new')",
+        "Using functional state updates",
+        "Passing state down as props"
+      ],
+      "answer": "Mutating the state variable directly (e.g., this.state.value = 'new')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the standard way to combine multiple CSS classes when using the `className` attribute dynamically?",
+      "options": [
+        "className=\"class1\" + \"class2\"",
+        "Template literals (e.g., className={`class1 ${dynamicClass}`})",
+        "className={class1, class2}",
+        "class=\"class1 class2\""
+      ],
+      "answer": "Template literals (e.g., className={`class1 ${dynamicClass}`})",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Tailwind CSS, how do you specify responsive design utilities?",
+      "options": [
+        "Writing @media queries manually",
+        "Using breakpoint prefixes (e.g., md:flex, lg:p-4)",
+        "Using JavaScript window width checks",
+        "Tailwind is not responsive"
+      ],
+      "answer": "Using breakpoint prefixes (e.g., md:flex, lg:p-4)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does RTK Query use to automatically manage its cache?",
+      "options": [
+        "Local Storage",
+        "Cookies",
+        "The Redux store",
+        "IndexedDB"
+      ],
+      "answer": "The Redux store",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Formik, how can you manually trigger validation for a specific field?",
+      "options": [
+        "formik.submitForm()",
+        "formik.validateField('fieldName')",
+        "formik.check('fieldName')",
+        "formik.runValidation()"
+      ],
+      "answer": "formik.validateField('fieldName')",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the typical entry point file for a React application created with Vite or Create React App?",
+      "options": [
+        "main.js or index.js",
+        "app.js",
+        "server.js",
+        "react.js"
+      ],
+      "answer": "main.js or index.js",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method is used by `react-dom/client` to render a React application into the DOM in React 18+?",
+      "options": [
+        "ReactDOM.render()",
+        "createRoot().render()",
+        "React.mount()",
+        "DOM.inject()"
+      ],
+      "answer": "createRoot().render()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is an Error Boundary in React?",
+      "options": [
+        "A red border around invalid inputs",
+        "A class component that catches JavaScript errors anywhere in their child component tree, logs them, and displays a fallback UI",
+        "A try-catch block inside functional components",
+        "A Redux middleware"
+      ],
+      "answer": "A class component that catches JavaScript errors anywhere in their child component tree, logs them, and displays a fallback UI",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you implement an Error Boundary in modern React?",
+      "options": [
+        "By using the useErrorBound hook",
+        "By creating a Class Component with getDerivedStateFromError or componentDidCatch",
+        "By writing a custom hook",
+        "Error boundaries are deprecated"
+      ],
+      "answer": "By creating a Class Component with getDerivedStateFromError or componentDidCatch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In a frontend task, if a designer provides a Figma file, what is the developer's primary objective?",
+      "options": [
+        "To modify the design in Figma",
+        "To accurately translate the visual design and UX flows into responsive, functional React code",
+        "To build the backend database",
+        "To deploy the app to an app store"
+      ],
+      "answer": "To accurately translate the visual design and UX flows into responsive, functional React code",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does a `ref` do in a standard DOM element (e.g., `<input ref={myRef} />`)?",
+      "options": [
+        "It stores the value of the input",
+        "It assigns the actual DOM node to the current property of the ref object",
+        "It makes the input read-only",
+        "It focuses the input automatically"
+      ],
+      "answer": "It assigns the actual DOM node to the current property of the ref object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which hook is conceptually similar to Redux's reducer pattern but scoped locally to a component?",
+      "options": [
+        "useState",
+        "useContext",
+        "useReducer",
+        "useLocalStore"
+      ],
+      "answer": "useReducer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When rendering a list of items mapped from an array, why should you avoid using `Math.random()` as a key?",
+      "options": [
+        "It causes an error",
+        "The keys will change on every render, causing React to destroy and recreate the DOM nodes unnecessarily, destroying performance and state",
+        "Random numbers are not allowed as keys",
+        "It encrypts the list"
+      ],
+      "answer": "The keys will change on every render, causing React to destroy and recreate the DOM nodes unnecessarily, destroying performance and state",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the RTK Query `refetchOnMountOrArgChange` feature do?",
+      "options": [
+        "It crashes the server",
+        "It controls whether a query should automatically refetch data when a component mounts or arguments change, even if data is in cache",
+        "It deletes the cache",
+        "It requires user permission to fetch data"
+      ],
+      "answer": "It controls whether a query should automatically refetch data when a component mounts or arguments change, even if data is in cache",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In Yup, how do you chain multiple validation rules (e.g., string, required, minimum length)?",
+      "options": [
+        "yup.string() + yup.required() + yup.min(5)",
+        "yup.string().required().min(5)",
+        "yup.validate('string', 'required', 'min:5')",
+        "yup.chain(string, required, min)"
+      ],
+      "answer": "yup.string().required().min(5)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the standard HTML tag used by React Router's `<Link>` component under the hood?",
+      "options": [
+        "<nav>",
+        "<button>",
+        "<a>",
+        "<span>"
+      ],
+      "answer": "<a>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following describes a 'controlled component' dealing with forms?",
+      "options": [
+        "A form that uses `action` attributes to submit data to the server",
+        "A component that relies exclusively on `useRef` to read input values when a submit button is clicked",
+        "An input element whose value is entirely driven by React state and updated via an onChange handler",
+        "A form validated exclusively by HTML5 attributes"
+      ],
+      "answer": "An input element whose value is entirely driven by React state and updated via an onChange handler",
+      "points": 2
+    }
+  ]
+}

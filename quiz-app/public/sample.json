@@ -1,0 +1,1804 @@
+{
+  "questions": [
+    {
+      "kind": "mcq",
+      "text": "Which programming paradigm treats computation as the evaluation of mathematical functions?",
+      "options": [
+        "Procedural",
+        "Functional",
+        "Object-Oriented",
+        "Imperative"
+      ],
+      "answer": "Functional",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "C++ is primarily known as which type of programming language?",
+      "options": [
+        "Strictly Functional",
+        "Purely Object-Oriented",
+        "Multi-paradigm",
+        "Logic-based"
+      ],
+      "answer": "Multi-paradigm",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which paradigm focuses on 'how' to execute tasks step-by-step using statements that change a program's state?",
+      "options": [
+        "Declarative",
+        "Functional",
+        "Imperative",
+        "Logic"
+      ],
+      "answer": "Imperative",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Object-Oriented Programming relies on which core concept?",
+      "options": [
+        "Mathematical functions",
+        "Global variables",
+        "Objects and classes",
+        "Pointers"
+      ],
+      "answer": "Objects and classes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which paradigm is SQL most closely associated with?",
+      "options": [
+        "Procedural",
+        "Declarative",
+        "Object-Oriented",
+        "Imperative"
+      ],
+      "answer": "Declarative",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Procedural programming is considered a subtype of which broader programming paradigm?",
+      "options": [
+        "Imperative",
+        "Declarative",
+        "Functional",
+        "Object-Oriented"
+      ],
+      "answer": "Imperative",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Who is the creator of C++?",
+      "options": [
+        "Dennis Ritchie",
+        "James Gosling",
+        "Bjarne Stroustrup",
+        "Guido van Rossum"
+      ],
+      "answer": "Bjarne Stroustrup",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which file extension is most commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".cpp",
+        ".cp",
+        ".cxx"
+      ],
+      "answer": ".cpp",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the mandatory entry point of a C++ program?",
+      "options": [
+        "start()",
+        "init()",
+        "main()",
+        "run()"
+      ],
+      "answer": "main()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which preprocessor directive is used to include the standard input/output stream library?",
+      "options": [
+        "#include <stdio.h>",
+        "#import <iostream>",
+        "#include <iostream>",
+        "#define <iostream>"
+      ],
+      "answer": "#include <iostream>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In C++, what does the `std` keyword represent?",
+      "options": [
+        "Standard data type",
+        "Standard namespace",
+        "Standard object",
+        "Standard function"
+      ],
+      "answer": "Standard namespace",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used with `std::cout` to display output to the console?",
+      "options": [
+        ">>",
+        "::",
+        "<<",
+        "->"
+      ],
+      "answer": "<<",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the typical size of an `int` variable on a standard 32-bit or 64-bit system?",
+      "options": [
+        "1 byte",
+        "2 bytes",
+        "4 bytes",
+        "8 bytes"
+      ],
+      "answer": "4 bytes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which data type is used to store a single character in C++?",
+      "options": [
+        "string",
+        "char",
+        "word",
+        "byte"
+      ],
+      "answer": "char",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What integer value generally represents `true` in a boolean variable in C++?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which data type from the standard library represents a sequence of characters?",
+      "options": [
+        "std::string",
+        "std::text",
+        "char[]",
+        "std::char"
+      ],
+      "answer": "std::string",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following is considered a user-defined data type in C++?",
+      "options": [
+        "int",
+        "float",
+        "class",
+        "double"
+      ],
+      "answer": "class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `void` data type represent in a function declaration?",
+      "options": [
+        "An empty string",
+        "A zero value",
+        "Valueless or no return type",
+        "An uninitialized pointer"
+      ],
+      "answer": "Valueless or no return type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used for finding the remainder of an integer division?",
+      "options": [
+        "/",
+        "%",
+        "//",
+        "**"
+      ],
+      "answer": "%",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the result of the mathematical expression `5 + 3 * 2` according to operator precedence?",
+      "options": [
+        "16",
+        "11",
+        "10",
+        "13"
+      ],
+      "answer": "11",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator represents the logical AND operation?",
+      "options": [
+        "&",
+        "||",
+        "&&",
+        "!"
+      ],
+      "answer": "&&",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does the `++` operator do to a variable?",
+      "options": [
+        "Multiplies it by 2",
+        "Increments its value by 1",
+        "Adds it to itself",
+        "Makes the value positive"
+      ],
+      "answer": "Increments its value by 1",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following represents the ternary conditional operator?",
+      "options": [
+        "? :",
+        ": :",
+        "->",
+        "=>"
+      ],
+      "answer": "? :",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In the expression `a = b = 5`, what C++ concept is demonstrated?",
+      "options": [
+        "Logical comparison",
+        "Chained assignment",
+        "Multiple initialization",
+        "Bitwise assignment"
+      ],
+      "answer": "Chained assignment",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Binding data and functions together into a single unit is called?",
+      "options": [
+        "Polymorphism",
+        "Inheritance",
+        "Encapsulation",
+        "Abstraction"
+      ],
+      "answer": "Encapsulation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Hiding complex implementation details and showing only the essential features of an object is called?",
+      "options": [
+        "Abstraction",
+        "Encapsulation",
+        "Inheritance",
+        "Overloading"
+      ],
+      "answer": "Abstraction",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which construct in C++ is primarily used to implement encapsulation?",
+      "options": [
+        "Namespaces",
+        "Pointers",
+        "Classes",
+        "Templates"
+      ],
+      "answer": "Classes",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How is data hiding typically achieved in a C++ class?",
+      "options": [
+        "By using global variables",
+        "By making data members private",
+        "By making data members public",
+        "By using the const keyword"
+      ],
+      "answer": "By making data members private",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the standard and safe way to access private data variables of a class?",
+      "options": [
+        "Using pointers directly",
+        "Through public getter and setter methods",
+        "By making them public",
+        "Using friend classes exclusively"
+      ],
+      "answer": "Through public getter and setter methods",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which real-world analogy best describes the concept of abstraction?",
+      "options": [
+        "A parent passing traits to a child",
+        "A multi-tool with many functions",
+        "Driving a car without knowing how the internal engine works",
+        "A person having multiple roles in society"
+      ],
+      "answer": "Driving a car without knowing how the internal engine works",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The ability of a function to process objects differently based on their data type or class is known as?",
+      "options": [
+        "Polymorphism",
+        "Inheritance",
+        "Encapsulation",
+        "Abstraction"
+      ],
+      "answer": "Polymorphism",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "The process of creating a new class from an existing base class is called?",
+      "options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Instantiation",
+        "Inheritance"
+      ],
+      "answer": "Inheritance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What type of relationship is established by public inheritance?",
+      "options": [
+        "Has-A relationship",
+        "Is-A relationship",
+        "Uses-A relationship",
+        "Owns-A relationship"
+      ],
+      "answer": "Is-A relationship",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Function overloading is an example of which type of polymorphism?",
+      "options": [
+        "Run-time polymorphism",
+        "Compile-time polymorphism",
+        "Dynamic polymorphism",
+        "Late binding"
+      ],
+      "answer": "Compile-time polymorphism",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary practical benefit of using inheritance in programming?",
+      "options": [
+        "Increased execution speed",
+        "Reduced memory footprint",
+        "Code reusability",
+        "Data hiding"
+      ],
+      "answer": "Code reusability",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Overriding a virtual base class method in a derived class is an example of?",
+      "options": [
+        "Compile-time polymorphism",
+        "Run-time polymorphism",
+        "Static binding",
+        "Function overloading"
+      ],
+      "answer": "Run-time polymorphism",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default access modifier for members declared in a `class` in C++?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "answer": "private",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the default access modifier for members declared in a `struct` in C++?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "default"
+      ],
+      "answer": "public",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which access modifier allows members to be freely accessed from outside the class?",
+      "options": [
+        "protected",
+        "private",
+        "public",
+        "global"
+      ],
+      "answer": "public",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which access modifier restricts access entirely to the class itself and its explicitly declared friends?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "restricted"
+      ],
+      "answer": "private",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which access modifier allows access within the defining class and its derived classes, but not externally?",
+      "options": [
+        "private",
+        "public",
+        "protected",
+        "friend"
+      ],
+      "answer": "protected",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a private member of a base class be inherited by a derived class?",
+      "options": [
+        "No, it is entirely discarded",
+        "Yes, but it is not directly accessible by the derived class",
+        "Yes, and it becomes public in the derived class",
+        "Yes, and it can be accessed directly"
+      ],
+      "answer": "Yes, but it is not directly accessible by the derived class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "A constructor function must always have the exact same name as?",
+      "options": [
+        "The file name",
+        "The main function",
+        "The class itself",
+        "The namespace"
+      ],
+      "answer": "The class itself",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the mandatory return type of a constructor in C++?",
+      "options": [
+        "void",
+        "int",
+        "bool",
+        "Constructors do not have a return type"
+      ],
+      "answer": "Constructors do not have a return type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which special character is used as a prefix to declare a class destructor?",
+      "options": [
+        "#",
+        "~",
+        "&",
+        "!"
+      ],
+      "answer": "~",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How many times can a destructor logically be called for a single instance of an object?",
+      "options": [
+        "Zero times",
+        "Exactly once",
+        "Multiple times",
+        "Only when explicitly invoked"
+      ],
+      "answer": "Exactly once",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which type of constructor is called when a new object is created and initialized with an existing object of the same class?",
+      "options": [
+        "Default constructor",
+        "Parameterized constructor",
+        "Copy constructor",
+        "Move constructor"
+      ],
+      "answer": "Copy constructor",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a class have multiple constructors (Constructor Overloading)?",
+      "options": [
+        "No, only one constructor is allowed",
+        "Yes, provided they have different parameter lists",
+        "Yes, provided they have different return types",
+        "Only if they are all marked as virtual"
+      ],
+      "answer": "Yes, provided they have different parameter lists",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In pass by value, what exactly is passed to the receiving function?",
+      "options": [
+        "The memory address of the argument",
+        "A reference to the original argument",
+        "A duplicate copy of the actual argument",
+        "A pointer to the argument"
+      ],
+      "answer": "A duplicate copy of the actual argument",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which operator is used in a function parameter list to declare it as a pass by reference?",
+      "options": [
+        "*",
+        "&",
+        "->",
+        "%"
+      ],
+      "answer": "&",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If you modify a parameter that was passed by reference inside a function, what happens?",
+      "options": [
+        "Only the local copy changes",
+        "The original variable in the calling function is modified",
+        "A runtime error occurs",
+        "The compiler throws a warning"
+      ],
+      "answer": "The original variable in the calling function is modified",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why might passing an object by reference be preferred over passing by value for large objects?",
+      "options": [
+        "It prevents the object from being modified",
+        "It avoids the performance overhead of copying the object",
+        "It forces the object to be allocated on the heap",
+        "It makes the syntax shorter"
+      ],
+      "answer": "It avoids the performance overhead of copying the object",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does passing an argument by `const` reference guarantee?",
+      "options": [
+        "The function cannot modify the original argument",
+        "The function will execute faster",
+        "The argument must be a constant variable",
+        "The memory is deallocated after the function ends"
+      ],
+      "answer": "The function cannot modify the original argument",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "In pass by value, where do the original variable and the function parameter reside?",
+      "options": [
+        "In the exact same memory location",
+        "In the CPU cache",
+        "In different memory locations",
+        "In the heap memory only"
+      ],
+      "answer": "In different memory locations",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "A `static` data member of a class belongs to?",
+      "options": [
+        "The specific object that modified it",
+        "The main function",
+        "The class itself, shared among all objects",
+        "The global namespace"
+      ],
+      "answer": "The class itself, shared among all objects",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How many copies of a static data member exist for a single class, regardless of how many objects are instantiated?",
+      "options": [
+        "One for each object",
+        "Exactly one, shared among all objects",
+        "Two copies (one read, one write)",
+        "Zero, until explicitly allocated"
+      ],
+      "answer": "Exactly one, shared among all objects",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Where must a static data member of a class generally be defined and initialized?",
+      "options": [
+        "Inside the class constructor",
+        "Inside the class declaration",
+        "Outside the class definition",
+        "In the main function"
+      ],
+      "answer": "Outside the class definition",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "A static member function of a class can only directly access?",
+      "options": [
+        "Public non-static members",
+        "Private non-static members",
+        "Other static members of the class",
+        "Global variables only"
+      ],
+      "answer": "Other static members of the class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Does a static member function contain a `this` pointer?",
+      "options": [
+        "Yes, pointing to the class",
+        "Yes, pointing to the current object",
+        "No, it does not have a 'this' pointer",
+        "Only if explicitly requested"
+      ],
+      "answer": "No, it does not have a 'this' pointer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you call a static member function `foo()` of a class `MyClass` without creating an object?",
+      "options": [
+        "MyClass.foo();",
+        "MyClass->foo();",
+        "MyClass::foo();",
+        "foo(MyClass);"
+      ],
+      "answer": "MyClass::foo();",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When a single derived class inherits from two or more base classes, it is known as?",
+      "options": [
+        "Multilevel inheritance",
+        "Hierarchical inheritance",
+        "Multiple inheritance",
+        "Hybrid inheritance"
+      ],
+      "answer": "Multiple inheritance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What problem arises in multiple inheritance when a class inherits from two classes that share a common base class?",
+      "options": [
+        "The Memory Leak Problem",
+        "The Diamond Problem",
+        "The Circular Dependency Problem",
+        "The Object Slicing Problem"
+      ],
+      "answer": "The Diamond Problem",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How is the Diamond Problem resolved in C++ to prevent multiple instances of a base class?",
+      "options": [
+        "Using static inheritance",
+        "Using virtual inheritance",
+        "Using abstract classes",
+        "By deleting the base class"
+      ],
+      "answer": "Using virtual inheritance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What characterizes hierarchical inheritance?",
+      "options": [
+        "A class inherits from multiple base classes",
+        "A base class inherits from a derived class",
+        "Multiple derived classes inherit from a single base class",
+        "A class is nested inside another class"
+      ],
+      "answer": "Multiple derived classes inherit from a single base class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When a derived class serves as the base class for another derived class, what is this called?",
+      "options": [
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hybrid inheritance",
+        "Multipath inheritance"
+      ],
+      "answer": "Multilevel inheritance",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the correct syntax for a class `B` inheriting publicly from class `A`?",
+      "options": [
+        "class B inherits public A",
+        "class B (public A)",
+        "class B : public A",
+        "class B -> public A"
+      ],
+      "answer": "class B : public A",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If class B inherits publicly from class A, the protected members of A become ____ in B?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "inaccessible"
+      ],
+      "answer": "protected",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If class B inherits privately from class A, the protected members of A become ____ in B?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "inaccessible"
+      ],
+      "answer": "private",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Are the protected members of a class accessible directly from the `main()` function?",
+      "options": [
+        "Yes, always",
+        "Yes, if inherited",
+        "No",
+        "Only if static"
+      ],
+      "answer": "No",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary architectural use case for the `protected` access specifier?",
+      "options": [
+        "To hide data from derived classes",
+        "To expose data to the internet",
+        "To allow derived classes to access base class internals while hiding them externally",
+        "To improve runtime execution speed"
+      ],
+      "answer": "To allow derived classes to access base class internals while hiding them externally",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If class B inherits using 'protected' inheritance from class A, the public members of A become ____ in B?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "friend"
+      ],
+      "answer": "protected",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Upcasting in C++ refers to casting a pointer or reference from?",
+      "options": [
+        "Derived class to Base class",
+        "Base class to Derived class",
+        "Integer to Float",
+        "Void pointer to typed pointer"
+      ],
+      "answer": "Derived class to Base class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When an object of a derived class is instantiated, which constructor is executed first?",
+      "options": [
+        "The derived class constructor",
+        "The base class constructor",
+        "They execute simultaneously",
+        "Depends on the access modifier"
+      ],
+      "answer": "The base class constructor",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When an object of a derived class is destroyed, which destructor is executed first?",
+      "options": [
+        "The base class destructor",
+        "The derived class destructor",
+        "The main function's destructor",
+        "Whichever was declared first"
+      ],
+      "answer": "The derived class destructor",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you pass arguments to a base class's parameterized constructor from a derived class?",
+      "options": [
+        "Using the base class name inside the derived class body",
+        "By calling the base class explicitly using 'super'",
+        "Using the member initializer list in the derived class constructor",
+        "It is not possible in C++"
+      ],
+      "answer": "Using the member initializer list in the derived class constructor",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why should destructors in a base class often be marked as `virtual`?",
+      "options": [
+        "To prevent memory leaks when deleting a derived object through a base class pointer",
+        "To make the destructor execute faster",
+        "To allow the class to be instantiated",
+        "To prevent derived classes from having destructors"
+      ],
+      "answer": "To prevent memory leaks when deleting a derived object through a base class pointer",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a base class lacks a default (no-argument) constructor, what must the derived class do?",
+      "options": [
+        "Declare the base class as virtual",
+        "Explicitly call a base class parameterized constructor in its initializer list",
+        "Create a default constructor in the base class",
+        "Inherit privately"
+      ],
+      "answer": "Explicitly call a base class parameterized constructor in its initializer list",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Are base class constructors inherited by the derived class natively (without C++11 'using' declarations)?",
+      "options": [
+        "Yes, always",
+        "No, but they are invoked by the derived class constructor",
+        "Yes, but they become private",
+        "Yes, if they are protected"
+      ],
+      "answer": "No, but they are invoked by the derived class constructor",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which keyword is required in the base class to declare a function capable of run-time polymorphism?",
+      "options": [
+        "dynamic",
+        "override",
+        "virtual",
+        "polymorphic"
+      ],
+      "answer": "virtual",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What fundamental concept does a virtual function enable in object-oriented C++?",
+      "options": [
+        "Early binding",
+        "Run-time polymorphism / Late binding",
+        "Static type checking",
+        "Multiple inheritance"
+      ],
+      "answer": "Run-time polymorphism / Late binding",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you declare a pure virtual function in C++?",
+      "options": [
+        "virtual void func() = null;",
+        "virtual void func() = 0;",
+        "pure virtual void func();",
+        "void func() override = 0;"
+      ],
+      "answer": "virtual void func() = 0;",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "A class containing at least one pure virtual function is known as?",
+      "options": [
+        "A concrete class",
+        "An abstract class",
+        "A virtual class",
+        "A base interface"
+      ],
+      "answer": "An abstract class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can you instantiate a direct object of an abstract class?",
+      "options": [
+        "Yes, but only dynamically",
+        "Yes, by calling its default constructor",
+        "No, it is strictly forbidden",
+        "Only if all functions are pure virtual"
+      ],
+      "answer": "No, it is strictly forbidden",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If a derived class inherits from an abstract class but does not override its pure virtual function, what happens?",
+      "options": [
+        "A runtime error occurs",
+        "The compiler provides a default implementation",
+        "The derived class also becomes an abstract class",
+        "The base function is executed"
+      ],
+      "answer": "The derived class also becomes an abstract class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What hidden data structure does a C++ compiler use behind the scenes to implement dynamic polymorphism?",
+      "options": [
+        "Hash Map",
+        "Virtual Tables (vtables)",
+        "Binary Search Tree",
+        "Symbol Table"
+      ],
+      "answer": "Virtual Tables (vtables)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a `vptr` in the context of C++ object memory layout?",
+      "options": [
+        "A pointer to a void data type",
+        "A virtual pointer pointing to a dynamically allocated array",
+        "A hidden pointer added to objects pointing to the class's vtable",
+        "A smart pointer handling virtual memory"
+      ],
+      "answer": "A hidden pointer added to objects pointing to the class's vtable",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When is a vtable physically created and populated for a specific class?",
+      "options": [
+        "At run time during object instantiation",
+        "At compile time",
+        "During link time",
+        "When the first virtual function is called"
+      ],
+      "answer": "At compile time",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When is the specific function to be called via a vtable actually determined?",
+      "options": [
+        "At compile time",
+        "During pre-processing",
+        "At run time (Dynamic Dispatch)",
+        "During memory allocation"
+      ],
+      "answer": "At run time (Dynamic Dispatch)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which classes in a C++ program will have a vtable generated for them?",
+      "options": [
+        "All classes automatically",
+        "Only classes with multiple inheritance",
+        "Classes containing at least one virtual function",
+        "Classes that use templates"
+      ],
+      "answer": "Classes containing at least one virtual function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary performance tradeoff of using virtual functions in C++?",
+      "options": [
+        "Extremely slow compilation times",
+        "Slight memory overhead for vptr/vtable and slight execution overhead for pointer indirection",
+        "Inability to use inline functions",
+        "Loss of type safety"
+      ],
+      "answer": "Slight memory overhead for vptr/vtable and slight execution overhead for pointer indirection",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary capability granted to a `friend` function?",
+      "options": [
+        "It can modify constant variables",
+        "It executes faster than normal functions",
+        "It can access private and protected members of the class",
+        "It can access internet sockets natively"
+      ],
+      "answer": "It can access private and protected members of the class",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is a friend function considered a member of the class that declares it as a friend?",
+      "options": [
+        "Yes, a public member",
+        "Yes, a private member",
+        "No, it is an external function",
+        "Only if declared inside the class body"
+      ],
+      "answer": "No, it is an external function",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which keyword is used inside a class declaration to grant friend status to a function or another class?",
+      "options": [
+        "grant",
+        "allow",
+        "friend",
+        "public"
+      ],
+      "answer": "friend",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is friendship in C++ transitive? (e.g., if A is a friend of B, and B is a friend of C, is A a friend of C?)",
+      "options": [
+        "Yes",
+        "No",
+        "Only if inherited",
+        "Only for classes, not functions"
+      ],
+      "answer": "No",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Is friendship inherited in C++? (e.g., if class Base is a friend of class X, is Derived also a friend of X?)",
+      "options": [
+        "Yes",
+        "No",
+        "Only if public inheritance is used",
+        "Only if virtual inheritance is used"
+      ],
+      "answer": "No",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why is the excessive use of friend functions generally discouraged in Object-Oriented design?",
+      "options": [
+        "It slows down program execution significantly",
+        "It causes memory leaks",
+        "It breaks encapsulation by exposing internal data",
+        "It prevents the use of templates"
+      ],
+      "answer": "It breaks encapsulation by exposing internal data",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which keyword is required at the beginning of a template declaration?",
+      "options": [
+        "generic",
+        "template",
+        "type",
+        "class"
+      ],
+      "answer": "template",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Templates fundamentally enable which programming paradigm in C++?",
+      "options": [
+        "Procedural programming",
+        "Generic programming",
+        "Functional programming",
+        "Event-driven programming"
+      ],
+      "answer": "Generic programming",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What does `<typename T>` or `<class T>` signify in a template definition?",
+      "options": [
+        "T is an array type",
+        "T is a standard library container",
+        "T is a placeholder parameter for a data type",
+        "T is a pointer to a class"
+      ],
+      "answer": "T is a placeholder parameter for a data type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How does the C++ compiler handle a template function when it is called with an `int` argument?",
+      "options": [
+        "It generates and compiles a specific version of the function for `int`",
+        "It casts the `int` to a `void*`",
+        "It evaluates it at runtime using reflection",
+        "It uses a generic memory copy operation"
+      ],
+      "answer": "It generates and compiles a specific version of the function for `int`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary advantage of writing code using templates?",
+      "options": [
+        "Faster runtime execution",
+        "Smaller compiled executable size",
+        "Avoiding code duplication for different data types (DRY principle)",
+        "Hiding source code from users"
+      ],
+      "answer": "Avoiding code duplication for different data types (DRY principle)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a single template take multiple type parameters?",
+      "options": [
+        "No, only one type is allowed",
+        "Yes, separated by commas (e.g., `<typename T, typename U>`)",
+        "Yes, but only if they are the exact same type",
+        "Only class templates, not function templates"
+      ],
+      "answer": "Yes, separated by commas (e.g., `<typename T, typename U>`)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the purpose of template specialization?",
+      "options": [
+        "To restrict the template from being used",
+        "To provide a custom, specific implementation of a template for a particular data type",
+        "To convert a template back to a regular class",
+        "To force the compiler to use inheritance"
+      ],
+      "answer": "To provide a custom, specific implementation of a template for a particular data type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the correct syntax indicating a full explicit template specialization?",
+      "options": [
+        "template [special]",
+        "template <>",
+        "special template",
+        "template <specific>"
+      ],
+      "answer": "template <>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Why might a programmer choose to specialize a template?",
+      "options": [
+        "To reduce compilation time",
+        "To optimize behavior or handle edge cases specifically for a type like `char*` or pointers",
+        "To avoid using `#include`",
+        "To convert C++ code to C"
+      ],
+      "answer": "To optimize behavior or handle edge cases specifically for a type like `char*` or pointers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Partial template specialization in C++ is permitted for?",
+      "options": [
+        "Function templates only",
+        "Class templates only",
+        "Both class and function templates",
+        "Neither, it is illegal in C++"
+      ],
+      "answer": "Class templates only",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When both a generic primary template and a specialized template exist for a type, which does the compiler choose?",
+      "options": [
+        "The generic template",
+        "The specialized template",
+        "It throws a compilation error for ambiguity",
+        "It randomly selects one"
+      ],
+      "answer": "The specialized template",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which template acts as the fallback implementation if no matching specialization is found?",
+      "options": [
+        "The primary template",
+        "The standard library template",
+        "The void template",
+        "The default constructor"
+      ],
+      "answer": "The primary template",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which block of code is used to enclose statements that might generate an error or exception?",
+      "options": [
+        "catch block",
+        "throw block",
+        "try block",
+        "finally block"
+      ],
+      "answer": "try block",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which keyword is used by the programmer to signal the occurrence of an anomaly or error condition?",
+      "options": [
+        "signal",
+        "error",
+        "throw",
+        "catch"
+      ],
+      "answer": "throw",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which block immediately follows a `try` block and is designed to handle a thrown exception?",
+      "options": [
+        "try",
+        "catch",
+        "finally",
+        "except"
+      ],
+      "answer": "catch",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What happens to local objects within a `try` block when an exception is thrown?",
+      "options": [
+        "They remain in memory indefinitely",
+        "They are properly destroyed as the stack unwinds",
+        "They are converted to global variables",
+        "Their destructors are bypassed"
+      ],
+      "answer": "They are properly destroyed as the stack unwinds",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "How do you write a 'catch-all' block that intercepts any exception regardless of its data type?",
+      "options": [
+        "catch(all)",
+        "catch(Exception e)",
+        "catch(*)",
+        "catch(...)"
+      ],
+      "answer": "catch(...)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "If an exception is thrown during execution but is never caught by any catch block, what function is typically called by the runtime?",
+      "options": [
+        "std::exit()",
+        "std::terminate()",
+        "std::abort()",
+        "std::end()"
+      ],
+      "answer": "std::terminate()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "When creating a user-defined exception class, it is best practice to inherit from which standard base class?",
+      "options": [
+        "std::error",
+        "std::exception",
+        "std::runtime_error",
+        "std::logic_error"
+      ],
+      "answer": "std::exception",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which standard header file must be included to utilize the base `std::exception` class?",
+      "options": [
+        "<error>",
+        "<stdexcept>",
+        "<exception>",
+        "<throw>"
+      ],
+      "answer": "<exception>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which virtual method from `std::exception` should be overridden to provide a custom, descriptive error string?",
+      "options": [
+        "message()",
+        "what()",
+        "error()",
+        "get_info()"
+      ],
+      "answer": "what()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What specifier should be appended to the overridden `what()` function to guarantee to the compiler that the function itself will not throw an exception?",
+      "options": [
+        "const",
+        "static",
+        "noexcept",
+        "nothrow"
+      ],
+      "answer": "noexcept",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the generally accepted best practice for catching exceptions in C++?",
+      "options": [
+        "Catch by value",
+        "Catch by pointer",
+        "Catch by const reference",
+        "Catch using void*"
+      ],
+      "answer": "Catch by const reference",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Can a thrown exception in C++ be a primitive type like a simple integer or a string literal?",
+      "options": [
+        "Yes, C++ allows throwing any data type",
+        "No, it must be an object inherited from std::exception",
+        "No, it must be an integer error code",
+        "Yes, but only if it is a const char*"
+      ],
+      "answer": "Yes, C++ allows throwing any data type",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header file is strictly required to perform file input and output operations in C++?",
+      "options": [
+        "<iostream>",
+        "<file>",
+        "<fstream>",
+        "<stdio.h>"
+      ],
+      "answer": "<fstream>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stream class is specifically designed and used exclusively for writing data to files?",
+      "options": [
+        "ifstream",
+        "ofstream",
+        "fstream",
+        "outstream"
+      ],
+      "answer": "ofstream",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which stream class is specifically designed and used exclusively for reading data from files?",
+      "options": [
+        "ifstream",
+        "ofstream",
+        "fstream",
+        "instream"
+      ],
+      "answer": "ifstream",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which method should always be called to free up system resources once file operations are complete?",
+      "options": [
+        "stop()",
+        "end()",
+        "delete()",
+        "close()"
+      ],
+      "answer": "close()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the effect of opening a file using the `std::ios::app` mode flag?",
+      "options": [
+        "It opens the file in read-only mode",
+        "It truncates the file to zero length",
+        "It opens the file in append mode, writing all new data to the end",
+        "It deletes the file"
+      ],
+      "answer": "It opens the file in append mode, writing all new data to the end",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which function is commonly used to read an entire line of text, including spaces, from a file stream into a string?",
+      "options": [
+        "cin >>",
+        "std::getline()",
+        "read_line()",
+        "file.get()"
+      ],
+      "answer": "std::getline()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which Standard Template Library (STL) container provides the functionality of a dynamic, resizable array?",
+      "options": [
+        "std::list",
+        "std::deque",
+        "std::vector",
+        "std::set"
+      ],
+      "answer": "std::vector",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which STL container internally stores its elements using a doubly linked list architecture?",
+      "options": [
+        "std::vector",
+        "std::list",
+        "std::forward_list",
+        "std::deque"
+      ],
+      "answer": "std::list",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which associative container stores elements as key-value pairs and automatically sorts them by unique keys?",
+      "options": [
+        "std::map",
+        "std::vector",
+        "std::set",
+        "std::pair"
+      ],
+      "answer": "std::map",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the defining characteristic of the `std::set` container?",
+      "options": [
+        "It stores duplicate elements in order of insertion",
+        "It stores only unique elements in a sorted order",
+        "It provides random access to elements",
+        "It acts as a Last-In-First-Out stack"
+      ],
+      "answer": "It stores only unique elements in a sorted order",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which container is a double-ended queue, providing fast insertion and deletion at both the front and the back?",
+      "options": [
+        "std::vector",
+        "std::list",
+        "std::deque",
+        "std::queue"
+      ],
+      "answer": "std::deque",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is the primary underlying data structure difference between `std::map` and `std::unordered_map`?",
+      "options": [
+        "`std::map` uses a hash table, `unordered_map` uses an array",
+        "`std::unordered_map` uses a hash table, `std::map` uses a balanced tree (like Red-Black tree)",
+        "There is no structural difference, only syntax",
+        "`std::unordered_map` allows duplicate keys, `std::map` does not"
+      ],
+      "answer": "`std::unordered_map` uses a hash table, `std::map` uses a balanced tree (like Red-Black tree)",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Iterators in the STL are an object-oriented generalization of what fundamental C++ concept?",
+      "options": [
+        "References",
+        "Pointers",
+        "Arrays",
+        "Classes"
+      ],
+      "answer": "Pointers",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which member function of a container returns an iterator pointing to the very first element?",
+      "options": [
+        "start()",
+        "front()",
+        "begin()",
+        "first()"
+      ],
+      "answer": "begin()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which member function returns an iterator pointing to the theoretical element strictly one past the last element of a container?",
+      "options": [
+        "end()",
+        "back()",
+        "last()",
+        "finish()"
+      ],
+      "answer": "end()",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which type of iterator allows moving backward and forward sequentially, but does not allow jumping by arbitrary offsets?",
+      "options": [
+        "Forward iterator",
+        "Random access iterator",
+        "Bidirectional iterator",
+        "Input iterator"
+      ],
+      "answer": "Bidirectional iterator",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which of the following containers natively provides Random Access Iterators?",
+      "options": [
+        "std::list",
+        "std::vector",
+        "std::set",
+        "std::map"
+      ],
+      "answer": "std::vector",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Modifying a container's size (like calling `push_back` on a full vector) can sometimes cause what severe issue with existing stored iterators?",
+      "options": [
+        "Iterator promotion",
+        "Iterator invalidation",
+        "Memory leakage",
+        "Syntax errors"
+      ],
+      "answer": "Iterator invalidation",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header file is absolutely necessary to utilize standard STL algorithms like `std::sort` or `std::find`?",
+      "options": [
+        "<vector>",
+        "<math>",
+        "<algorithm>",
+        "<functional>"
+      ],
+      "answer": "<algorithm>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What pair of arguments do most STL algorithms require to define the sequence of elements they should operate on?",
+      "options": [
+        "A container object and a size integer",
+        "Two iterators representing the beginning and the end of the range",
+        "A pointer and an offset",
+        "An array and its length"
+      ],
+      "answer": "Two iterators representing the beginning and the end of the range",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which STL algorithm rearranges the elements in a given range into ascending order by default?",
+      "options": [
+        "std::order",
+        "std::arrange",
+        "std::sort",
+        "std::sequence"
+      ],
+      "answer": "std::sort",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which algorithm is used to scan a range and locate the first occurrence of a specific value?",
+      "options": [
+        "std::search",
+        "std::find",
+        "std::locate",
+        "std::match"
+      ],
+      "answer": "std::find",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header file is required to use the `std::accumulate` algorithm for summing elements?",
+      "options": [
+        "<algorithm>",
+        "<numeric>",
+        "<math>",
+        "<vector>"
+      ],
+      "answer": "<numeric>",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a 'predicate' in the context of passing criteria to STL algorithms (like `std::find_if`)?",
+      "options": [
+        "A constant integer value",
+        "A function or functor that returns a boolean value",
+        "An iterator pointing to the end",
+        "A type of exception"
+      ],
+      "answer": "A function or functor that returns a boolean value",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What is a functor (or function object) in C++?",
+      "options": [
+        "A function that returns nothing",
+        "An object of a class that overloads the function call operator `operator()`",
+        "A pointer to a function",
+        "A lambda expression exclusively"
+      ],
+      "answer": "An object of a class that overloads the function call operator `operator()`",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "What specific syntax is used to introduce (or capture variables for) a lambda expression in C++11 and later?",
+      "options": [
+        "{}",
+        "()",
+        "<>",
+        "[]"
+      ],
+      "answer": "[]",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which standard library utility is designed to pack exactly two heterogeneous values together into a single unit?",
+      "options": [
+        "std::tuple",
+        "std::pair",
+        "std::set",
+        "std::double"
+      ],
+      "answer": "std::pair",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which smart pointer enforces strict, exclusive ownership of a dynamically allocated object?",
+      "options": [
+        "std::shared_ptr",
+        "std::weak_ptr",
+        "std::unique_ptr",
+        "std::auto_ptr"
+      ],
+      "answer": "std::unique_ptr",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which smart pointer utilizes reference counting to safely allow multiple owners of the same dynamically allocated object?",
+      "options": [
+        "std::unique_ptr",
+        "std::shared_ptr",
+        "std::weak_ptr",
+        "std::ptr"
+      ],
+      "answer": "std::shared_ptr",
+      "points": 2
+    },
+    {
+      "kind": "mcq",
+      "text": "Which header file must be included to utilize C++ smart pointers like `std::unique_ptr`?",
+      "options": [
+        "<pointers>",
+        "<memory>",
+        "<allocator>",
+        "<smart_ptr>"
+      ],
+      "answer": "<memory>",
+      "points": 2
+    }
+  ]
+}
